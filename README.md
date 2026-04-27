@@ -15,8 +15,12 @@ This repo turns your dashboard into a self-updating tool. A small Python script 
 - **Next earnings date** (Yahoo Finance) — with countdown and DCA-timing reminder
 - **Insider transactions** (SEC EDGAR Form 4) — last 90 days, parsed to separate **open-market purchases** (transaction code P, the actual signal) from **routine grants and option exercises** (codes A, M, F — excluded as noise)
 - **Material filings** (SEC EDGAR) — recent 10-K, 10-Q, 8-K with direct links
+- **Veteran's Buy Signal** — 6-rule technical analysis (Weinstein, Wilder, Appel, Minervini/O'Neil, Wyckoff, Dow Theory) computed from 5 years of daily bars
+- **Long-Term Metrics** — YTD return, 1Y/3Y/5Y CAGR, distance from 200-MA, 52-week range position, drawdown, and the DCA Bargain Meter
 
-All sources are public, official, and free.
+All sources are public, official, and free. Price data uses Yahoo Finance with **Stooq.com as automatic fallback** if Yahoo throttles or blocks the request.
+
+**Why server-side computation?** Earlier versions of the dashboard fetched price data directly from the browser. Yahoo's CORS policies are inconsistent and the public CORS proxies are unreliable, so signals would frequently fail to load. Moving the computation to the GitHub Actions runner (where there are no CORS restrictions) makes it work reliably forever — at the trade-off of data being at most ~24 hours stale, which is fine for long-term DCA decisions.
 
 ---
 

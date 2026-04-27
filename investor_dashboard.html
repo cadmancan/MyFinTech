@@ -1614,243 +1614,23 @@
   });
 
   // ================ Data Engine ================
+  // Veteran's Buy Signal and Long-Term Metrics are pre-computed daily by
+  // scripts/fetch_data.py on GitHub Actions and stored in data/feed.json.
+  // The browser just reads and renders — no Yahoo CORS issues.
   const SYMBOLS = ['MU', 'AVGO', 'PLTR', 'TSLA', 'NVDA'];
-  const signalCache = {};
-  const ltCache = {};
-  const dataCache = {};
 
-  async function fetchYahoo(symbol) {
-    // 5-year range so we can compute 1Y, 3Y, 5Y CAGR
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=5y`;
-    try {
-      const res = await fetch(url);
-      if (!res.ok) throw new Error('Status ' + res.status);
-      return parseYahoo(await res.json());
-    } catch (e) {
-      try {
-        const proxy = `https://corsproxy.io/?${encodeURIComponent(url)}`;
-        const res = await fetch(proxy);
-        if (!res.ok) throw new Error('Proxy status ' + res.status);
-        return parseYahoo(await res.json());
-      } catch (e2) {
-        return null;
-      }
-    }
+  function fmtPct(v) {
+    if (v == null || isNaN(v)) return '—';
+    const sign = v >= 0 ? '+' : '';
+    return sign + Number(v).toFixed(1) + '%';
+  }
+  function pctClass(v) {
+    if (v == null || isNaN(v)) return '';
+    return v >= 0 ? 'positive' : 'negative';
   }
 
-  function parseYahoo(json) {
-    const r = json && json.chart && json.chart.result && json.chart.result[0];
-    if (!r || !r.timestamp) return null;
-    const q = r.indicators.quote[0];
-    const data = [];
-    for (let i = 0; i < r.timestamp.length; i++) {
-      if (q.close[i] != null && q.volume[i] != null) {
-        data.push({
-          date: new Date(r.timestamp[i] * 1000),
-          open: q.open[i], high: q.high[i], low: q.low[i],
-          close: q.close[i], volume: q.volume[i]
-        });
-      }
-    }
-    return data;
-  }
-
-  // ---- Indicator math ----
-  function sma(values, period) {
-    if (values.length < period) return null;
-    let sum = 0;
-    for (let i = values.length - period; i < values.length; i++) sum += values[i];
-    return sum / period;
-  }
-  function emaSeries(values, period) {
-    const out = new Array(values.length).fill(null);
-    if (values.length < period) return out;
-    const k = 2 / (period + 1);
-    let val = 0;
-    for (let i = 0; i < period; i++) val += values[i];
-    val /= period;
-    out[period - 1] = val;
-    for (let i = period; i < values.length; i++) {
-      val = values[i] * k + val * (1 - k);
-      out[i] = val;
-    }
-    return out;
-  }
-  function rsiSeries(closes, period = 14) {
-    const out = new Array(closes.length).fill(null);
-    if (closes.length < period + 1) return out;
-    let gains = 0, losses = 0;
-    for (let i = 1; i <= period; i++) {
-      const d = closes[i] - closes[i - 1];
-      if (d >= 0) gains += d; else losses -= d;
-    }
-    let avgG = gains / period, avgL = losses / period;
-    out[period] = avgL === 0 ? 100 : 100 - 100 / (1 + avgG / avgL);
-    for (let i = period + 1; i < closes.length; i++) {
-      const d = closes[i] - closes[i - 1];
-      const g = d > 0 ? d : 0, l = d < 0 ? -d : 0;
-      avgG = (avgG * (period - 1) + g) / period;
-      avgL = (avgL * (period - 1) + l) / period;
-      out[i] = avgL === 0 ? 100 : 100 - 100 / (1 + avgG / avgL);
-    }
-    return out;
-  }
-
-  // ---- Veteran's Buy Signal computation ----
-  function computeSignals(data) {
-    if (!data || data.length < 200) return { error: 'Insufficient data' };
-    const closes = data.map(d => d.close);
-    const highs = data.map(d => d.high);
-    const volumes = data.map(d => d.volume);
-    const N = closes.length;
-    const last = closes[N - 1], prev = closes[N - 2];
-
-    const ma200 = sma(closes, 200);
-    const above200 = last > ma200;
-    const ma50 = sma(closes, 50);
-    const goldenCross = ma50 > ma200;
-
-    const rsi = rsiSeries(closes);
-    const curRSI = rsi[N - 1];
-    const recent10 = rsi.slice(-10).filter(v => v != null);
-    const wasOversold = recent10.some(v => v < 35);
-    const rsiBounce = wasOversold && curRSI > 30 && curRSI < 60;
-
-    const ema12 = emaSeries(closes, 12);
-    const ema26 = emaSeries(closes, 26);
-    const macdLine = closes.map((_, i) =>
-      ema12[i] != null && ema26[i] != null ? ema12[i] - ema26[i] : null
-    );
-    const macdValid = macdLine.filter(v => v != null);
-    const sigSeries = emaSeries(macdValid, 9);
-    const curMacd = macdLine[N - 1];
-    const prevMacd = macdLine[N - 2];
-    const curSig = sigSeries[sigSeries.length - 1];
-    const macdBullish = curMacd > curSig && curMacd > prevMacd;
-
-    const high20 = Math.max(...highs.slice(-20));
-    const pullbackPct = ((high20 - last) / high20) * 100;
-    const pullback = pullbackPct >= 3 && pullbackPct <= 15;
-
-    const avgVol20 = sma(volumes, 20);
-    const todayUp = last > prev;
-    const volConfirm = todayUp && volumes[N - 1] > avgVol20;
-
-    const checks = [
-      { label: 'Above 200-day MA', met: above200, source: 'Weinstein' },
-      { label: 'Golden cross active', met: goldenCross, source: '50 > 200 MA' },
-      { label: 'RSI bounce setup', met: rsiBounce, source: `Wilder RSI ${curRSI.toFixed(0)}` },
-      { label: 'MACD bullish', met: macdBullish, source: 'Appel' },
-      { label: 'Buyable pullback', met: pullback, source: `−${pullbackPct.toFixed(1)}% off high` },
-      { label: 'Volume confirms', met: volConfirm, source: 'Wyckoff' }
-    ];
-    const score = checks.filter(c => c.met).length;
-
-    let signal, statusText, summary, lightClass, statusClass;
-    if (score >= 5) {
-      signal = 'strong-buy'; statusText = '🟢 STRONG BUY';
-      summary = 'Multiple veteran indicators align — the kind of setup professionals look for. Still verify earnings calendar and your own thesis.';
-      lightClass = 'bright-green'; statusClass = 'bright-green';
-    } else if (score >= 3) {
-      signal = 'buy'; statusText = '🟢 BUY';
-      summary = 'Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.';
-      lightClass = 'green'; statusClass = 'green';
-    } else if (score === 2) {
-      signal = 'watch'; statusText = '🟡 WATCH';
-      summary = 'Some positives but not enough confirmation. Wait for more conditions to align before committing capital.';
-      lightClass = 'yellow'; statusClass = 'yellow';
-    } else {
-      signal = 'wait'; statusText = '⚪ WAIT';
-      summary = "Conditions don't favor a new entry today. Better setups typically appear within days or weeks — patience pays.";
-      lightClass = 'gray'; statusClass = 'gray';
-    }
-
-    const lastBar = data[data.length - 1].date;
-    return {
-      score, signal, statusText, summary, lightClass, statusClass, checks,
-      asof: lastBar.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
-      lastClose: last
-    };
-  }
-
-  // ---- Long-Term Metrics computation ----
-  function computeLongTerm(data) {
-    if (!data || data.length < 50) return { error: 'Insufficient data' };
-    const closes = data.map(d => d.close);
-    const dates = data.map(d => d.date);
-    const N = closes.length;
-    const last = closes[N - 1];
-    const lastDate = dates[N - 1];
-
-    // YTD: find the first close in the current year
-    const curYear = lastDate.getFullYear();
-    let ytdIdx = dates.findIndex(d => d.getFullYear() === curYear);
-    const ytdReturn = ytdIdx >= 0 ? ((last / closes[ytdIdx]) - 1) * 100 : null;
-
-    // CAGR helpers — find closest close N years back
-    function cagrOver(years) {
-      const target = new Date(lastDate);
-      target.setFullYear(target.getFullYear() - years);
-      let idx = dates.findIndex(d => d >= target);
-      if (idx < 0 || idx >= N - 1) return null;
-      const elapsedYears = (lastDate - dates[idx]) / (365.25 * 86400000);
-      if (elapsedYears < 0.5) return null;
-      return (Math.pow(last / closes[idx], 1 / elapsedYears) - 1) * 100;
-    }
-    const cagr1 = cagrOver(1);
-    const cagr3 = cagrOver(3);
-    const cagr5 = cagrOver(5);
-
-    // 200-day MA distance — only valid if we have 200 days
-    const ma200 = sma(closes, 200);
-    const ma50 = sma(closes, 50);
-    const ma200Dist = ma200 ? ((last / ma200) - 1) * 100 : null;
-    const inUptrend = ma200 && ma50 && ma50 > ma200;
-
-    // 52-week high/low and range position
-    const recent252 = closes.slice(-252);
-    const high52 = Math.max(...recent252);
-    const low52 = Math.min(...recent252);
-    const drawdown = ((last / high52) - 1) * 100;
-    const rangePos = ((last - low52) / (high52 - low52)) * 100;
-
-    // RSI for DCA score
-    const rsi = rsiSeries(closes);
-    const curRSI = rsi[N - 1];
-
-    // ---- DCA Bargain Meter ----
-    // Higher = better entry for ADDING to a position
-    let dcaScore = 0;
-    if (curRSI < 35) dcaScore += 2;
-    else if (curRSI < 50) dcaScore += 1;
-    if (drawdown < -20) dcaScore += 2;
-    else if (drawdown < -10) dcaScore += 1;
-    if (rangePos < 30) dcaScore += 1;
-    if (ma200Dist != null && Math.abs(ma200Dist) < 5) dcaScore += 1;
-    // Cap at 2 if long-term trend broken — never accelerate buys into a falling knife
-    if (!inUptrend) dcaScore = Math.min(dcaScore, 2);
-    dcaScore = Math.max(0, Math.min(5, Math.round(dcaScore)));
-
-    let dcaRating, dcaRatingClass;
-    if (dcaScore >= 5) { dcaRating = 'EXCEPTIONAL VALUE'; dcaRatingClass = 'positive'; }
-    else if (dcaScore === 4) { dcaRating = 'BARGAIN'; dcaRatingClass = 'positive'; }
-    else if (dcaScore === 3) { dcaRating = 'ATTRACTIVE'; dcaRatingClass = 'positive'; }
-    else if (dcaScore === 2) { dcaRating = 'FAIR VALUE'; dcaRatingClass = 'warning'; }
-    else if (dcaScore === 1) { dcaRating = 'ELEVATED'; dcaRatingClass = 'warning'; }
-    else { dcaRating = 'PREMIUM'; dcaRatingClass = 'negative'; }
-
-    return {
-      last, ytdReturn, cagr1, cagr3, cagr5,
-      ma200, ma50, ma200Dist, inUptrend,
-      high52, low52, drawdown, rangePos,
-      curRSI, dcaScore, dcaRating, dcaRatingClass,
-      asof: lastDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
-    };
-  }
-
-  // ---- Render Veteran panel ----
+  // ---- Veteran panel render: reads publicFeed.stocks[symbol].veteran_signal ----
   function renderVetPanel(symbol) {
-    const sig = signalCache[symbol];
     const panel = document.getElementById('vet-panel');
     const lightEl = document.getElementById('vet-light');
     const statusEl = document.getElementById('vet-status-text');
@@ -1861,31 +1641,38 @@
     const asofEl = document.getElementById('vet-asof');
     symbolEl.textContent = symbol;
 
-    if (!sig) {
+    const sig = publicFeed && publicFeed.stocks && publicFeed.stocks[symbol]
+                ? publicFeed.stocks[symbol].veteran_signal : null;
+
+    if (!publicFeed) {
       panel.className = 'vet-panel';
       lightEl.className = 'vet-light gray';
       statusEl.className = 'vet-status-text gray';
       statusEl.textContent = 'LOADING';
-      summaryEl.textContent = 'Fetching market data and computing signals…';
+      summaryEl.textContent = 'Loading signals from feed…';
       scoreEl.textContent = '—'; asofEl.textContent = ''; checksEl.innerHTML = '';
       return;
     }
-    if (sig.error) {
+    if (publicFeed._error || !sig || sig.error) {
       panel.className = 'vet-panel';
       lightEl.className = 'vet-light gray';
       statusEl.className = 'vet-status-text gray';
       statusEl.textContent = 'DATA UNAVAILABLE';
-      summaryEl.textContent = 'Could not fetch market data — your network may be blocking Yahoo Finance, or the market may be opening. Click Refresh to retry.';
+      const reason = publicFeed._error
+        ? 'data/feed.json is missing — run the GitHub Actions workflow at least once to populate it.'
+        : 'Signals not in the feed yet — re-run the GitHub Actions workflow to refresh.';
+      summaryEl.textContent = reason;
       scoreEl.textContent = '—'; asofEl.textContent = ''; checksEl.innerHTML = '';
       return;
     }
+
     panel.className = 'vet-panel signal-' + sig.signal;
-    lightEl.className = 'vet-light ' + sig.lightClass;
-    statusEl.className = 'vet-status-text ' + sig.statusClass;
-    statusEl.textContent = sig.statusText;
+    lightEl.className = 'vet-light ' + sig.light_class;
+    statusEl.className = 'vet-status-text ' + sig.status_class;
+    statusEl.textContent = sig.status_text;
     summaryEl.textContent = sig.summary;
     scoreEl.textContent = sig.score;
-    asofEl.textContent = ' · as of ' + sig.asof + ' · $' + sig.lastClose.toFixed(2);
+    asofEl.textContent = ' · as of ' + sig.as_of + ' · $' + sig.last_close.toFixed(2);
     checksEl.innerHTML = sig.checks.map(c => `
       <div class="vet-check ${c.met ? 'met' : ''}">
         <span class="vet-check-icon">${c.met ? '✓' : '✕'}</span>
@@ -1894,27 +1681,15 @@
       </div>`).join('');
   }
 
-  // ---- Render Long-Term panel ----
-  function fmtPct(v) {
-    if (v == null || isNaN(v)) return '—';
-    const sign = v >= 0 ? '+' : '';
-    return sign + v.toFixed(1) + '%';
-  }
-  function pctClass(v) {
-    if (v == null || isNaN(v)) return '';
-    return v >= 0 ? 'positive' : 'negative';
-  }
-
+  // ---- Long-Term Metrics panel render ----
   function renderLtPanel(symbol) {
-    const lt = ltCache[symbol];
     document.getElementById('lt-symbol').textContent = symbol;
     const setText = (id, text, cls) => {
       const el = document.getElementById(id);
       el.textContent = text;
       if (cls != null) el.className = 'lt-stat-value ' + cls;
     };
-
-    if (!lt || lt.error) {
+    const blank = () => {
       setText('lt-price', '—'); setText('lt-ytd', '—');
       setText('lt-cagr1', '—'); setText('lt-cagr3', '—');
       setText('lt-cagr5', '—'); setText('lt-ma200d', '—');
@@ -1927,53 +1702,50 @@
       document.getElementById('lt-dca-rating').textContent = '—';
       document.getElementById('lt-dca-rating').className = 'lt-dca-rating';
       Array.from(document.getElementById('lt-dca-dots').children).forEach(d => d.classList.remove('active'));
+    };
+
+    const lt = publicFeed && publicFeed.stocks && publicFeed.stocks[symbol]
+               ? publicFeed.stocks[symbol].long_term : null;
+
+    if (!publicFeed || !lt || lt.error) {
+      blank();
       return;
     }
 
-    setText('lt-price', '$' + lt.last.toFixed(2));
-    setText('lt-ytd', fmtPct(lt.ytdReturn), pctClass(lt.ytdReturn));
-    setText('lt-cagr1', fmtPct(lt.cagr1), pctClass(lt.cagr1));
-    setText('lt-cagr3', fmtPct(lt.cagr3), pctClass(lt.cagr3));
-    setText('lt-cagr5', fmtPct(lt.cagr5), pctClass(lt.cagr5));
-    setText('lt-ma200d', fmtPct(lt.ma200Dist), pctClass(lt.ma200Dist));
-    document.getElementById('lt-asof').textContent = 'as of ' + lt.asof;
+    setText('lt-price', '$' + Number(lt.last).toFixed(2));
+    setText('lt-ytd',   fmtPct(lt.ytd_return), pctClass(lt.ytd_return));
+    setText('lt-cagr1', fmtPct(lt.cagr_1y),    pctClass(lt.cagr_1y));
+    setText('lt-cagr3', fmtPct(lt.cagr_3y),    pctClass(lt.cagr_3y));
+    setText('lt-cagr5', fmtPct(lt.cagr_5y),    pctClass(lt.cagr_5y));
+    setText('lt-ma200d', fmtPct(lt.ma200_dist), pctClass(lt.ma200_dist));
+    document.getElementById('lt-asof').textContent = 'as of ' + lt.as_of;
 
-    // 52-week range visualization
-    const pos = Math.max(0, Math.min(100, lt.rangePos));
+    const pos = Math.max(0, Math.min(100, lt.range_pos));
     document.getElementById('lt-range-marker').style.left = pos + '%';
     document.getElementById('lt-range-pos-text').textContent = pos.toFixed(0) + '%';
     document.getElementById('lt-range-drawdown').textContent = fmtPct(lt.drawdown) + ' from 52w high';
-    document.getElementById('lt-range-low').textContent = '$' + lt.low52.toFixed(2);
-    document.getElementById('lt-range-high').textContent = '$' + lt.high52.toFixed(2);
+    document.getElementById('lt-range-low').textContent  = '$' + Number(lt.low_52w).toFixed(2);
+    document.getElementById('lt-range-high').textContent = '$' + Number(lt.high_52w).toFixed(2);
 
-    // DCA Bargain Meter
     const ratingEl = document.getElementById('lt-dca-rating');
-    ratingEl.textContent = lt.dcaRating;
+    ratingEl.textContent = lt.dca_rating;
     ratingEl.className = 'lt-dca-rating';
-    ratingEl.style.color = lt.dcaRatingClass === 'positive' ? '#3fb950'
-                          : lt.dcaRatingClass === 'warning' ? '#d29922' : '#f85149';
+    ratingEl.style.color = lt.dca_rating_class === 'positive' ? '#3fb950'
+                          : lt.dca_rating_class === 'warning' ? '#d29922' : '#f85149';
     Array.from(document.getElementById('lt-dca-dots').children).forEach((d, i) => {
-      if (i < lt.dcaScore) d.classList.add('active');
+      if (i < lt.dca_score) d.classList.add('active');
       else d.classList.remove('active');
     });
   }
 
-  async function loadAllSignals() {
-    SYMBOLS.forEach(s => { signalCache[s] = null; ltCache[s] = null; });
-    renderVetPanel(activeSymbol);
-    renderLtPanel(activeSymbol);
-    const results = await Promise.all(SYMBOLS.map(s => fetchYahoo(s).catch(() => null)));
-    SYMBOLS.forEach((s, i) => {
-      const data = results[i];
-      dataCache[s] = data;
-      signalCache[s] = data ? computeSignals(data) : { error: 'fetch failed' };
-      ltCache[s] = data ? computeLongTerm(data) : { error: 'fetch failed' };
-    });
+  // ---- Refresh button: re-pulls feed.json (no client-side fetching) ----
+  async function refreshAllPanels() {
+    await loadPublicFeed();   // re-fetches feed.json with no-cache
     renderVetPanel(activeSymbol);
     renderLtPanel(activeSymbol);
   }
 
-  document.getElementById('vet-refresh').addEventListener('click', loadAllSignals);
+  document.getElementById('vet-refresh').addEventListener('click', refreshAllPanels);
 
   // ================ Public Record feed ================
   // Loads from ./data/feed.json (built daily by scripts/fetch_data.py via GitHub Actions)
@@ -1987,6 +1759,8 @@
     } catch (e) {
       publicFeed = { _error: e.message };
     }
+    renderVetPanel(activeSymbol);
+    renderLtPanel(activeSymbol);
     renderPrPanel(activeSymbol);
   }
 
@@ -2228,8 +2002,10 @@
   updateDcaCalc();
 
   // Kick off data load
-  loadAllSignals();
-  loadPublicFeed();
+  loadPublicFeed().then(() => {
+    renderVetPanel(activeSymbol);
+    renderLtPanel(activeSymbol);
+  });
 </script>
 
 </body>
