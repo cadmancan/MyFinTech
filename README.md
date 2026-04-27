@@ -1,0 +1,234 @@
+# Investor Dashboard — Live Public Record Feed
+
+This repo turns your dashboard into a self-updating tool. A small Python script runs every weekday after market close on GitHub Actions, pulls fresh public-record data, and commits it to `data/feed.json`. The dashboard reads it on load.
+
+**Cost:** $0/month. **API keys:** none. **Maintenance:** none.
+
+---
+
+## What it pulls
+
+**Macro snapshot** (Yahoo Finance):
+- VIX, 10-year Treasury yield, S&P 500 — with daily change
+
+**Per stock** (MU, AVGO, PLTR, TSLA, NVDA):
+- **Next earnings date** (Yahoo Finance) — with countdown and DCA-timing reminder
+- **Insider transactions** (SEC EDGAR Form 4) — last 90 days, parsed to separate **open-market purchases** (transaction code P, the actual signal) from **routine grants and option exercises** (codes A, M, F — excluded as noise)
+- **Material filings** (SEC EDGAR) — recent 10-K, 10-Q, 8-K with direct links
+
+All sources are public, official, and free.
+
+---
+
+## File structure
+
+```
+your-repo/
+├── investor_dashboard.html     ← the dashboard (open this in a browser)
+├── data/
+│   └── feed.json               ← updated daily by GitHub Actions
+├── scripts/
+│   └── fetch_data.py           ← Python feed builder (stdlib only)
+├── .github/workflows/
+│   └── update.yml              ← runs the script daily
+└── README.md                   ← this file
+```
+
+---
+
+## Setup
+
+### Step 1 — Create a GitHub repo
+
+1. Go to [github.com/new](https://github.com/new)
+2. **Repository name:** anything you want (e.g. `investor-dashboard`)
+3. **Visibility:**
+   - **Public** if you want to use free GitHub Pages and bookmark a URL → recommended for ease of access
+   - **Private** if you'd rather keep it locked down → you'll run the dashboard locally instead (Step 4 covers both)
+4. Don't initialize with a README — we'll push our own
+5. Click **Create repository**
+
+### Step 2 — Push these files
+
+If you have Git installed:
+
+```bash
+cd path/to/this/folder
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
+git push -u origin main
+```
+
+Or use the GitHub web UI: drag and drop the files into the empty repo.
+
+### Step 3 — Set the SEC contact email
+
+The SEC requires automated tools to identify themselves with a contact email (so they can reach you if your script misbehaves). It just needs to be a working address — there's nothing to verify.
+
+1. In your GitHub repo, go to **Settings → Secrets and variables → Actions**
+2. Click **New repository secret**
+3. Name: `CONTACT_EMAIL`
+4. Value: your email address
+5. Click **Add secret**
+
+### Step 4 — Choose how you'll view the dashboard
+
+#### Option A — GitHub Pages (recommended, free, public repo only)
+
+1. In your repo, go to **Settings → Pages**
+2. Under **Source**, choose **Deploy from a branch**
+3. Branch: **main**, folder: **/ (root)**
+4. Click **Save**
+5. Wait ~1 minute, then visit:
+   `https://YOUR-USERNAME.github.io/YOUR-REPO/investor_dashboard.html`
+
+Bookmark it. Open from any device. The page is just static HTML+JS — no server needed.
+
+#### Option B — Local (works for private repos too)
+
+```bash
+# In the repo directory:
+cd /path/to/repo
+
+# Start a tiny local web server
+python3 -m http.server 8000
+
+# Open in your browser:
+# http://localhost:8000/investor_dashboard.html
+```
+
+You need the local server (rather than just opening the HTML file directly) because the dashboard fetches `./data/feed.json`, and browsers block `fetch()` on `file://` URLs for security.
+
+To get fresh data while running locally, you'd run the script manually:
+
+```bash
+export CONTACT_EMAIL="your-email@example.com"
+python3 scripts/fetch_data.py
+```
+
+Or set up a local cron job (macOS / Linux):
+
+```bash
+crontab -e
+# Add: run weekdays at 5:30 PM local time
+30 17 * * 1-5 cd /path/to/repo && CONTACT_EMAIL="your-email@example.com" python3 scripts/fetch_data.py
+```
+
+### Step 5 — Trigger the first feed run
+
+To populate the feed without waiting for the schedule:
+
+1. Go to your repo's **Actions** tab
+2. Click **Update Investor Feed** in the left sidebar
+3. Click **Run workflow** → **Run workflow** (green button)
+4. Wait ~2 minutes; you'll see a green checkmark when done
+5. The workflow auto-commits the fresh `data/feed.json` to your repo
+6. Refresh the dashboard — the Public Record panel should now show live data
+
+After this initial run, the workflow runs automatically at 21:30 UTC on weekdays (5:30 PM ET / 4:30 PM ET depending on DST).
+
+---
+
+## How it works
+
+```
+                  ┌──────────────────────────────┐
+                  │    GitHub Actions runner     │
+                  │   (weekdays at 21:30 UTC)    │
+                  └──────────────┬───────────────┘
+                                 │
+                                 ▼
+                  ┌──────────────────────────────┐
+                  │    scripts/fetch_data.py     │
+                  └──────────────┬───────────────┘
+                                 │
+              ┌──────────────────┼──────────────────┐
+              ▼                  ▼                  ▼
+       ┌──────────────┐   ┌──────────────┐   ┌──────────────┐
+       │ Yahoo Finance│   │   SEC EDGAR  │   │   SEC EDGAR  │
+       │ Macro & EPS  │   │   Filings    │   │   Form 4 XML │
+       └──────────────┘   └──────────────┘   └──────────────┘
+                                 │
+                                 ▼
+                  ┌──────────────────────────────┐
+                  │       data/feed.json         │
+                  │   (committed to your repo)   │
+                  └──────────────┬───────────────┘
+                                 │
+                                 ▼
+                  ┌──────────────────────────────┐
+                  │   investor_dashboard.html    │
+                  │   fetch('./data/feed.json')  │
+                  └──────────────────────────────┘
+```
+
+The dashboard is purely static — no servers, no databases. The feed is just a JSON file that lives in your repo and gets updated by a scheduled job.
+
+---
+
+## Why these specific data points?
+
+**Open-market insider purchases (Form 4, code P)** are historically a moderately bullish signal — when a CEO or director buys their own company's stock with personal money, they have inside knowledge and conviction. The script deliberately filters out:
+
+- **Code A** (grants/awards) — automatic compensation, no signal
+- **Code M** (option exercises) — usually paired with immediate sales, not a discretionary buy
+- **Code F** (tax withholding) — non-discretionary
+- **Code G** (gifts) — neutral signal
+
+So when the dashboard says "3 insider purchases, $4.2M total," that means three executives chose to spend $4.2M of their own money buying shares — a much rarer and more meaningful event than the daily noise of grants and option exercises.
+
+**Material filings (8-K)** are required when something significant happens: acquisitions, executive changes, earnings warnings, bankruptcies, going-private deals. Worth knowing about.
+
+**Earnings dates** matter for DCA timing. Most disciplined long-term investors avoid adding new money in the 2–3 days before earnings (high implied volatility, often a coin-flip), and prefer to add 1–2 days after when the result is known and the volatility has resolved.
+
+---
+
+## Cost
+
+| Service | Cost |
+|---------|------|
+| GitHub Actions on a public repo | Free (unlimited minutes) |
+| GitHub Actions on a private repo | Free (2,000 min/month — script uses ~3 min/day = ~75 min/month) |
+| GitHub Pages | Free (public repos) |
+| SEC EDGAR | Free, public-record |
+| Yahoo Finance | Free |
+| **Total** | **$0/month** |
+
+---
+
+## Troubleshooting
+
+**Workflow fails with 403 from SEC**
+The `CONTACT_EMAIL` secret isn't set. SEC blocks requests without proper user-agent identification. Repeat Step 3.
+
+**Workflow fails with 429 (rate limit)**
+The script throttles to ~7 req/sec (under SEC's 10/sec limit) but if you hit it, edit `scripts/fetch_data.py` and change `time.sleep(0.15)` to `time.sleep(0.5)` in the `sec_throttle()` function.
+
+**Dashboard shows "Feed not configured"**
+The page can't find `./data/feed.json`. Check that:
+- The Actions workflow has run successfully (green check in Actions tab), OR
+- You ran `python3 scripts/fetch_data.py` locally
+- The file path is exactly `data/feed.json` relative to the HTML
+
+**Insider transactions look incomplete**
+The Form 4 parser fetches each filing's XML individually. Some older filings have non-standard XML and may be skipped silently. The `purchase_count` field reflects only open-market purchases (code P) — if you see "0 buys" but you know an executive recently exercised options, that's by design (the script excludes routine grants and exercises).
+
+**Workflow runs at the wrong time**
+The cron expression `30 21 * * 1-5` is in UTC. To change to a different time, edit `.github/workflows/update.yml`. Note: GitHub Actions schedules can run up to 30 minutes late under load — don't expect minute-precise execution.
+
+**I want to add another stock**
+Edit `scripts/fetch_data.py`:
+1. Add the symbol to `SYMBOLS`
+2. Look up its CIK at [SEC EDGAR company search](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany)
+3. Add it to `CIK_MAP` (10-digit, zero-padded)
+
+You'd also need to add a stock-view section in `investor_dashboard.html` (mirroring how the existing 5 are structured) and a tab button.
+
+---
+
+## License
+
+Provided as-is for personal use. Educational only — not investment advice. The signals shown are technical analysis and public-record summaries; they don't account for your tax situation, risk tolerance, or full financial picture. Make your own decisions.

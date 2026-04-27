@@ -1,0 +1,90 @@
+{
+  "updated_utc": "2026-04-26T21:35:00+00:00",
+  "updated_human": "2026-04-26 21:35 UTC",
+  "_note": "This is example data shipped with the repo. After the first GitHub Actions run, this file is overwritten with live data.",
+  "macro": {
+    "vix":            { "value": 14.20, "previous": 14.85, "change_pct": -4.38 },
+    "ten_year_yield": { "value":  4.32, "previous":  4.40, "change_pct": -1.82 },
+    "sp500":          { "value": 5740.0, "previous": 5715.0, "change_pct":  0.44 }
+  },
+  "stocks": {
+    "MU": {
+      "next_earnings": "2026-06-25",
+      "insider_activity": {
+        "lookback_days":     90,
+        "purchases":         [],
+        "sales":             [],
+        "purchase_count":    0,
+        "purchase_value":    0,
+        "sale_count":        0,
+        "sale_value":        0,
+        "unique_purchasers": 0,
+        "unique_sellers":    0
+      },
+      "recent_filings": [
+        { "date": "2026-03-20", "type": "10-Q", "description": "Quarterly report",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000723125&type=10-Q" }
+      ]
+    },
+    "AVGO": {
+      "next_earnings": "2026-06-05",
+      "insider_activity": {
+        "lookback_days":     90,
+        "purchases":         [],
+        "sales":             [],
+        "purchase_count":    0,
+        "purchase_value":    0,
+        "sale_count":        0,
+        "sale_value":        0,
+        "unique_purchasers": 0,
+        "unique_sellers":    0
+      },
+      "recent_filings": []
+    },
+    "PLTR": {
+      "next_earnings": "2026-05-05",
+      "insider_activity": {
+        "lookback_days":     90,
+        "purchases":         [],
+        "sales":             [],
+        "purchase_count":    0,
+        "purchase_value":    0,
+        "sale_count":        0,
+        "sale_value":        0,
+        "unique_purchasers": 0,
+        "unique_sellers":    0
+      },
+      "recent_filings": []
+    },
+    "TSLA": {
+      "next_earnings": "2026-07-23",
+      "insider_activity": {
+        "lookback_days":     90,
+        "purchases":         [],
+        "sales":             [],
+        "purchase_count":    0,
+        "purchase_value":    0,
+        "sale_count":        0,
+        "sale_value":        0,
+        "unique_purchasers": 0,
+        "unique_sellers":    0
+      },
+      "recent_filings": []
+    },
+    "NVDA": {
+      "next_earnings": "2026-05-21",
+      "insider_activity": {
+        "lookback_days":     90,
+        "purchases":         [],
+        "sales":             [],
+        "purchase_count":    0,
+        "purchase_value":    0,
+        "sale_count":        0,
+        "sale_value":        0,
+        "unique_purchasers": 0,
+        "unique_sellers":    0
+      },
+      "recent_filings": []
+    }
+  }
+}
