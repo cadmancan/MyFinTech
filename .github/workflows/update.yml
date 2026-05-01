@@ -1,33 +1,39 @@
 name: Update Investor Feed
 
-# Runs every weekday at 21:30 UTC (5:30 PM ET in winter, 4:30 PM ET in summer)
-# That's just after the US market closes at 4:00 PM ET.
 on:
   schedule:
     - cron: '30 21 * * 1-5'
-  # Also allow manual triggering from the Actions tab
   workflow_dispatch: {}
+
+# These permissions allow the workflow to:
+#   - contents: write   → commit feed.json back to the repo
+#   - pages: write      → tell GitHub Pages to redeploy
+#   - id-token: write   → required by deploy-pages action
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Prevent two runs from racing against each other
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write   # needed to commit feed.json back to the repo
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
       - name: Run feed builder
         env:
-          # SEC requires automated tools to identify themselves with a contact email.
-          # Set this in repo Settings → Secrets and variables → Actions
           CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
         run: python scripts/fetch_data.py
 
@@ -42,3 +48,27 @@ jobs:
             git commit -m "Update feed: $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
+
+      # Build the entire repo into an artifact for Pages.
+      # This replaces the default branch-based deploy and ensures every
+      # workflow run produces a fresh, deployable site snapshot.
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+  # Separate job that takes the artifact above and publishes it.
+  # This is the official GitHub-recommended pattern for "redeploy on demand".
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
