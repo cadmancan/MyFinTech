@@ -1,17 +1,2782 @@
 {
-  "updated_utc": "2026-04-26T21:35:00+00:00",
-  "updated_human": "2026-04-26 21:35 UTC",
-  "_note": "Placeholder data shipped with the repo. After your first GitHub Actions workflow run, this file is overwritten with live data including Veteran's Buy Signal scores, Long-Term Metrics, insider transactions, and SEC filings.",
+  "updated_utc": "2026-05-01T01:06:18.045696+00:00",
+  "updated_human": "2026-05-01 01:06 UTC",
   "macro": {
-    "vix":            { "value": null, "previous": null, "change_pct": null },
-    "ten_year_yield": { "value": null, "previous": null, "change_pct": null },
-    "sp500":          { "value": null, "previous": null, "change_pct": null }
+    "vix": {
+      "value": 16.89,
+      "previous": 18.81,
+      "change_pct": -10.21
+    },
+    "ten_year_yield": {
+      "value": 4.39,
+      "previous": 4.418,
+      "change_pct": -0.63
+    },
+    "sp500": {
+      "value": 7209.01,
+      "previous": 7135.95,
+      "change_pct": 1.02
+    }
   },
   "stocks": {
-    "MU":   { "next_earnings": null, "insider_activity": { "lookback_days": 90, "purchases": [], "sales": [], "purchase_count": 0, "purchase_value": 0, "sale_count": 0, "sale_value": 0, "unique_purchasers": 0, "unique_sellers": 0 }, "recent_filings": [], "veteran_signal": { "error": "not_yet_built" }, "long_term": { "error": "not_yet_built" } },
-    "AVGO": { "next_earnings": null, "insider_activity": { "lookback_days": 90, "purchases": [], "sales": [], "purchase_count": 0, "purchase_value": 0, "sale_count": 0, "sale_value": 0, "unique_purchasers": 0, "unique_sellers": 0 }, "recent_filings": [], "veteran_signal": { "error": "not_yet_built" }, "long_term": { "error": "not_yet_built" } },
-    "PLTR": { "next_earnings": null, "insider_activity": { "lookback_days": 90, "purchases": [], "sales": [], "purchase_count": 0, "purchase_value": 0, "sale_count": 0, "sale_value": 0, "unique_purchasers": 0, "unique_sellers": 0 }, "recent_filings": [], "veteran_signal": { "error": "not_yet_built" }, "long_term": { "error": "not_yet_built" } },
-    "TSLA": { "next_earnings": null, "insider_activity": { "lookback_days": 90, "purchases": [], "sales": [], "purchase_count": 0, "purchase_value": 0, "sale_count": 0, "sale_value": 0, "unique_purchasers": 0, "unique_sellers": 0 }, "recent_filings": [], "veteran_signal": { "error": "not_yet_built" }, "long_term": { "error": "not_yet_built" } },
-    "NVDA": { "next_earnings": null, "insider_activity": { "lookback_days": 90, "purchases": [], "sales": [], "purchase_count": 0, "purchase_value": 0, "sale_count": 0, "sale_value": 0, "unique_purchasers": 0, "unique_sellers": 0 }, "recent_filings": [], "veteran_signal": { "error": "not_yet_built" }, "long_term": { "error": "not_yet_built" } }
+    "MU": {
+      "next_earnings": null,
+      "insider_activity": {
+        "lookback_days": 90,
+        "purchases": [],
+        "sales": [
+          {
+            "date": "2026-04-14",
+            "name": "CORDANO MICHAEL D",
+            "role": "EVP, Worldwide Sales",
+            "shares": 3407,
+            "price": 435.0,
+            "value": 1482045,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000120149026000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-04-10",
+            "name": "Sadana Sumit",
+            "role": "EVP and Chief Business Officer",
+            "shares": 24000,
+            "price": 421.35,
+            "value": 10112400,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000131107926000002/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-04-09",
+            "name": "CORDANO MICHAEL D",
+            "role": "EVP, Worldwide Sales",
+            "shares": 3407,
+            "price": 420.81,
+            "value": 1433700,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000120149026000002/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-04-01",
+            "name": "ARNZEN APRIL S",
+            "role": "EVP and Chief People Officer",
+            "shares": 8630,
+            "price": 345.13,
+            "value": 2978472,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000002/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-04-01",
+            "name": "ARNZEN APRIL S",
+            "role": "EVP and Chief People Officer",
+            "shares": 5766,
+            "price": 346.22,
+            "value": 1996305,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000002/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-04-01",
+            "name": "ARNZEN APRIL S",
+            "role": "EVP and Chief People Officer",
+            "shares": 604,
+            "price": 346.83,
+            "value": 209485,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000002/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-04-01",
+            "name": "ARNZEN APRIL S",
+            "role": "EVP and Chief People Officer",
+            "shares": 25000,
+            "price": 348.46,
+            "value": 8711500,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000002/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-02-02",
+            "name": "Sadana Sumit",
+            "role": "EVP and Chief Business Officer",
+            "shares": 17450,
+            "price": 429.43,
+            "value": 7493554,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000131107926000001/xslF345X05/primarydocument.xml"
+          },
+          {
+            "date": "2026-02-02",
+            "name": "Sadana Sumit",
+            "role": "EVP and Chief Business Officer",
+            "shares": 7500,
+            "price": 430.95,
+            "value": 3232125,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000131107926000001/xslF345X05/primarydocument.xml"
+          },
+          {
+            "date": "2026-02-02",
+            "name": "Sadana Sumit",
+            "role": "EVP and Chief Business Officer",
+            "shares": 50,
+            "price": 431.76,
+            "value": 21588,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000131107926000001/xslF345X05/primarydocument.xml"
+          }
+        ],
+        "purchase_count": 0,
+        "purchase_value": 0,
+        "sale_count": 10,
+        "sale_value": 37671174,
+        "unique_purchasers": 0,
+        "unique_sellers": 3
+      },
+      "recent_filings": [
+        {
+          "date": "2026-04-01",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926038249/tm2610810d1_8k.htm"
+        },
+        {
+          "date": "2026-03-25",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926034174/tm269755d1_8k.htm"
+        },
+        {
+          "date": "2026-03-19",
+          "type": "10-Q",
+          "description": "Quarterly report",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000006/mu-20260226.htm"
+        },
+        {
+          "date": "2026-03-18",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000004/mu-20260318.htm"
+        }
+      ],
+      "veteran_signal": {
+        "score": 4,
+        "signal": "buy",
+        "status_text": "\ud83d\udfe2 BUY",
+        "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
+        "light_class": "green",
+        "status_class": "green",
+        "checks": [
+          {
+            "label": "Above 200-day MA",
+            "met": true,
+            "source": "Weinstein"
+          },
+          {
+            "label": "Golden cross active",
+            "met": true,
+            "source": "50 > 200 MA"
+          },
+          {
+            "label": "RSI bounce setup",
+            "met": false,
+            "source": "Wilder RSI 68"
+          },
+          {
+            "label": "MACD bullish",
+            "met": true,
+            "source": "Appel"
+          },
+          {
+            "label": "Buyable pullback",
+            "met": true,
+            "source": "-3.4% off high"
+          },
+          {
+            "label": "Volume confirms",
+            "met": false,
+            "source": "Wyckoff"
+          }
+        ],
+        "as_of": "2026-04-30",
+        "last_close": 517.16
+      },
+      "long_term": {
+        "last": 517.16,
+        "ytd_return": 63.96,
+        "cagr_1y": 572.95,
+        "cagr_3y": 102.52,
+        "cagr_5y": 43.58,
+        "ma200": 274.89,
+        "ma50": 423.17,
+        "ma200_dist": 88.13,
+        "in_uptrend": true,
+        "high_52w": 524.56,
+        "low_52w": 76.95,
+        "drawdown": -1.41,
+        "range_pos": 98.3,
+        "rsi": 67.9,
+        "dca_score": 0,
+        "dca_rating": "PREMIUM",
+        "dca_rating_class": "negative",
+        "as_of": "2026-04-30"
+      }
+    },
+    "AVGO": {
+      "next_earnings": null,
+      "insider_activity": {
+        "lookback_days": 90,
+        "purchases": [],
+        "sales": [
+          {
+            "date": "2026-04-10",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 8000,
+            "price": 370.52,
+            "value": 2964178,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000034/xslF345X06/wk-form4_1776201940.xml"
+          },
+          {
+            "date": "2026-04-09",
+            "name": "DELLY GAYLA J",
+            "role": "Director",
+            "shares": 1000,
+            "price": 358.31,
+            "value": 358310,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000032/xslF345X06/wk-form4_1776114425.xml"
+          },
+          {
+            "date": "2026-04-09",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 17260,
+            "price": 352.12,
+            "value": 6077564,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000030/xslF345X06/wk-form4_1775861650.xml"
+          },
+          {
+            "date": "2026-04-08",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 12955,
+            "price": 352.02,
+            "value": 4560449,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000030/xslF345X06/wk-form4_1775861650.xml"
+          },
+          {
+            "date": "2026-04-08",
+            "name": "PAGE JUSTINE",
+            "role": "Director",
+            "shares": 2018,
+            "price": 353.0,
+            "value": 712354,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000026/xslF345X06/wk-form4_1775860888.xml"
+          },
+          {
+            "date": "2026-04-08",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 10000,
+            "price": 345.23,
+            "value": 3452270,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000024/xslF345X06/wk-form4_1775860497.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 34308,
+            "price": 317.3,
+            "value": 10885928,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 44227,
+            "price": 318.39,
+            "value": 14081435,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 60049,
+            "price": 319.36,
+            "value": 19177249,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 48635,
+            "price": 320.31,
+            "value": 15578277,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 36183,
+            "price": 321.22,
+            "value": 11622703,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 17083,
+            "price": 322.23,
+            "value": 5504655,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 7328,
+            "price": 323.17,
+            "value": 2368190,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 2413,
+            "price": 323.92,
+            "value": 781619,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 69058,
+            "price": 317.27,
+            "value": 21910032,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 92385,
+            "price": 318.33,
+            "value": 29408917,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 125292,
+            "price": 319.31,
+            "value": 40006989,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 107742,
+            "price": 320.26,
+            "value": 34505453,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 75809,
+            "price": 321.16,
+            "value": 24346818,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 43188,
+            "price": 322.19,
+            "value": 13914742,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 12514,
+            "price": 323.15,
+            "value": 4043899,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-25",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 5753,
+            "price": 323.9,
+            "value": 1863397,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 3132,
+            "price": 317.95,
+            "value": 995807,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 3839,
+            "price": 318.74,
+            "value": 1223643,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 6405,
+            "price": 319.97,
+            "value": 2049421,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 5796,
+            "price": 320.82,
+            "value": 1859461,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 5423,
+            "price": 321.89,
+            "value": 1745637,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 5632,
+            "price": 322.86,
+            "value": 1818319,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 2543,
+            "price": 323.82,
+            "value": 823484,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 3317,
+            "price": 324.84,
+            "value": 1077504,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 2266,
+            "price": 325.93,
+            "value": 738557,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 488,
+            "price": 326.72,
+            "value": 159438,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 3715,
+            "price": 318.05,
+            "value": 1181556,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 3290,
+            "price": 318.9,
+            "value": 1049191,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 6604,
+            "price": 320.09,
+            "value": 2113901,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 4890,
+            "price": 320.99,
+            "value": 1569617,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 5289,
+            "price": 322.03,
+            "value": 1703238,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 5255,
+            "price": 323.01,
+            "value": 1697433,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 2058,
+            "price": 324.12,
+            "value": 667045,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 3032,
+            "price": 324.98,
+            "value": 985339,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 1679,
+            "price": 326.04,
+            "value": 547416,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 480,
+            "price": 326.74,
+            "value": 156836,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 3310,
+            "price": 317.97,
+            "value": 1052487,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 3716,
+            "price": 318.76,
+            "value": 1184501,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 6319,
+            "price": 319.97,
+            "value": 2021890,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 6100,
+            "price": 320.83,
+            "value": 1957039,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 5467,
+            "price": 321.93,
+            "value": 1759986,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 5581,
+            "price": 322.87,
+            "value": 1801943,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 2417,
+            "price": 323.84,
+            "value": 782716,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 3472,
+            "price": 324.84,
+            "value": 1127848,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 2003,
+            "price": 325.91,
+            "value": 652790,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 731,
+            "price": 326.61,
+            "value": 238753,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 4283,
+            "price": 317.97,
+            "value": 1361866,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 4757,
+            "price": 318.76,
+            "value": 1516351,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 8185,
+            "price": 319.96,
+            "value": 2618840,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 7671,
+            "price": 320.8,
+            "value": 2460857,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 6894,
+            "price": 321.89,
+            "value": 2219130,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 7289,
+            "price": 322.82,
+            "value": 2353013,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 3350,
+            "price": 323.78,
+            "value": 1084653,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 4424,
+            "price": 324.82,
+            "value": 1436990,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 2781,
+            "price": 325.89,
+            "value": 906311,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-17",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 854,
+            "price": 326.67,
+            "value": 278979,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 360,
+            "price": 322.1,
+            "value": 115957,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 1758,
+            "price": 323.13,
+            "value": 568061,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 3574,
+            "price": 324.2,
+            "value": 1158677,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 4795,
+            "price": 325.01,
+            "value": 1558413,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 4134,
+            "price": 326.1,
+            "value": 1348081,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 4069,
+            "price": 327.13,
+            "value": 1331088,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 6040,
+            "price": 328.13,
+            "value": 1981911,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Velaga S. Ram",
+            "role": "President, ISG",
+            "shares": 808,
+            "price": 328.77,
+            "value": 265643,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 120,
+            "price": 321.46,
+            "value": 38576,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 1170,
+            "price": 322.83,
+            "value": 377711,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 2394,
+            "price": 323.79,
+            "value": 775158,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 5163,
+            "price": 324.74,
+            "value": 1676612,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 3776,
+            "price": 325.84,
+            "value": 1230379,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 3305,
+            "price": 326.79,
+            "value": 1080028,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 5147,
+            "price": 327.78,
+            "value": 1687084,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Spears Kirsten M.",
+            "role": "CFO & Chief Accounting Officer",
+            "shares": 2787,
+            "price": 328.52,
+            "value": 915596,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 120,
+            "price": 321.29,
+            "value": 38555,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 1691,
+            "price": 323.02,
+            "value": 546223,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 3402,
+            "price": 324.09,
+            "value": 1102547,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 4912,
+            "price": 324.9,
+            "value": 1595899,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 4191,
+            "price": 326.0,
+            "value": 1366262,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 4214,
+            "price": 327.05,
+            "value": 1378189,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 5508,
+            "price": 328.04,
+            "value": 1806839,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Kawwas Charlie B",
+            "role": "President, SSG",
+            "shares": 1680,
+            "price": 328.69,
+            "value": 552208,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 80,
+            "price": 320.83,
+            "value": 25666,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 240,
+            "price": 322.12,
+            "value": 77309,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 2707,
+            "price": 323.16,
+            "value": 874786,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 4383,
+            "price": 324.24,
+            "value": 1421148,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 6007,
+            "price": 324.98,
+            "value": 1952161,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 5633,
+            "price": 326.1,
+            "value": 1836904,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 5398,
+            "price": 327.16,
+            "value": 1766020,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 7986,
+            "price": 328.17,
+            "value": 2620790,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Brazeal Mark David",
+            "role": "Chief Legal & Corp Affairs Ofc",
+            "shares": 760,
+            "price": 328.84,
+            "value": 249919,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
+          }
+        ],
+        "purchase_count": 0,
+        "purchase_value": 0,
+        "sale_count": 95,
+        "sale_value": 356425614,
+        "unique_purchasers": 0,
+        "unique_sellers": 7
+      },
+      "recent_filings": [
+        {
+          "date": "2026-04-21",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000039/avgo-20260420.htm"
+        },
+        {
+          "date": "2026-04-06",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526144028/d87999d8k.htm"
+        },
+        {
+          "date": "2026-04-02",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526140574/d109450d8k.htm"
+        },
+        {
+          "date": "2026-03-11",
+          "type": "10-Q",
+          "description": "Quarterly report",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm"
+        },
+        {
+          "date": "2026-03-04",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000011/avgo-20260304.htm"
+        },
+        {
+          "date": "2026-03-02",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526085656/d305325d8k.htm"
+        }
+      ],
+      "veteran_signal": {
+        "score": 2,
+        "signal": "watch",
+        "status_text": "\ud83d\udfe1 WATCH",
+        "summary": "Some positives but not enough confirmation. Wait for more conditions to align before committing capital.",
+        "light_class": "yellow",
+        "status_class": "yellow",
+        "checks": [
+          {
+            "label": "Above 200-day MA",
+            "met": true,
+            "source": "Weinstein"
+          },
+          {
+            "label": "Golden cross active",
+            "met": true,
+            "source": "50 > 200 MA"
+          },
+          {
+            "label": "RSI bounce setup",
+            "met": false,
+            "source": "Wilder RSI 68"
+          },
+          {
+            "label": "MACD bullish",
+            "met": false,
+            "source": "Appel"
+          },
+          {
+            "label": "Buyable pullback",
+            "met": false,
+            "source": "-2.8% off high"
+          },
+          {
+            "label": "Volume confirms",
+            "met": false,
+            "source": "Wyckoff"
+          }
+        ],
+        "as_of": "2026-04-30",
+        "last_close": 417.43
+      },
+      "long_term": {
+        "last": 417.43,
+        "ytd_return": 20.08,
+        "cagr_1y": 117.0,
+        "cagr_3y": 87.12,
+        "cagr_5y": 56.24,
+        "ma200": 339.39,
+        "ma50": 347.73,
+        "ma200_dist": 23.0,
+        "in_uptrend": true,
+        "high_52w": 422.76,
+        "low_52w": 192.47,
+        "drawdown": -1.26,
+        "range_pos": 97.7,
+        "rsi": 67.9,
+        "dca_score": 0,
+        "dca_rating": "PREMIUM",
+        "dca_rating_class": "negative",
+        "as_of": "2026-04-30"
+      }
+    },
+    "PLTR": {
+      "next_earnings": null,
+      "insider_activity": {
+        "lookback_days": 90,
+        "purchases": [],
+        "sales": [
+          {
+            "date": "2026-04-15",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 500,
+            "price": 135.7,
+            "value": 67852,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000010/xslF345X06/wk-form4_1776470782.xml"
+          },
+          {
+            "date": "2026-04-15",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 1037,
+            "price": 136.68,
+            "value": 141734,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000010/xslF345X06/wk-form4_1776470782.xml"
+          },
+          {
+            "date": "2026-04-15",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 3603,
+            "price": 137.81,
+            "value": 496535,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000010/xslF345X06/wk-form4_1776470782.xml"
+          },
+          {
+            "date": "2026-04-15",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 2353,
+            "price": 138.73,
+            "value": 326441,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000010/xslF345X06/wk-form4_1776470782.xml"
+          },
+          {
+            "date": "2026-04-15",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 3353,
+            "price": 139.73,
+            "value": 468521,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000010/xslF345X06/wk-form4_1776470782.xml"
+          },
+          {
+            "date": "2026-04-15",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 1596,
+            "price": 140.46,
+            "value": 224167,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000010/xslF345X06/wk-form4_1776470782.xml"
+          },
+          {
+            "date": "2026-04-15",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 3342,
+            "price": 142.0,
+            "value": 474569,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000010/xslF345X06/wk-form4_1776470782.xml"
+          },
+          {
+            "date": "2026-04-15",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 216,
+            "price": 142.41,
+            "value": 30761,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000010/xslF345X06/wk-form4_1776470782.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 7045,
+            "price": 151.99,
+            "value": 1070794,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000009/xslF345X06/wk-form4_1773878819.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 8655,
+            "price": 152.72,
+            "value": 1321775,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000009/xslF345X06/wk-form4_1773878819.xml"
+          },
+          {
+            "date": "2026-03-16",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 300,
+            "price": 153.51,
+            "value": 46054,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000009/xslF345X06/wk-form4_1773878819.xml"
+          },
+          {
+            "date": "2026-03-02",
+            "name": "THIEL PETER",
+            "role": "Director",
+            "shares": 50026,
+            "price": 140.97,
+            "value": 7052360,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000121106026000007/xslF345X05/form4-03042026_090310.xml"
+          },
+          {
+            "date": "2026-03-02",
+            "name": "THIEL PETER",
+            "role": "Director",
+            "shares": 46722,
+            "price": 142.21,
+            "value": 6644480,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000121106026000007/xslF345X05/form4-03042026_090310.xml"
+          },
+          {
+            "date": "2026-03-02",
+            "name": "THIEL PETER",
+            "role": "Director",
+            "shares": 222837,
+            "price": 143.28,
+            "value": 31926993,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000121106026000007/xslF345X05/form4-03042026_090310.xml"
+          },
+          {
+            "date": "2026-03-02",
+            "name": "THIEL PETER",
+            "role": "Director",
+            "shares": 419113,
+            "price": 144.18,
+            "value": 60426623,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000121106026000007/xslF345X05/form4-03042026_090310.xml"
+          },
+          {
+            "date": "2026-03-02",
+            "name": "THIEL PETER",
+            "role": "Director",
+            "shares": 721136,
+            "price": 145.17,
+            "value": 104683996,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000121106026000007/xslF345X05/form4-03042026_090310.xml"
+          },
+          {
+            "date": "2026-03-02",
+            "name": "THIEL PETER",
+            "role": "Director",
+            "shares": 488783,
+            "price": 146.14,
+            "value": 71430014,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000121106026000007/xslF345X05/form4-03042026_090310.xml"
+          },
+          {
+            "date": "2026-03-02",
+            "name": "THIEL PETER",
+            "role": "Director",
+            "shares": 51383,
+            "price": 146.8,
+            "value": 7543040,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000121106026000007/xslF345X05/form4-03042026_090310.xml"
+          },
+          {
+            "date": "2026-02-24",
+            "name": "Buckley Jeffrey",
+            "role": "See Remarks",
+            "shares": 1232,
+            "price": 129.08,
+            "value": 159027,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000006/xslF345X05/wk-form4_1771981971.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Buckley Jeffrey",
+            "role": "See Remarks",
+            "shares": 268,
+            "price": 132.03,
+            "value": 35385,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000006/xslF345X05/wk-form4_1771981971.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Buckley Jeffrey",
+            "role": "See Remarks",
+            "shares": 834,
+            "price": 132.86,
+            "value": 110807,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000006/xslF345X05/wk-form4_1771981971.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Buckley Jeffrey",
+            "role": "See Remarks",
+            "shares": 703,
+            "price": 133.76,
+            "value": 94031,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000006/xslF345X05/wk-form4_1771981971.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Buckley Jeffrey",
+            "role": "See Remarks",
+            "shares": 743,
+            "price": 134.83,
+            "value": 100178,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000006/xslF345X05/wk-form4_1771981971.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Buckley Jeffrey",
+            "role": "See Remarks",
+            "shares": 156,
+            "price": 135.73,
+            "value": 21173,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000006/xslF345X05/wk-form4_1771981971.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Taylor Ryan D.",
+            "role": "See Remarks",
+            "shares": 1978,
+            "price": 132.03,
+            "value": 261164,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000008/xslF345X05/wk-form4_1771981924.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Taylor Ryan D.",
+            "role": "See Remarks",
+            "shares": 6167,
+            "price": 132.86,
+            "value": 819360,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000008/xslF345X05/wk-form4_1771981924.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Taylor Ryan D.",
+            "role": "See Remarks",
+            "shares": 5197,
+            "price": 133.76,
+            "value": 695133,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000008/xslF345X05/wk-form4_1771981924.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Taylor Ryan D.",
+            "role": "See Remarks",
+            "shares": 5495,
+            "price": 134.83,
+            "value": 740889,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000008/xslF345X05/wk-form4_1771981924.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Taylor Ryan D.",
+            "role": "See Remarks",
+            "shares": 1151,
+            "price": 135.73,
+            "value": 156220,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000008/xslF345X05/wk-form4_1771981924.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Glazer David A.",
+            "role": "See Remarks",
+            "shares": 1726,
+            "price": 132.03,
+            "value": 227892,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000007/xslF345X05/wk-form4_1771981859.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Glazer David A.",
+            "role": "See Remarks",
+            "shares": 5380,
+            "price": 132.86,
+            "value": 714798,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000007/xslF345X05/wk-form4_1771981859.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Glazer David A.",
+            "role": "See Remarks",
+            "shares": 4534,
+            "price": 133.76,
+            "value": 606452,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000007/xslF345X05/wk-form4_1771981859.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Glazer David A.",
+            "role": "See Remarks",
+            "shares": 4794,
+            "price": 134.83,
+            "value": 646373,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000007/xslF345X05/wk-form4_1771981859.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Glazer David A.",
+            "role": "See Remarks",
+            "shares": 1004,
+            "price": 135.73,
+            "value": 136268,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000007/xslF345X05/wk-form4_1771981859.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Sankar Shyam",
+            "role": "See Remarks",
+            "shares": 16630,
+            "price": 132.03,
+            "value": 2195735,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000006/xslF345X05/wk-form4_1771981802.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Sankar Shyam",
+            "role": "See Remarks",
+            "shares": 51831,
+            "price": 132.86,
+            "value": 6886370,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000006/xslF345X05/wk-form4_1771981802.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Sankar Shyam",
+            "role": "See Remarks",
+            "shares": 43685,
+            "price": 133.76,
+            "value": 5843153,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000006/xslF345X05/wk-form4_1771981802.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Sankar Shyam",
+            "role": "See Remarks",
+            "shares": 46188,
+            "price": 134.83,
+            "value": 6227510,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000006/xslF345X05/wk-form4_1771981802.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Sankar Shyam",
+            "role": "See Remarks",
+            "shares": 9670,
+            "price": 135.73,
+            "value": 1312463,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000006/xslF345X05/wk-form4_1771981802.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Cohen Stephen Andrew",
+            "role": "See Remarks, Director",
+            "shares": 32376,
+            "price": 132.03,
+            "value": 4274752,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000006/xslF345X05/wk-form4_1771981764.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Cohen Stephen Andrew",
+            "role": "See Remarks, Director",
+            "shares": 100910,
+            "price": 132.86,
+            "value": 13407104,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000006/xslF345X05/wk-form4_1771981764.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Cohen Stephen Andrew",
+            "role": "See Remarks, Director",
+            "shares": 85051,
+            "price": 133.76,
+            "value": 11376124,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000006/xslF345X05/wk-form4_1771981764.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Cohen Stephen Andrew",
+            "role": "See Remarks, Director",
+            "shares": 89924,
+            "price": 134.83,
+            "value": 12124417,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000006/xslF345X05/wk-form4_1771981764.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Cohen Stephen Andrew",
+            "role": "See Remarks, Director",
+            "shares": 18827,
+            "price": 135.73,
+            "value": 2555298,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000006/xslF345X05/wk-form4_1771981764.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 39893,
+            "price": 132.03,
+            "value": 5267256,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 124338,
+            "price": 132.86,
+            "value": 16519795,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 104796,
+            "price": 133.76,
+            "value": 14017146,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 110800,
+            "price": 134.83,
+            "value": 14939120,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 23198,
+            "price": 135.73,
+            "value": 3148553,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 6180,
+            "price": 132.01,
+            "value": 815841,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 20259,
+            "price": 132.82,
+            "value": 2690731,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 19309,
+            "price": 133.73,
+            "value": 2582254,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 35656,
+            "price": 134.87,
+            "value": 4809042,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
+          },
+          {
+            "date": "2026-02-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 8596,
+            "price": 135.67,
+            "value": 1166248,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
+          },
+          {
+            "date": "2026-02-02",
+            "name": "Stat Lauren Elaina Friedman",
+            "role": "Director",
+            "shares": 400,
+            "price": 151.14,
+            "value": 60456,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000184024426000005/xslF345X05/wk-form4_1770254739.xml"
+          },
+          {
+            "date": "2026-02-02",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 720,
+            "price": 147.45,
+            "value": 106166,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000005/xslF345X05/wk-form4_1770254378.xml"
+          },
+          {
+            "date": "2026-02-02",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 2525,
+            "price": 148.3,
+            "value": 374468,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000005/xslF345X05/wk-form4_1770254378.xml"
+          },
+          {
+            "date": "2026-02-02",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 6310,
+            "price": 149.34,
+            "value": 942334,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000005/xslF345X05/wk-form4_1770254378.xml"
+          },
+          {
+            "date": "2026-02-02",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 9212,
+            "price": 150.23,
+            "value": 1383933,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000005/xslF345X05/wk-form4_1770254378.xml"
+          },
+          {
+            "date": "2026-02-02",
+            "name": "Moore Alexander D.",
+            "role": "Director",
+            "shares": 1233,
+            "price": 150.92,
+            "value": 186084,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000005/xslF345X05/wk-form4_1770254378.xml"
+          }
+        ],
+        "purchase_count": 0,
+        "purchase_value": 0,
+        "sale_count": 60,
+        "sale_value": 435114212,
+        "unique_purchasers": 0,
+        "unique_sellers": 9
+      },
+      "recent_filings": [
+        {
+          "date": "2026-02-17",
+          "type": "10-K",
+          "description": "Annual report",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm"
+        },
+        {
+          "date": "2026-02-02",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/pltr-20260202.htm"
+        }
+      ],
+      "veteran_signal": {
+        "score": 1,
+        "signal": "wait",
+        "status_text": "\u26aa WAIT",
+        "summary": "Conditions don't favor a new entry today. Better setups typically appear within days or weeks \u2014 patience pays.",
+        "light_class": "gray",
+        "status_class": "gray",
+        "checks": [
+          {
+            "label": "Above 200-day MA",
+            "met": false,
+            "source": "Weinstein"
+          },
+          {
+            "label": "Golden cross active",
+            "met": false,
+            "source": "50 > 200 MA"
+          },
+          {
+            "label": "RSI bounce setup",
+            "met": false,
+            "source": "Wilder RSI 45"
+          },
+          {
+            "label": "MACD bullish",
+            "met": false,
+            "source": "Appel"
+          },
+          {
+            "label": "Buyable pullback",
+            "met": true,
+            "source": "-11.0% off high"
+          },
+          {
+            "label": "Volume confirms",
+            "met": false,
+            "source": "Wyckoff"
+          }
+        ],
+        "as_of": "2026-04-30",
+        "last_close": 139.11
+      },
+      "long_term": {
+        "last": 139.11,
+        "ytd_return": -17.13,
+        "cagr_1y": 17.46,
+        "cagr_3y": 161.66,
+        "cagr_5y": 44.31,
+        "ma200": 164.33,
+        "ma50": 145.0,
+        "ma200_dist": -15.35,
+        "in_uptrend": false,
+        "high_52w": 207.18,
+        "low_52w": 108.86,
+        "drawdown": -32.86,
+        "range_pos": 30.8,
+        "rsi": 45.2,
+        "dca_score": 2,
+        "dca_rating": "FAIR VALUE",
+        "dca_rating_class": "warning",
+        "as_of": "2026-04-30"
+      }
+    },
+    "TSLA": {
+      "next_earnings": null,
+      "insider_activity": {
+        "lookback_days": 90,
+        "purchases": [],
+        "sales": [
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 2000,
+            "price": 352.83,
+            "value": 705666,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 1640,
+            "price": 353.66,
+            "value": 579999,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 1800,
+            "price": 354.8,
+            "value": 638644,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 2481,
+            "price": 355.64,
+            "value": 882353,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 2360,
+            "price": 356.79,
+            "value": 842034,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 1120,
+            "price": 357.84,
+            "value": 400780,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 520,
+            "price": 358.77,
+            "value": 186560,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 1880,
+            "price": 360.18,
+            "value": 677140,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 1000,
+            "price": 361.04,
+            "value": 361035,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 2320,
+            "price": 362.14,
+            "value": 840169,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 4001,
+            "price": 363.08,
+            "value": 1452695,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 3927,
+            "price": 363.95,
+            "value": 1429220,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 560,
+            "price": 364.89,
+            "value": 204337,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 120,
+            "price": 365.9,
+            "value": 43908,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 80,
+            "price": 366.86,
+            "value": 29348,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
+          },
+          {
+            "date": "2026-03-06",
+            "name": "Taneja Vaibhav",
+            "role": "Chief Financial Officer",
+            "shares": 2264,
+            "price": 397.03,
+            "value": 899077,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926025379/xslF345X05/tm268346-1_4seq1.xml"
+          },
+          {
+            "date": "2026-02-25",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 80,
+            "price": 412.46,
+            "value": 32997,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926021746/xslF345X05/tm267481-1_4seq1.xml"
+          },
+          {
+            "date": "2026-02-25",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 4777,
+            "price": 413.95,
+            "value": 1977449,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926021746/xslF345X05/tm267481-1_4seq1.xml"
+          },
+          {
+            "date": "2026-02-25",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 7501,
+            "price": 414.85,
+            "value": 3111790,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926021746/xslF345X05/tm267481-1_4seq1.xml"
+          },
+          {
+            "date": "2026-02-25",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 6825,
+            "price": 415.86,
+            "value": 2838258,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926021746/xslF345X05/tm267481-1_4seq1.xml"
+          },
+          {
+            "date": "2026-02-25",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 3148,
+            "price": 416.82,
+            "value": 1312162,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926021746/xslF345X05/tm267481-1_4seq1.xml"
+          },
+          {
+            "date": "2026-02-25",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 2960,
+            "price": 417.52,
+            "value": 1235847,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926021746/xslF345X05/tm267481-1_4seq1.xml"
+          },
+          {
+            "date": "2026-02-25",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 440,
+            "price": 418.89,
+            "value": 184311,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926021746/xslF345X05/tm267481-1_4seq1.xml"
+          }
+        ],
+        "purchase_count": 0,
+        "purchase_value": 0,
+        "sale_count": 23,
+        "sale_value": 20865779,
+        "unique_purchasers": 0,
+        "unique_sellers": 2
+      },
+      "recent_filings": [
+        {
+          "date": "2026-04-23",
+          "type": "10-Q",
+          "description": "Quarterly report",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026673/tsla-20260331.htm"
+        },
+        {
+          "date": "2026-04-22",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026551/tsla-20260422.htm"
+        },
+        {
+          "date": "2026-04-02",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026022956/tsla-20260402.htm"
+        }
+      ],
+      "veteran_signal": {
+        "score": 2,
+        "signal": "watch",
+        "status_text": "\ud83d\udfe1 WATCH",
+        "summary": "Some positives but not enough confirmation. Wait for more conditions to align before committing capital.",
+        "light_class": "yellow",
+        "status_class": "yellow",
+        "checks": [
+          {
+            "label": "Above 200-day MA",
+            "met": false,
+            "source": "Weinstein"
+          },
+          {
+            "label": "Golden cross active",
+            "met": false,
+            "source": "50 > 200 MA"
+          },
+          {
+            "label": "RSI bounce setup",
+            "met": false,
+            "source": "Wilder RSI 52"
+          },
+          {
+            "label": "MACD bullish",
+            "met": true,
+            "source": "Appel"
+          },
+          {
+            "label": "Buyable pullback",
+            "met": true,
+            "source": "-6.8% off high"
+          },
+          {
+            "label": "Volume confirms",
+            "met": false,
+            "source": "Wyckoff"
+          }
+        ],
+        "as_of": "2026-04-30",
+        "last_close": 381.63
+      },
+      "long_term": {
+        "last": 381.63,
+        "ytd_return": -12.88,
+        "cagr_1y": 35.28,
+        "cagr_3y": 33.13,
+        "cagr_5y": 10.84,
+        "ma200": 402.15,
+        "ma50": 384.13,
+        "ma200_dist": -5.1,
+        "in_uptrend": false,
+        "high_52w": 489.88,
+        "low_52w": 275.35,
+        "drawdown": -22.1,
+        "range_pos": 49.5,
+        "rsi": 51.8,
+        "dca_score": 2,
+        "dca_rating": "FAIR VALUE",
+        "dca_rating_class": "warning",
+        "as_of": "2026-04-30"
+      }
+    },
+    "NVDA": {
+      "next_earnings": null,
+      "insider_activity": {
+        "lookback_days": 90,
+        "purchases": [],
+        "sales": [
+          {
+            "date": "2026-03-20",
+            "name": "STEVENS MARK A",
+            "role": "Director",
+            "shares": 100000,
+            "price": 172.61,
+            "value": 17260680,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000003/xslF345X06/wk-form4_1774386816.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "STEVENS MARK A",
+            "role": "Director",
+            "shares": 121682,
+            "price": 174.57,
+            "value": 21241844,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000003/xslF345X06/wk-form4_1774386816.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Robertson Donald F Jr",
+            "role": "Principal Accounting Officer",
+            "shares": 1196,
+            "price": 172.58,
+            "value": 206403,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000152611126000005/xslF345X06/wk-form4_1774051982.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Robertson Donald F Jr",
+            "role": "Principal Accounting Officer",
+            "shares": 400,
+            "price": 172.97,
+            "value": 69188,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000152611126000005/xslF345X06/wk-form4_1774051982.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Robertson Donald F Jr",
+            "role": "Principal Accounting Officer",
+            "shares": 500,
+            "price": 173.78,
+            "value": 86889,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000152611126000005/xslF345X06/wk-form4_1774051982.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Robertson Donald F Jr",
+            "role": "Principal Accounting Officer",
+            "shares": 600,
+            "price": 174.85,
+            "value": 104908,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000152611126000005/xslF345X06/wk-form4_1774051982.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Robertson Donald F Jr",
+            "role": "Principal Accounting Officer",
+            "shares": 2100,
+            "price": 175.79,
+            "value": 369169,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000152611126000005/xslF345X06/wk-form4_1774051982.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Robertson Donald F Jr",
+            "role": "Principal Accounting Officer",
+            "shares": 600,
+            "price": 177.31,
+            "value": 106387,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000152611126000005/xslF345X06/wk-form4_1774051982.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 715,
+            "price": 172.01,
+            "value": 122989,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 10264,
+            "price": 172.71,
+            "value": 1772691,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 3307,
+            "price": 173.63,
+            "value": 574191,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 4225,
+            "price": 174.73,
+            "value": 738238,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 18020,
+            "price": 175.78,
+            "value": 3167507,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 4212,
+            "price": 176.83,
+            "value": 744823,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 1907,
+            "price": 177.51,
+            "value": 338514,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 180,
+            "price": 172.0,
+            "value": 30959,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 2396,
+            "price": 172.71,
+            "value": 413811,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 765,
+            "price": 173.63,
+            "value": 132825,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 1051,
+            "price": 174.73,
+            "value": 183645,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 4156,
+            "price": 175.79,
+            "value": 730565,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 999,
+            "price": 176.83,
+            "value": 176657,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 453,
+            "price": 177.51,
+            "value": 80413,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 230,
+            "price": 171.97,
+            "value": 39553,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 2339,
+            "price": 172.71,
+            "value": 403968,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 734,
+            "price": 173.63,
+            "value": 127443,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 1316,
+            "price": 174.75,
+            "value": 229967,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 3876,
+            "price": 175.82,
+            "value": 681497,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 1034,
+            "price": 176.83,
+            "value": 182841,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-20",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 471,
+            "price": 177.51,
+            "value": 83608,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000010/xslF345X06/wk-form4_1774051632.xml"
+          },
+          {
+            "date": "2026-03-19",
+            "name": "Shah Aarti S.",
+            "role": "Director",
+            "shares": 8516,
+            "price": 176.27,
+            "value": 1501152,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000172529226000002/xslF345X06/wk-form4_1774052040.xml"
+          },
+          {
+            "date": "2026-03-19",
+            "name": "Shah Aarti S.",
+            "role": "Director",
+            "shares": 10282,
+            "price": 177.06,
+            "value": 1820495,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000172529226000002/xslF345X06/wk-form4_1774052040.xml"
+          },
+          {
+            "date": "2026-03-19",
+            "name": "Shah Aarti S.",
+            "role": "Director",
+            "shares": 202,
+            "price": 177.73,
+            "value": 35902,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000172529226000002/xslF345X06/wk-form4_1774052040.xml"
+          },
+          {
+            "date": "2026-03-18",
+            "name": "Puri Ajay K",
+            "role": "EVP, Worldwide Field Ops",
+            "shares": 19881,
+            "price": 181.31,
+            "value": 3604664,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000134784226000011/xslF345X06/wk-form4_1774051696.xml"
+          },
+          {
+            "date": "2026-03-18",
+            "name": "Puri Ajay K",
+            "role": "EVP, Worldwide Field Ops",
+            "shares": 270134,
+            "price": 182.3,
+            "value": 49244834,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000134784226000011/xslF345X06/wk-form4_1774051696.xml"
+          },
+          {
+            "date": "2026-03-18",
+            "name": "Puri Ajay K",
+            "role": "EVP, Worldwide Field Ops",
+            "shares": 9985,
+            "price": 182.94,
+            "value": 1826642,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000134784226000011/xslF345X06/wk-form4_1774051696.xml"
+          },
+          {
+            "date": "2026-03-13",
+            "name": "Dabiri John",
+            "role": "Director",
+            "shares": 3004,
+            "price": 184.9,
+            "value": 555440,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000181822426000002/xslF345X05/wk-form4_1773781935.xml"
+          },
+          {
+            "date": "2026-03-10",
+            "name": "Puri Ajay K",
+            "role": "EVP, Worldwide Field Ops",
+            "shares": 275060,
+            "price": 182.47,
+            "value": 50189180,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000134784226000009/xslF345X05/wk-form4_1773267054.xml"
+          },
+          {
+            "date": "2026-03-10",
+            "name": "Puri Ajay K",
+            "role": "EVP, Worldwide Field Ops",
+            "shares": 24940,
+            "price": 183.11,
+            "value": 4566863,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000134784226000009/xslF345X05/wk-form4_1773267054.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 1287,
+            "price": 172.54,
+            "value": 222063,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 3524,
+            "price": 173.41,
+            "value": 611083,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 6076,
+            "price": 174.53,
+            "value": 1060447,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 6120,
+            "price": 175.37,
+            "value": 1073272,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 2659,
+            "price": 176.53,
+            "value": 469404,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 3897,
+            "price": 177.5,
+            "value": 691702,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 2625,
+            "price": 178.57,
+            "value": 468750,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 1452,
+            "price": 179.16,
+            "value": 260141,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 499,
+            "price": 172.5,
+            "value": 86077,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 1266,
+            "price": 173.41,
+            "value": 219531,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 2180,
+            "price": 174.53,
+            "value": 380478,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 2164,
+            "price": 175.36,
+            "value": 379486,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 976,
+            "price": 176.53,
+            "value": 172298,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 1424,
+            "price": 177.5,
+            "value": 252754,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 963,
+            "price": 178.57,
+            "value": 171966,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 528,
+            "price": 179.16,
+            "value": 94597,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 614,
+            "price": 172.4,
+            "value": 105854,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 1215,
+            "price": 173.41,
+            "value": 210688,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 2121,
+            "price": 174.53,
+            "value": 370183,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 2042,
+            "price": 175.35,
+            "value": 358055,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 1005,
+            "price": 176.53,
+            "value": 177414,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 1470,
+            "price": 177.5,
+            "value": 260919,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 985,
+            "price": 178.57,
+            "value": 175891,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          },
+          {
+            "date": "2026-02-04",
+            "name": "Kress Colette",
+            "role": "EVP & Chief Financial Officer",
+            "shares": 548,
+            "price": 179.16,
+            "value": 98181,
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000004/xslF345X05/wk-form4_1770415598.xml"
+          }
+        ],
+        "purchase_count": 0,
+        "purchase_value": 0,
+        "sale_count": 62,
+        "sale_value": 172118579,
+        "unique_purchasers": 0,
+        "unique_sellers": 6
+      },
+      "recent_filings": [
+        {
+          "date": "2026-04-27",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000026/nvda-20260424.htm"
+        },
+        {
+          "date": "2026-03-06",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000024/nvda-20260302.htm"
+        },
+        {
+          "date": "2026-02-25",
+          "type": "10-K",
+          "description": "Annual report",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+        },
+        {
+          "date": "2026-02-25",
+          "type": "8-K",
+          "description": "Material event",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/nvda-20260225.htm"
+        }
+      ],
+      "veteran_signal": {
+        "score": 3,
+        "signal": "buy",
+        "status_text": "\ud83d\udfe2 BUY",
+        "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
+        "light_class": "green",
+        "status_class": "green",
+        "checks": [
+          {
+            "label": "Above 200-day MA",
+            "met": true,
+            "source": "Weinstein"
+          },
+          {
+            "label": "Golden cross active",
+            "met": true,
+            "source": "50 > 200 MA"
+          },
+          {
+            "label": "RSI bounce setup",
+            "met": false,
+            "source": "Wilder RSI 54"
+          },
+          {
+            "label": "MACD bullish",
+            "met": false,
+            "source": "Appel"
+          },
+          {
+            "label": "Buyable pullback",
+            "met": true,
+            "source": "-8.0% off high"
+          },
+          {
+            "label": "Volume confirms",
+            "met": false,
+            "source": "Wyckoff"
+          }
+        ],
+        "as_of": "2026-04-30",
+        "last_close": 199.57
+      },
+      "long_term": {
+        "last": 199.57,
+        "ytd_return": 5.68,
+        "cagr_1y": 83.3,
+        "cagr_3y": 90.49,
+        "cagr_5y": 68.33,
+        "ma200": 183.72,
+        "ma50": 186.94,
+        "ma200_dist": 8.63,
+        "in_uptrend": true,
+        "high_52w": 216.61,
+        "low_52w": 108.92,
+        "drawdown": -7.87,
+        "range_pos": 84.2,
+        "rsi": 54.1,
+        "dca_score": 0,
+        "dca_rating": "PREMIUM",
+        "dca_rating_class": "negative",
+        "as_of": "2026-04-30"
+      }
+    }
   }
 }
