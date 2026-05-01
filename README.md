@@ -136,6 +136,50 @@ After this initial run, the workflow runs automatically at 21:30 UTC on weekdays
 
 ---
 
+## Optional: Finnhub intraday price layer
+
+The Veteran's Buy Signal and DCA Bargain Meter are computed from yesterday's close — the right resolution for long-term DCA decisions. But sometimes it's useful to glance at today's intraday price too. The dashboard supports an optional layer that pulls live quotes from Finnhub's free tier (60 calls/min, no credit card required) and shows a small banner inside the Long-Term Metrics panel.
+
+**Without setup, this layer simply doesn't appear** — the dashboard works exactly as it does today. With setup, you'll see a green pulsing dot and a row showing today's price, change %, and timestamp.
+
+### Setup (5 minutes)
+
+1. **Get a free Finnhub key** — sign up at [finnhub.io/register](https://finnhub.io/register). They'll show your key on the dashboard immediately. No credit card.
+2. **In your repo on GitHub**, click **Add file → Create new file**.
+3. **Filename:** `config.js` (exactly that — lowercase, no folders)
+4. **Contents:**
+   ```javascript
+   window.FINNHUB_API_KEY = "paste_your_finnhub_key_here";
+   ```
+   Replace the placeholder with your actual key (still in quotes).
+5. Scroll down. Click **Commit changes**.
+6. Refresh your dashboard — the intraday banner should appear at the bottom of the Long-Term Metrics panel.
+
+### Why this is in a separate file
+
+`config.js` is listed in `.gitignore`, which means **Git will refuse to commit it via local push**. But because GitHub's web UI bypasses gitignore, you CAN add it directly through the browser as described above. Either way works.
+
+### Important security note for public repos
+
+If your repo is **public**, anyone visiting your GitHub Pages URL can view the page source and read your Finnhub key. The realistic worst case is they could burn through your 60-calls-per-minute rate limit, leaving the intraday banner broken until the limit resets — the rest of the dashboard keeps working fine. They cannot access your account, billing, or anything else, because Finnhub keys only authorize quote lookups.
+
+If this concerns you, either:
+- Make the repo private (you'll lose GitHub Pages on free tier; run locally instead — see Option B above)
+- Skip the Finnhub layer entirely; the dashboard already shows yesterday's close, which is what the signals are based on
+
+### How to verify it's working
+
+After committing `config.js` and refreshing the dashboard, you should see at the bottom of the Long-Term Metrics panel:
+
+> 🟢 INTRADAY  $96.42  ▲ +$0.92 (+0.96%)  as of 2:34 PM ET · prev close $95.50 · via Finnhub
+
+If you see nothing, check the browser DevTools console (F12 → Console). Common issues:
+- 401 Unauthorized → key was typed wrong
+- "Invalid API call" → the symbol isn't supported on the free tier (all 5 of yours are)
+- 429 Rate Limit → you've hit 60/min; wait a minute and refresh
+
+---
+
 ## How it works
 
 ```

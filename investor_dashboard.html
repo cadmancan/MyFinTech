@@ -504,6 +504,49 @@
   }
   .lt-dca-explain { font-size: 11px; color: #6e7681; line-height: 1.6; }
 
+  /* Intraday price banner — shows when Finnhub is configured */
+  .lt-intraday {
+    display: none;
+    border-top: 1px solid #30363d;
+    padding: 12px 22px;
+    background: linear-gradient(90deg, rgba(47,129,247,0.05) 0%, transparent 100%);
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .lt-intraday.active { display: flex; }
+  .lt-intraday-pulse {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: #3fb950;
+    box-shadow: 0 0 6px rgba(63,185,80,0.7);
+    animation: lt-pulse 2s ease-in-out infinite;
+    flex-shrink: 0;
+  }
+  @keyframes lt-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+  .lt-intraday-label {
+    font-size: 11px; letter-spacing: 0.4px;
+    color: #8b949e; text-transform: uppercase;
+    font-weight: 500;
+  }
+  .lt-intraday-price {
+    font-size: 16px; font-weight: 600;
+    color: #e6edf3; font-variant-numeric: tabular-nums;
+  }
+  .lt-intraday-change {
+    font-size: 13px; font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
+  .lt-intraday-change.positive { color: #3fb950; }
+  .lt-intraday-change.negative { color: #f85149; }
+  .lt-intraday-meta {
+    font-size: 11px; color: #6e7681;
+    margin-left: auto;
+  }
+
   /* Public Record panel — fed by data/feed.json */
   .pr-panel {
     background: #161b22;
@@ -924,6 +967,14 @@
         <div class="dca-dot"></div><div class="dca-dot"></div><div class="dca-dot"></div><div class="dca-dot"></div><div class="dca-dot"></div>
       </div>
       <div class="lt-dca-explain" id="lt-dca-explain">For long-term DCA investors: scores 4–5 dots = exceptionally attractive entry; 2–3 = fair value, continue normal DCA; 0–1 = price elevated, consider smaller adds. Based on RSI, distance from 200-MA, drawdown from 52-week high, and 52-week range position. Caps at 2 dots if long-term trend (50/200 MA) is broken — never accelerate buys into a falling knife.</div>
+    </div>
+    <!-- Intraday banner — populated only when Finnhub API key is configured locally -->
+    <div class="lt-intraday" id="lt-intraday">
+      <span class="lt-intraday-pulse"></span>
+      <span class="lt-intraday-label">Intraday</span>
+      <span class="lt-intraday-price" id="lt-intraday-price">—</span>
+      <span class="lt-intraday-change" id="lt-intraday-change">—</span>
+      <span class="lt-intraday-meta" id="lt-intraday-meta">—</span>
     </div>
   </div>
 
@@ -1736,11 +1787,12 @@
       if (i < lt.dca_score) d.classList.add('active');
       else d.classList.remove('active');
     });
+    renderIntradayBanner(symbol);
   }
 
-  // ---- Refresh button: re-pulls feed.json (no client-side fetching) ----
+  // ---- Refresh button: re-pulls feed.json + intraday quotes ----
   async function refreshAllPanels() {
-    await loadPublicFeed();   // re-fetches feed.json with no-cache
+    await Promise.all([loadPublicFeed(), loadIntradayQuotes()]);
     renderVetPanel(activeSymbol);
     renderLtPanel(activeSymbol);
   }
@@ -1762,6 +1814,86 @@
     renderVetPanel(activeSymbol);
     renderLtPanel(activeSymbol);
     renderPrPanel(activeSymbol);
+  }
+
+  // ================ Finnhub intraday layer (optional) ================
+  // If config.js exists and sets window.FINNHUB_API_KEY, we fetch live quotes
+  // for all 5 symbols on page load. Otherwise we silently skip — the dashboard
+  // works exactly the same without it.
+  const intradayCache = {};
+
+  async function loadFinnhubConfig() {
+    // Try to read config.js (gitignored). 404 is expected if user hasn't set it up.
+    try {
+      const res = await fetch('./config.js', { cache: 'no-store' });
+      if (!res.ok) return null;
+      const text = await res.text();
+      const m = text.match(/FINNHUB_API_KEY\s*=\s*["']([^"']+)["']/);
+      if (!m) return null;
+      const key = m[1].trim();
+      if (!key || key === 'YOUR_FINNHUB_KEY_HERE') return null;
+      return key;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  async function loadIntradayQuotes() {
+    const key = await loadFinnhubConfig();
+    if (!key) return;  // graceful: no key, no banner
+
+    // Fetch all 5 symbols in parallel. Finnhub's free tier is 60 req/min,
+    // so 5 requests on page load + 5 on each refresh is well within limits.
+    const results = await Promise.all(SYMBOLS.map(async sym => {
+      try {
+        const url = `https://finnhub.io/api/v1/quote?symbol=${sym}&token=${encodeURIComponent(key)}`;
+        const res = await fetch(url);
+        if (!res.ok) return [sym, null];
+        const q = await res.json();
+        // Finnhub returns {c,d,dp,h,l,o,pc,t}; check that c (current) is non-zero
+        if (!q || !q.c || q.c === 0) return [sym, null];
+        return [sym, {
+          current:    q.c,
+          change:     q.d,
+          changePct:  q.dp,
+          prevClose:  q.pc,
+          high:       q.h,
+          low:        q.l,
+          timestamp:  q.t,
+        }];
+      } catch (e) {
+        return [sym, null];
+      }
+    }));
+    results.forEach(([sym, data]) => { intradayCache[sym] = data; });
+    renderIntradayBanner(activeSymbol);
+  }
+
+  function renderIntradayBanner(symbol) {
+    const banner = document.getElementById('lt-intraday');
+    const data = intradayCache[symbol];
+    if (!data) {
+      banner.classList.remove('active');
+      return;
+    }
+    document.getElementById('lt-intraday-price').textContent = '$' + Number(data.current).toFixed(2);
+    const changeEl = document.getElementById('lt-intraday-change');
+    const sign = data.change >= 0 ? '+' : '';
+    const arrow = data.change >= 0 ? '▲' : '▼';
+    changeEl.textContent = `${arrow} ${sign}$${Math.abs(data.change).toFixed(2)} (${sign}${data.changePct.toFixed(2)}%)`;
+    changeEl.className = 'lt-intraday-change ' + (data.change >= 0 ? 'positive' : 'negative');
+
+    let metaText = '';
+    if (data.timestamp) {
+      const ts = new Date(data.timestamp * 1000);
+      const ageMin = Math.floor((Date.now() - ts.getTime()) / 60000);
+      const timeStr = ts.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' });
+      metaText = `as of ${timeStr} ET`;
+      if (ageMin > 30) metaText += ` (${ageMin}m ago)`;
+    }
+    metaText += ` · prev close $${Number(data.prevClose).toFixed(2)} · via Finnhub`;
+    document.getElementById('lt-intraday-meta').textContent = metaText;
+    banner.classList.add('active');
   }
 
   function fmtMoneyShort(n) {
@@ -2006,6 +2138,7 @@
     renderVetPanel(activeSymbol);
     renderLtPanel(activeSymbol);
   });
+  loadIntradayQuotes();  // Optional Finnhub layer; silently no-ops without config.js
 </script>
 
 </body>
