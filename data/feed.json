@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-05-04T22:31:36.040120+00:00",
-  "updated_human": "2026-05-04 22:31 UTC",
+  "updated_utc": "2026-05-05T22:29:34.831189+00:00",
+  "updated_human": "2026-05-05 22:29 UTC",
   "macro": {
     "vix": {
-      "value": 18.29,
+      "value": 17.38,
       "previous": 16.99,
-      "change_pct": 7.65
+      "change_pct": 2.3
     },
     "ten_year_yield": {
-      "value": 4.446,
-      "previous": 4.378,
-      "change_pct": 1.55
+      "value": 4.416,
+      "previous": 4.446,
+      "change_pct": -0.67
     },
     "sp500": {
-      "value": 7200.75,
-      "previous": 7230.12,
-      "change_pct": -0.41
+      "value": 7259.22,
+      "previous": 7200.75,
+      "change_pct": 0.81
     }
   },
   "stocks": {
@@ -170,7 +170,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 76"
+            "source": "Wilder RSI 82"
           },
           {
             "label": "MACD bullish",
@@ -180,7 +180,7 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-2.8% off high"
+            "source": "-1.8% off high"
           },
           {
             "label": "Volume confirms",
@@ -188,28 +188,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-04",
-        "last_close": 576.45
+        "as_of": "2026-05-05",
+        "last_close": 640.2
       },
       "long_term": {
-        "last": 576.45,
-        "ytd_return": 82.76,
-        "cagr_1y": 621.66,
-        "cagr_3y": 111.26,
-        "cagr_5y": 46.63,
-        "ma200": 279.33,
-        "ma50": 428.63,
-        "ma200_dist": 106.37,
+        "last": 640.2,
+        "ytd_return": 102.97,
+        "cagr_1y": 697.2,
+        "cagr_3y": 119.53,
+        "cagr_5y": 49.87,
+        "ma200": 281.96,
+        "ma50": 433.02,
+        "ma200_dist": 127.05,
         "in_uptrend": true,
-        "high_52w": 576.45,
+        "high_52w": 640.2,
         "low_52w": 80.42,
         "drawdown": 0.0,
         "range_pos": 100.0,
-        "rsi": 76.1,
+        "rsi": 81.7,
         "dca_score": 0,
         "dca_rating": "PREMIUM",
         "dca_rating_class": "negative",
-        "as_of": "2026-05-04"
+        "as_of": "2026-05-05"
       }
     },
     "AVGO": {
@@ -1140,7 +1140,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 66"
+            "source": "Wilder RSI 69"
           },
           {
             "label": "MACD bullish",
@@ -1150,7 +1150,7 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-3.0% off high"
+            "source": "-1.4% off high"
           },
           {
             "label": "Volume confirms",
@@ -1158,28 +1158,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-04",
-        "last_close": 416.5
+        "as_of": "2026-05-05",
+        "last_close": 427.36
       },
       "long_term": {
-        "last": 416.5,
-        "ytd_return": 19.81,
-        "cagr_1y": 108.02,
-        "cagr_3y": 87.75,
-        "cagr_5y": 56.54,
-        "ma200": 340.74,
-        "ma50": 351.15,
-        "ma200_dist": 22.23,
+        "last": 427.36,
+        "ytd_return": 22.94,
+        "cagr_1y": 113.02,
+        "cagr_3y": 89.7,
+        "cagr_5y": 57.01,
+        "ma200": 341.46,
+        "ma50": 353.09,
+        "ma200_dist": 25.16,
         "in_uptrend": true,
-        "high_52w": 422.76,
+        "high_52w": 427.36,
         "low_52w": 200.09,
-        "drawdown": -1.48,
-        "range_pos": 97.2,
-        "rsi": 65.9,
+        "drawdown": 0.0,
+        "range_pos": 100.0,
+        "rsi": 69.3,
         "dca_score": 0,
         "dca_rating": "PREMIUM",
         "dca_rating_class": "negative",
-        "as_of": "2026-05-04"
+        "as_of": "2026-05-05"
       }
     },
     "PLTR": {
@@ -1738,6 +1738,12 @@
       },
       "recent_filings": [
         {
+          "date": "2026-05-05",
+          "type": "10-Q",
+          "description": "Quarterly report",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000028/pltr-20260331.htm"
+        },
+        {
           "date": "2026-05-04",
           "type": "8-K",
           "description": "Material event",
@@ -1751,12 +1757,12 @@
         }
       ],
       "veteran_signal": {
-        "score": 3,
-        "signal": "buy",
-        "status_text": "\ud83d\udfe2 BUY",
-        "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
-        "light_class": "green",
-        "status_class": "green",
+        "score": 1,
+        "signal": "wait",
+        "status_text": "\u26aa WAIT",
+        "summary": "Conditions don't favor a new entry today. Better setups typically appear within days or weeks \u2014 patience pays.",
+        "light_class": "gray",
+        "status_class": "gray",
         "checks": [
           {
             "label": "Above 200-day MA",
@@ -1771,46 +1777,46 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 53"
+            "source": "Wilder RSI 43"
           },
           {
             "label": "MACD bullish",
-            "met": true,
+            "met": false,
             "source": "Appel"
           },
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-6.6% off high"
+            "source": "-13.0% off high"
           },
           {
             "label": "Volume confirms",
-            "met": true,
+            "met": false,
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-04",
-        "last_close": 146.03
+        "as_of": "2026-05-05",
+        "last_close": 135.91
       },
       "long_term": {
-        "last": 146.03,
-        "ytd_return": -13.0,
-        "cagr_1y": 18.05,
-        "cagr_3y": 170.29,
-        "cagr_5y": 47.21,
-        "ma200": 164.26,
-        "ma50": 145.4,
-        "ma200_dist": -11.1,
+        "last": 135.91,
+        "ytd_return": -19.03,
+        "cagr_1y": 9.82,
+        "cagr_3y": 160.54,
+        "cagr_5y": 46.61,
+        "ma200": 164.17,
+        "ma50": 145.51,
+        "ma200_dist": -17.21,
         "in_uptrend": false,
         "high_52w": 207.18,
         "low_52w": 108.86,
-        "drawdown": -29.52,
-        "range_pos": 37.8,
-        "rsi": 52.6,
+        "drawdown": -34.4,
+        "range_pos": 27.5,
+        "rsi": 42.9,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-05-04"
+        "as_of": "2026-05-05"
       }
     },
     "TSLA": {
@@ -1819,6 +1825,150 @@
         "lookback_days": 90,
         "purchases": [],
         "sales": [
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 840,
+            "price": 369.01,
+            "value": 309968,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 1520,
+            "price": 369.77,
+            "value": 562049,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 1275,
+            "price": 370.93,
+            "value": 472934,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 1020,
+            "price": 371.88,
+            "value": 379319,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 619,
+            "price": 372.82,
+            "value": 230775,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 520,
+            "price": 374.4,
+            "value": 194689,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 280,
+            "price": 375.15,
+            "value": 105042,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 1081,
+            "price": 376.69,
+            "value": 407201,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 3003,
+            "price": 377.49,
+            "value": 1133593,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 3480,
+            "price": 378.57,
+            "value": 1317434,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 1760,
+            "price": 379.43,
+            "value": 667792,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 1755,
+            "price": 380.76,
+            "value": 668227,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 6896,
+            "price": 381.61,
+            "value": 2631562,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 680,
+            "price": 382.41,
+            "value": 260042,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 1240,
+            "price": 383.61,
+            "value": 475679,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
+          {
+            "date": "2026-04-30",
+            "name": "Wilson-Thompson Kathleen",
+            "role": "Director",
+            "shares": 440,
+            "price": 384.28,
+            "value": 169085,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
+          },
           {
             "date": "2026-03-30",
             "name": "Wilson-Thompson Kathleen",
@@ -2029,8 +2179,8 @@
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 23,
-        "sale_value": 20865779,
+        "sale_count": 39,
+        "sale_value": 30851170,
         "unique_purchasers": 0,
         "unique_sellers": 2
       },
@@ -2075,7 +2225,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 57"
+            "source": "Wilder RSI 55"
           },
           {
             "label": "MACD bullish",
@@ -2085,7 +2235,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-4.1% off high"
+            "source": "-4.9% off high"
           },
           {
             "label": "Volume confirms",
@@ -2093,28 +2243,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-04",
-        "last_close": 392.51
+        "as_of": "2026-05-05",
+        "last_close": 389.37
       },
       "long_term": {
-        "last": 392.51,
-        "ytd_return": -10.4,
-        "cagr_1y": 40.21,
-        "cagr_3y": 32.18,
-        "cagr_5y": 11.92,
-        "ma200": 402.86,
-        "ma50": 383.33,
-        "ma200_dist": -2.57,
+        "last": 389.37,
+        "ytd_return": -11.12,
+        "cagr_1y": 38.96,
+        "cagr_3y": 31.45,
+        "cagr_5y": 11.98,
+        "ma200": 403.16,
+        "ma50": 383.12,
+        "ma200_dist": -3.42,
         "in_uptrend": false,
         "high_52w": 489.88,
         "low_52w": 275.35,
-        "drawdown": -19.88,
-        "range_pos": 54.6,
-        "rsi": 56.9,
+        "drawdown": -20.52,
+        "range_pos": 53.1,
+        "rsi": 55.0,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-05-04"
+        "as_of": "2026-05-05"
       }
     },
     "NVDA": {
@@ -2736,7 +2886,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 53"
+            "source": "Wilder RSI 51"
           },
           {
             "label": "MACD bullish",
@@ -2746,7 +2896,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-8.5% off high"
+            "source": "-9.4% off high"
           },
           {
             "label": "Volume confirms",
@@ -2754,28 +2904,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-04",
-        "last_close": 198.48
+        "as_of": "2026-05-05",
+        "last_close": 196.5
       },
       "long_term": {
-        "last": 198.48,
-        "ytd_return": 5.1,
-        "cagr_1y": 74.71,
-        "cagr_3y": 90.65,
-        "cagr_5y": 68.92,
-        "ma200": 183.98,
-        "ma50": 187.33,
-        "ma200_dist": 7.88,
+        "last": 196.5,
+        "ytd_return": 4.05,
+        "cagr_1y": 72.71,
+        "cagr_3y": 89.2,
+        "cagr_5y": 68.43,
+        "ma200": 184.1,
+        "ma50": 187.43,
+        "ma200_dist": 6.73,
         "in_uptrend": true,
         "high_52w": 216.61,
         "low_52w": 113.54,
-        "drawdown": -8.37,
-        "range_pos": 82.4,
-        "rsi": 53.0,
+        "drawdown": -9.28,
+        "range_pos": 80.5,
+        "rsi": 50.8,
         "dca_score": 0,
         "dca_rating": "PREMIUM",
         "dca_rating_class": "negative",
-        "as_of": "2026-05-04"
+        "as_of": "2026-05-05"
       }
     }
   }
