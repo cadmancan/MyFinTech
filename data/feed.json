@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-05-05T22:29:34.831189+00:00",
-  "updated_human": "2026-05-05 22:29 UTC",
+  "updated_utc": "2026-05-06T22:12:13.097723+00:00",
+  "updated_human": "2026-05-06 22:12 UTC",
   "macro": {
     "vix": {
-      "value": 17.38,
-      "previous": 16.99,
-      "change_pct": 2.3
+      "value": 17.39,
+      "previous": 17.38,
+      "change_pct": 0.06
     },
     "ten_year_yield": {
-      "value": 4.416,
-      "previous": 4.446,
-      "change_pct": -0.67
+      "value": 4.356,
+      "previous": 4.416,
+      "change_pct": -1.36
     },
     "sp500": {
-      "value": 7259.22,
-      "previous": 7200.75,
-      "change_pct": 0.81
+      "value": 7365.12,
+      "previous": 7259.22,
+      "change_pct": 1.46
     }
   },
   "stocks": {
@@ -25,6 +25,474 @@
         "lookback_days": 90,
         "purchases": [],
         "sales": [
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 503,
+            "price": 511.91,
+            "value": 257491,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 271,
+            "price": 514.41,
+            "value": 139405,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 187,
+            "price": 516.04,
+            "value": 96499,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 237,
+            "price": 516.62,
+            "value": 122439,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 213,
+            "price": 518.52,
+            "value": 110445,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 107,
+            "price": 519.72,
+            "value": 55610,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 236,
+            "price": 524.19,
+            "value": 123709,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 394,
+            "price": 525.36,
+            "value": 206992,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 224,
+            "price": 526.72,
+            "value": 117985,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 602,
+            "price": 527.63,
+            "value": 317633,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1193,
+            "price": 529.05,
+            "value": 631157,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 2227,
+            "price": 529.92,
+            "value": 1180132,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 3184,
+            "price": 530.84,
+            "value": 1690195,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 2766,
+            "price": 531.97,
+            "value": 1471429,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1649,
+            "price": 532.89,
+            "value": 878736,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 931,
+            "price": 534.06,
+            "value": 497210,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1116,
+            "price": 534.92,
+            "value": 596971,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1075,
+            "price": 536.08,
+            "value": 576286,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 745,
+            "price": 537.21,
+            "value": 400221,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1632,
+            "price": 538.45,
+            "value": 878750,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 3538,
+            "price": 539.28,
+            "value": 1907973,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 2870,
+            "price": 540.3,
+            "value": 1550661,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 7854,
+            "price": 541.44,
+            "value": 4252470,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 4026,
+            "price": 542.24,
+            "value": 2183058,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1439,
+            "price": 543.22,
+            "value": 781694,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 672,
+            "price": 544.58,
+            "value": 365958,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 109,
+            "price": 545.39,
+            "value": 59448,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 120,
+            "price": 511.64,
+            "value": 61397,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 80,
+            "price": 514.32,
+            "value": 41146,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 80,
+            "price": 516.17,
+            "value": 41294,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 120,
+            "price": 517.31,
+            "value": 62077,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 40,
+            "price": 518.82,
+            "value": 20753,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 80,
+            "price": 521.64,
+            "value": 41731,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 120,
+            "price": 524.96,
+            "value": 62995,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 120,
+            "price": 526.13,
+            "value": 63136,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 160,
+            "price": 527.51,
+            "value": 84402,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 200,
+            "price": 528.42,
+            "value": 105684,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 581,
+            "price": 529.54,
+            "value": 307663,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 560,
+            "price": 530.65,
+            "value": 297164,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 720,
+            "price": 531.52,
+            "value": 382694,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 583,
+            "price": 532.46,
+            "value": 310424,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 206,
+            "price": 533.41,
+            "value": 109882,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 240,
+            "price": 534.53,
+            "value": 128287,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 280,
+            "price": 535.57,
+            "value": 149960,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 280,
+            "price": 536.91,
+            "value": 150335,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 280,
+            "price": 538.6,
+            "value": 150808,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 680,
+            "price": 539.49,
+            "value": 366853,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 560,
+            "price": 540.57,
+            "value": 302719,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 758,
+            "price": 541.68,
+            "value": 410593,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 313,
+            "price": 542.73,
+            "value": 169874,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 320,
+            "price": 543.65,
+            "value": 173968,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-05-01",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 120,
+            "price": 544.73,
+            "value": 65368,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/xslF345X06/primarydocument.xml"
+          },
           {
             "date": "2026-04-14",
             "name": "CORDANO MICHAEL D",
@@ -87,41 +555,14 @@
             "price": 348.46,
             "value": 8711500,
             "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000002/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-02-02",
-            "name": "Sadana Sumit",
-            "role": "EVP and Chief Business Officer",
-            "shares": 17450,
-            "price": 429.43,
-            "value": 7493554,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000131107926000001/xslF345X05/primarydocument.xml"
-          },
-          {
-            "date": "2026-02-02",
-            "name": "Sadana Sumit",
-            "role": "EVP and Chief Business Officer",
-            "shares": 7500,
-            "price": 430.95,
-            "value": 3232125,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000131107926000001/xslF345X05/primarydocument.xml"
-          },
-          {
-            "date": "2026-02-02",
-            "name": "Sadana Sumit",
-            "role": "EVP and Chief Business Officer",
-            "shares": 50,
-            "price": 431.76,
-            "value": 21588,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000131107926000001/xslF345X05/primarydocument.xml"
           }
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 10,
-        "sale_value": 37671174,
+        "sale_count": 59,
+        "sale_value": 52435671,
         "unique_purchasers": 0,
-        "unique_sellers": 3
+        "unique_sellers": 5
       },
       "recent_filings": [
         {
@@ -170,7 +611,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 82"
+            "source": "Wilder RSI 83"
           },
           {
             "label": "MACD bullish",
@@ -180,7 +621,7 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-1.8% off high"
+            "source": "-0.2% off high"
           },
           {
             "label": "Volume confirms",
@@ -188,28 +629,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-05",
-        "last_close": 640.2
+        "as_of": "2026-05-06",
+        "last_close": 666.59
       },
       "long_term": {
-        "last": 640.2,
-        "ytd_return": 102.97,
-        "cagr_1y": 697.2,
-        "cagr_3y": 119.53,
-        "cagr_5y": 49.87,
-        "ma200": 281.96,
-        "ma50": 433.02,
-        "ma200_dist": 127.05,
+        "last": 666.59,
+        "ytd_return": 111.33,
+        "cagr_1y": 729.16,
+        "cagr_3y": 122.35,
+        "cagr_5y": 50.67,
+        "ma200": 284.73,
+        "ma50": 437.99,
+        "ma200_dist": 134.11,
         "in_uptrend": true,
-        "high_52w": 640.2,
-        "low_52w": 80.42,
+        "high_52w": 666.59,
+        "low_52w": 80.51,
         "drawdown": 0.0,
         "range_pos": 100.0,
-        "rsi": 81.7,
+        "rsi": 83.5,
         "dca_score": 0,
         "dca_rating": "PREMIUM",
         "dca_rating_class": "negative",
-        "as_of": "2026-05-05"
+        "as_of": "2026-05-06"
       }
     },
     "AVGO": {
@@ -1140,7 +1581,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 69"
+            "source": "Wilder RSI 68"
           },
           {
             "label": "MACD bullish",
@@ -1150,7 +1591,7 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-1.4% off high"
+            "source": "-2.8% off high"
           },
           {
             "label": "Volume confirms",
@@ -1158,28 +1599,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-05",
-        "last_close": 427.36
+        "as_of": "2026-05-06",
+        "last_close": 425.44
       },
       "long_term": {
-        "last": 427.36,
-        "ytd_return": 22.94,
-        "cagr_1y": 113.02,
-        "cagr_3y": 89.7,
-        "cagr_5y": 57.01,
-        "ma200": 341.46,
-        "ma50": 353.09,
-        "ma200_dist": 25.16,
+        "last": 425.44,
+        "ytd_return": 22.39,
+        "cagr_1y": 112.73,
+        "cagr_3y": 89.3,
+        "cagr_5y": 56.59,
+        "ma200": 342.14,
+        "ma50": 355.09,
+        "ma200_dist": 24.35,
         "in_uptrend": true,
         "high_52w": 427.36,
         "low_52w": 200.09,
-        "drawdown": 0.0,
-        "range_pos": 100.0,
-        "rsi": 69.3,
+        "drawdown": -0.45,
+        "range_pos": 99.2,
+        "rsi": 68.0,
         "dca_score": 0,
         "dca_rating": "PREMIUM",
         "dca_rating_class": "negative",
-        "as_of": "2026-05-05"
+        "as_of": "2026-05-06"
       }
     },
     "PLTR": {
@@ -1673,68 +2114,14 @@
             "price": 135.67,
             "value": 1166248,
             "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
-          },
-          {
-            "date": "2026-02-02",
-            "name": "Stat Lauren Elaina Friedman",
-            "role": "Director",
-            "shares": 400,
-            "price": 151.14,
-            "value": 60456,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000184024426000005/xslF345X05/wk-form4_1770254739.xml"
-          },
-          {
-            "date": "2026-02-02",
-            "name": "Moore Alexander D.",
-            "role": "Director",
-            "shares": 720,
-            "price": 147.45,
-            "value": 106166,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000005/xslF345X05/wk-form4_1770254378.xml"
-          },
-          {
-            "date": "2026-02-02",
-            "name": "Moore Alexander D.",
-            "role": "Director",
-            "shares": 2525,
-            "price": 148.3,
-            "value": 374468,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000005/xslF345X05/wk-form4_1770254378.xml"
-          },
-          {
-            "date": "2026-02-02",
-            "name": "Moore Alexander D.",
-            "role": "Director",
-            "shares": 6310,
-            "price": 149.34,
-            "value": 942334,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000005/xslF345X05/wk-form4_1770254378.xml"
-          },
-          {
-            "date": "2026-02-02",
-            "name": "Moore Alexander D.",
-            "role": "Director",
-            "shares": 9212,
-            "price": 150.23,
-            "value": 1383933,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000005/xslF345X05/wk-form4_1770254378.xml"
-          },
-          {
-            "date": "2026-02-02",
-            "name": "Moore Alexander D.",
-            "role": "Director",
-            "shares": 1233,
-            "price": 150.92,
-            "value": 186084,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000005/xslF345X05/wk-form4_1770254378.xml"
           }
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 60,
-        "sale_value": 435114212,
+        "sale_count": 54,
+        "sale_value": 432060771,
         "unique_purchasers": 0,
-        "unique_sellers": 9
+        "unique_sellers": 8
       },
       "recent_filings": [
         {
@@ -1777,7 +2164,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 43"
+            "source": "Wilder RSI 41"
           },
           {
             "label": "MACD bullish",
@@ -1787,7 +2174,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-13.0% off high"
+            "source": "-12.4% off high"
           },
           {
             "label": "Volume confirms",
@@ -1795,28 +2182,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-05",
-        "last_close": 135.91
+        "as_of": "2026-05-06",
+        "last_close": 133.79
       },
       "long_term": {
-        "last": 135.91,
-        "ytd_return": -19.03,
-        "cagr_1y": 9.82,
-        "cagr_3y": 160.54,
-        "cagr_5y": 46.61,
-        "ma200": 164.17,
-        "ma50": 145.51,
-        "ma200_dist": -17.21,
+        "last": 133.79,
+        "ytd_return": -20.3,
+        "cagr_1y": 22.92,
+        "cagr_3y": 158.95,
+        "cagr_5y": 46.65,
+        "ma200": 164.08,
+        "ma50": 145.6,
+        "ma200_dist": -18.46,
         "in_uptrend": false,
         "high_52w": 207.18,
         "low_52w": 108.86,
-        "drawdown": -34.4,
-        "range_pos": 27.5,
-        "rsi": 42.9,
+        "drawdown": -35.42,
+        "range_pos": 25.4,
+        "rsi": 41.2,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-05-05"
+        "as_of": "2026-05-06"
       }
     },
     "TSLA": {
@@ -2205,12 +2592,12 @@
         }
       ],
       "veteran_signal": {
-        "score": 2,
-        "signal": "watch",
-        "status_text": "\ud83d\udfe1 WATCH",
-        "summary": "Some positives but not enough confirmation. Wait for more conditions to align before committing capital.",
-        "light_class": "yellow",
-        "status_class": "yellow",
+        "score": 1,
+        "signal": "wait",
+        "status_text": "\u26aa WAIT",
+        "summary": "Conditions don't favor a new entry today. Better setups typically appear within days or weeks \u2014 patience pays.",
+        "light_class": "gray",
+        "status_class": "gray",
         "checks": [
           {
             "label": "Above 200-day MA",
@@ -2225,7 +2612,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 55"
+            "source": "Wilder RSI 59"
           },
           {
             "label": "MACD bullish",
@@ -2234,8 +2621,8 @@
           },
           {
             "label": "Buyable pullback",
-            "met": true,
-            "source": "-4.9% off high"
+            "met": false,
+            "source": "-2.6% off high"
           },
           {
             "label": "Volume confirms",
@@ -2243,28 +2630,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-05",
-        "last_close": 389.37
+        "as_of": "2026-05-06",
+        "last_close": 398.73
       },
       "long_term": {
-        "last": 389.37,
-        "ytd_return": -11.12,
-        "cagr_1y": 38.96,
-        "cagr_3y": 31.45,
-        "cagr_5y": 11.98,
-        "ma200": 403.16,
-        "ma50": 383.12,
-        "ma200_dist": -3.42,
+        "last": 398.73,
+        "ytd_return": -8.98,
+        "cagr_1y": 44.85,
+        "cagr_3y": 32.46,
+        "cagr_5y": 12.22,
+        "ma200": 403.51,
+        "ma50": 382.91,
+        "ma200_dist": -1.18,
         "in_uptrend": false,
         "high_52w": 489.88,
         "low_52w": 275.35,
-        "drawdown": -20.52,
-        "range_pos": 53.1,
-        "rsi": 55.0,
+        "drawdown": -18.61,
+        "range_pos": 57.5,
+        "rsi": 59.4,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-05-05"
+        "as_of": "2026-05-06"
       }
     },
     "NVDA": {
@@ -2866,7 +3253,7 @@
         }
       ],
       "veteran_signal": {
-        "score": 3,
+        "score": 4,
         "signal": "buy",
         "status_text": "\ud83d\udfe2 BUY",
         "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
@@ -2886,7 +3273,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 51"
+            "source": "Wilder RSI 61"
           },
           {
             "label": "MACD bullish",
@@ -2896,36 +3283,36 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-9.4% off high"
+            "source": "-4.2% off high"
           },
           {
             "label": "Volume confirms",
-            "met": false,
+            "met": true,
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-05",
-        "last_close": 196.5
+        "as_of": "2026-05-06",
+        "last_close": 207.83
       },
       "long_term": {
-        "last": 196.5,
-        "ytd_return": 4.05,
-        "cagr_1y": 72.71,
-        "cagr_3y": 89.2,
-        "cagr_5y": 68.43,
-        "ma200": 184.1,
-        "ma50": 187.43,
-        "ma200_dist": 6.73,
+        "last": 207.83,
+        "ytd_return": 10.05,
+        "cagr_1y": 83.12,
+        "cagr_3y": 92.67,
+        "cagr_5y": 69.66,
+        "ma200": 184.29,
+        "ma50": 187.73,
+        "ma200_dist": 12.78,
         "in_uptrend": true,
         "high_52w": 216.61,
         "low_52w": 113.54,
-        "drawdown": -9.28,
-        "range_pos": 80.5,
-        "rsi": 50.8,
+        "drawdown": -4.05,
+        "range_pos": 91.5,
+        "rsi": 60.8,
         "dca_score": 0,
         "dca_rating": "PREMIUM",
         "dca_rating_class": "negative",
-        "as_of": "2026-05-05"
+        "as_of": "2026-05-06"
       }
     }
   }
