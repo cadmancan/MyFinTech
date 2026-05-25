@@ -1,16 +1,16 @@
 {
-  "updated_utc": "2026-05-22T22:32:59.586554+00:00",
-  "updated_human": "2026-05-22 22:32 UTC",
+  "updated_utc": "2026-05-25T22:32:37.616378+00:00",
+  "updated_human": "2026-05-25 22:32 UTC",
   "macro": {
     "vix": {
-      "value": 16.7,
-      "previous": 16.76,
-      "change_pct": -0.36
+      "value": 16.59,
+      "previous": 16.7,
+      "change_pct": -0.66
     },
     "ten_year_yield": {
       "value": 4.558,
-      "previous": 4.586,
-      "change_pct": -0.61
+      "previous": 4.558,
+      "change_pct": 0.0
     },
     "sp500": {
       "value": 7473.47,
@@ -1648,6 +1648,285 @@
         "purchases": [],
         "sales": [
           {
+            "date": "2026-05-22",
+            "name": "Buckley Jeffrey",
+            "role": "See Remarks",
+            "shares": 830,
+            "price": 137.41,
+            "value": 114050,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000009/xslF345X06/wk-form4_1779494640.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Buckley Jeffrey",
+            "role": "See Remarks",
+            "shares": 29,
+            "price": 132.95,
+            "value": 3856,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000009/xslF345X06/wk-form4_1779494640.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Buckley Jeffrey",
+            "role": "See Remarks",
+            "shares": 74,
+            "price": 134.2,
+            "value": 9931,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000009/xslF345X06/wk-form4_1779494640.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Buckley Jeffrey",
+            "role": "See Remarks",
+            "shares": 119,
+            "price": 135.09,
+            "value": 16076,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000009/xslF345X06/wk-form4_1779494640.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Buckley Jeffrey",
+            "role": "See Remarks",
+            "shares": 964,
+            "price": 136.08,
+            "value": 131182,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000009/xslF345X06/wk-form4_1779494640.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Buckley Jeffrey",
+            "role": "See Remarks",
+            "shares": 526,
+            "price": 136.61,
+            "value": 71859,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000009/xslF345X06/wk-form4_1779494640.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Glazer David A.",
+            "role": "See Remarks",
+            "shares": 286,
+            "price": 132.95,
+            "value": 38025,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000008/xslF345X06/wk-form4_1779494608.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Glazer David A.",
+            "role": "See Remarks",
+            "shares": 745,
+            "price": 134.2,
+            "value": 99981,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000008/xslF345X06/wk-form4_1779494608.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Glazer David A.",
+            "role": "See Remarks",
+            "shares": 1188,
+            "price": 135.09,
+            "value": 160485,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000008/xslF345X06/wk-form4_1779494608.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Glazer David A.",
+            "role": "See Remarks",
+            "shares": 9647,
+            "price": 136.08,
+            "value": 1312774,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000008/xslF345X06/wk-form4_1779494608.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Glazer David A.",
+            "role": "See Remarks",
+            "shares": 5262,
+            "price": 136.61,
+            "value": 718864,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000008/xslF345X06/wk-form4_1779494608.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Taylor Ryan D.",
+            "role": "See Remarks",
+            "shares": 328,
+            "price": 132.95,
+            "value": 43609,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000009/xslF345X06/wk-form4_1779494578.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Taylor Ryan D.",
+            "role": "See Remarks",
+            "shares": 856,
+            "price": 134.2,
+            "value": 114878,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000009/xslF345X06/wk-form4_1779494578.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Taylor Ryan D.",
+            "role": "See Remarks",
+            "shares": 1364,
+            "price": 135.09,
+            "value": 184261,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000009/xslF345X06/wk-form4_1779494578.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Taylor Ryan D.",
+            "role": "See Remarks",
+            "shares": 11074,
+            "price": 136.08,
+            "value": 1506962,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000009/xslF345X06/wk-form4_1779494578.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Taylor Ryan D.",
+            "role": "See Remarks",
+            "shares": 6040,
+            "price": 136.61,
+            "value": 825150,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000009/xslF345X06/wk-form4_1779494578.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 6635,
+            "price": 132.95,
+            "value": 882142,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000007/xslF345X06/wk-form4_1779494548.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 17310,
+            "price": 134.2,
+            "value": 2323049,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000007/xslF345X06/wk-form4_1779494548.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 27595,
+            "price": 135.09,
+            "value": 3727770,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000007/xslF345X06/wk-form4_1779494548.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 224009,
+            "price": 136.08,
+            "value": 30483391,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000007/xslF345X06/wk-form4_1779494548.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Karp Alexander C.",
+            "role": "See Remarks, Director",
+            "shares": 122195,
+            "price": 136.61,
+            "value": 16693584,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000007/xslF345X06/wk-form4_1779494548.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Sankar Shyam",
+            "role": "See Remarks",
+            "shares": 2761,
+            "price": 132.95,
+            "value": 367083,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000007/xslF345X06/wk-form4_1779494518.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Sankar Shyam",
+            "role": "See Remarks",
+            "shares": 7203,
+            "price": 134.2,
+            "value": 966662,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000007/xslF345X06/wk-form4_1779494518.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Sankar Shyam",
+            "role": "See Remarks",
+            "shares": 11483,
+            "price": 135.09,
+            "value": 1551222,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000007/xslF345X06/wk-form4_1779494518.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Sankar Shyam",
+            "role": "See Remarks",
+            "shares": 93218,
+            "price": 136.08,
+            "value": 12685208,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000007/xslF345X06/wk-form4_1779494518.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Sankar Shyam",
+            "role": "See Remarks",
+            "shares": 50849,
+            "price": 136.61,
+            "value": 6946701,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000007/xslF345X06/wk-form4_1779494518.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Cohen Stephen Andrew",
+            "role": "See Remarks, Director",
+            "shares": 5337,
+            "price": 132.95,
+            "value": 709569,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000007/xslF345X06/wk-form4_1779494451.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Cohen Stephen Andrew",
+            "role": "See Remarks, Director",
+            "shares": 13923,
+            "price": 134.2,
+            "value": 1868504,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000007/xslF345X06/wk-form4_1779494451.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Cohen Stephen Andrew",
+            "role": "See Remarks, Director",
+            "shares": 22196,
+            "price": 135.09,
+            "value": 2998427,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000007/xslF345X06/wk-form4_1779494451.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Cohen Stephen Andrew",
+            "role": "See Remarks, Director",
+            "shares": 180187,
+            "price": 136.08,
+            "value": 24520045,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000007/xslF345X06/wk-form4_1779494451.xml"
+          },
+          {
+            "date": "2026-05-20",
+            "name": "Cohen Stephen Andrew",
+            "role": "See Remarks, Director",
+            "shares": 98291,
+            "price": 136.61,
+            "value": 13427956,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000007/xslF345X06/wk-form4_1779494451.xml"
+          },
+          {
             "date": "2026-05-15",
             "name": "Moore Alexander D.",
             "role": "Director",
@@ -2172,8 +2451,8 @@
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 58,
-        "sale_value": 434205434,
+        "sale_count": 89,
+        "sale_value": 559708690,
         "unique_purchasers": 0,
         "unique_sellers": 8
       },
