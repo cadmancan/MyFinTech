@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-05-25T22:32:37.616378+00:00",
-  "updated_human": "2026-05-25 22:32 UTC",
+  "updated_utc": "2026-05-26T22:46:10.142499+00:00",
+  "updated_human": "2026-05-26 22:46 UTC",
   "macro": {
     "vix": {
-      "value": 16.59,
-      "previous": 16.7,
-      "change_pct": -0.66
+      "value": 17.01,
+      "previous": 16.59,
+      "change_pct": 2.53
     },
     "ten_year_yield": {
-      "value": 4.558,
+      "value": 4.493,
       "previous": 4.558,
-      "change_pct": 0.0
+      "change_pct": -1.43
     },
     "sp500": {
-      "value": 7473.47,
-      "previous": 7445.72,
-      "change_pct": 0.37
+      "value": 7519.12,
+      "previous": 7473.47,
+      "change_pct": 0.61
     }
   },
   "stocks": {
@@ -609,7 +609,7 @@
         }
       ],
       "veteran_signal": {
-        "score": 3,
+        "score": 4,
         "signal": "buy",
         "status_text": "\ud83d\udfe2 BUY",
         "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
@@ -629,46 +629,46 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 65"
+            "source": "Wilder RSI 75"
           },
           {
             "label": "MACD bullish",
-            "met": false,
+            "met": true,
             "source": "Appel"
           },
           {
             "label": "Buyable pullback",
-            "met": true,
-            "source": "-8.3% off high"
+            "met": false,
+            "source": "-2.3% off high"
           },
           {
             "label": "Volume confirms",
-            "met": false,
+            "met": true,
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-22",
-        "last_close": 751.0
+        "as_of": "2026-05-26",
+        "last_close": 895.88
       },
       "long_term": {
-        "last": 751.0,
-        "ytd_return": 138.1,
-        "cagr_1y": 693.07,
-        "cagr_3y": 125.04,
-        "cagr_5y": 55.47,
-        "ma200": 322.56,
-        "ma50": 519.01,
-        "ma200_dist": 132.83,
+        "last": 895.88,
+        "ytd_return": 184.03,
+        "cagr_1y": 836.67,
+        "cagr_3y": 132.73,
+        "cagr_5y": 60.62,
+        "ma200": 326.48,
+        "ma50": 528.4,
+        "ma200_dist": 174.41,
         "in_uptrend": true,
-        "high_52w": 803.63,
+        "high_52w": 895.88,
         "low_52w": 93.37,
-        "drawdown": -6.55,
-        "range_pos": 92.6,
-        "rsi": 65.1,
+        "drawdown": 0.0,
+        "range_pos": 100.0,
+        "rsi": 74.9,
         "dca_score": 0,
         "dca_rating": "PREMIUM",
         "dca_rating_class": "negative",
-        "as_of": "2026-05-22"
+        "as_of": "2026-05-26"
       }
     },
     "AVGO": {
@@ -1579,7 +1579,7 @@
         }
       ],
       "veteran_signal": {
-        "score": 3,
+        "score": 4,
         "signal": "buy",
         "status_text": "\ud83d\udfe2 BUY",
         "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
@@ -1599,7 +1599,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 53"
+            "source": "Wilder RSI 56"
           },
           {
             "label": "MACD bullish",
@@ -1609,36 +1609,36 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-6.4% off high"
+            "source": "-4.6% off high"
           },
           {
             "label": "Volume confirms",
-            "met": false,
+            "met": true,
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-22",
-        "last_close": 414.14
+        "as_of": "2026-05-26",
+        "last_close": 422.01
       },
       "long_term": {
-        "last": 414.14,
-        "ytd_return": 19.14,
-        "cagr_1y": 79.72,
-        "cagr_3y": 82.12,
-        "cagr_5y": 55.33,
-        "ma200": 349.84,
-        "ma50": 377.04,
-        "ma200_dist": 18.38,
+        "last": 422.01,
+        "ytd_return": 21.4,
+        "cagr_1y": 79.44,
+        "cagr_3y": 74.17,
+        "cagr_5y": 55.31,
+        "ma200": 350.44,
+        "ma50": 379.04,
+        "ma200_dist": 20.42,
         "in_uptrend": true,
         "high_52w": 439.79,
         "low_52w": 228.72,
-        "drawdown": -5.83,
-        "range_pos": 87.8,
-        "rsi": 53.1,
+        "drawdown": -4.04,
+        "range_pos": 91.6,
+        "rsi": 56.4,
         "dca_score": 0,
         "dca_rating": "PREMIUM",
         "dca_rating_class": "negative",
-        "as_of": "2026-05-22"
+        "as_of": "2026-05-26"
       }
     },
     "PLTR": {
@@ -2123,336 +2123,12 @@
             "price": 146.8,
             "value": 7543040,
             "url": "https://www.sec.gov/Archives/edgar/data/1321655/000121106026000007/xslF345X05/form4-03042026_090310.xml"
-          },
-          {
-            "date": "2026-02-24",
-            "name": "Buckley Jeffrey",
-            "role": "See Remarks",
-            "shares": 1232,
-            "price": 129.08,
-            "value": 159027,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000006/xslF345X05/wk-form4_1771981971.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Buckley Jeffrey",
-            "role": "See Remarks",
-            "shares": 268,
-            "price": 132.03,
-            "value": 35385,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000006/xslF345X05/wk-form4_1771981971.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Buckley Jeffrey",
-            "role": "See Remarks",
-            "shares": 834,
-            "price": 132.86,
-            "value": 110807,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000006/xslF345X05/wk-form4_1771981971.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Buckley Jeffrey",
-            "role": "See Remarks",
-            "shares": 703,
-            "price": 133.76,
-            "value": 94031,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000006/xslF345X05/wk-form4_1771981971.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Buckley Jeffrey",
-            "role": "See Remarks",
-            "shares": 743,
-            "price": 134.83,
-            "value": 100178,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000006/xslF345X05/wk-form4_1771981971.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Buckley Jeffrey",
-            "role": "See Remarks",
-            "shares": 156,
-            "price": 135.73,
-            "value": 21173,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000006/xslF345X05/wk-form4_1771981971.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Taylor Ryan D.",
-            "role": "See Remarks",
-            "shares": 1978,
-            "price": 132.03,
-            "value": 261164,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000008/xslF345X05/wk-form4_1771981924.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Taylor Ryan D.",
-            "role": "See Remarks",
-            "shares": 6167,
-            "price": 132.86,
-            "value": 819360,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000008/xslF345X05/wk-form4_1771981924.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Taylor Ryan D.",
-            "role": "See Remarks",
-            "shares": 5197,
-            "price": 133.76,
-            "value": 695133,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000008/xslF345X05/wk-form4_1771981924.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Taylor Ryan D.",
-            "role": "See Remarks",
-            "shares": 5495,
-            "price": 134.83,
-            "value": 740889,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000008/xslF345X05/wk-form4_1771981924.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Taylor Ryan D.",
-            "role": "See Remarks",
-            "shares": 1151,
-            "price": 135.73,
-            "value": 156220,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000008/xslF345X05/wk-form4_1771981924.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Glazer David A.",
-            "role": "See Remarks",
-            "shares": 1726,
-            "price": 132.03,
-            "value": 227892,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000007/xslF345X05/wk-form4_1771981859.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Glazer David A.",
-            "role": "See Remarks",
-            "shares": 5380,
-            "price": 132.86,
-            "value": 714798,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000007/xslF345X05/wk-form4_1771981859.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Glazer David A.",
-            "role": "See Remarks",
-            "shares": 4534,
-            "price": 133.76,
-            "value": 606452,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000007/xslF345X05/wk-form4_1771981859.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Glazer David A.",
-            "role": "See Remarks",
-            "shares": 4794,
-            "price": 134.83,
-            "value": 646373,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000007/xslF345X05/wk-form4_1771981859.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Glazer David A.",
-            "role": "See Remarks",
-            "shares": 1004,
-            "price": 135.73,
-            "value": 136268,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000007/xslF345X05/wk-form4_1771981859.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Sankar Shyam",
-            "role": "See Remarks",
-            "shares": 16630,
-            "price": 132.03,
-            "value": 2195735,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000006/xslF345X05/wk-form4_1771981802.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Sankar Shyam",
-            "role": "See Remarks",
-            "shares": 51831,
-            "price": 132.86,
-            "value": 6886370,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000006/xslF345X05/wk-form4_1771981802.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Sankar Shyam",
-            "role": "See Remarks",
-            "shares": 43685,
-            "price": 133.76,
-            "value": 5843153,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000006/xslF345X05/wk-form4_1771981802.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Sankar Shyam",
-            "role": "See Remarks",
-            "shares": 46188,
-            "price": 134.83,
-            "value": 6227510,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000006/xslF345X05/wk-form4_1771981802.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Sankar Shyam",
-            "role": "See Remarks",
-            "shares": 9670,
-            "price": 135.73,
-            "value": 1312463,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000006/xslF345X05/wk-form4_1771981802.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Cohen Stephen Andrew",
-            "role": "See Remarks, Director",
-            "shares": 32376,
-            "price": 132.03,
-            "value": 4274752,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000006/xslF345X05/wk-form4_1771981764.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Cohen Stephen Andrew",
-            "role": "See Remarks, Director",
-            "shares": 100910,
-            "price": 132.86,
-            "value": 13407104,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000006/xslF345X05/wk-form4_1771981764.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Cohen Stephen Andrew",
-            "role": "See Remarks, Director",
-            "shares": 85051,
-            "price": 133.76,
-            "value": 11376124,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000006/xslF345X05/wk-form4_1771981764.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Cohen Stephen Andrew",
-            "role": "See Remarks, Director",
-            "shares": 89924,
-            "price": 134.83,
-            "value": 12124417,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000006/xslF345X05/wk-form4_1771981764.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Cohen Stephen Andrew",
-            "role": "See Remarks, Director",
-            "shares": 18827,
-            "price": 135.73,
-            "value": 2555298,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392026000006/xslF345X05/wk-form4_1771981764.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Karp Alexander C.",
-            "role": "See Remarks, Director",
-            "shares": 39893,
-            "price": 132.03,
-            "value": 5267256,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Karp Alexander C.",
-            "role": "See Remarks, Director",
-            "shares": 124338,
-            "price": 132.86,
-            "value": 16519795,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Karp Alexander C.",
-            "role": "See Remarks, Director",
-            "shares": 104796,
-            "price": 133.76,
-            "value": 14017146,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Karp Alexander C.",
-            "role": "See Remarks, Director",
-            "shares": 110800,
-            "price": 134.83,
-            "value": 14939120,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Karp Alexander C.",
-            "role": "See Remarks, Director",
-            "shares": 23198,
-            "price": 135.73,
-            "value": 3148553,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Karp Alexander C.",
-            "role": "See Remarks, Director",
-            "shares": 6180,
-            "price": 132.01,
-            "value": 815841,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Karp Alexander C.",
-            "role": "See Remarks, Director",
-            "shares": 20259,
-            "price": 132.82,
-            "value": 2690731,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Karp Alexander C.",
-            "role": "See Remarks, Director",
-            "shares": 19309,
-            "price": 133.73,
-            "value": 2582254,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Karp Alexander C.",
-            "role": "See Remarks, Director",
-            "shares": 35656,
-            "price": 134.87,
-            "value": 4809042,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
-          },
-          {
-            "date": "2026-02-20",
-            "name": "Karp Alexander C.",
-            "role": "See Remarks, Director",
-            "shares": 8596,
-            "price": 135.67,
-            "value": 1166248,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395126000006/xslF345X05/wk-form4_1771981719.xml"
           }
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 89,
-        "sale_value": 559708690,
+        "sale_count": 53,
+        "sale_value": 422024628,
         "unique_purchasers": 0,
         "unique_sellers": 8
       },
@@ -2501,7 +2177,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-8.5% off high"
+            "source": "-8.7% off high"
           },
           {
             "label": "Volume confirms",
@@ -2509,28 +2185,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-22",
-        "last_close": 136.88
+        "as_of": "2026-05-26",
+        "last_close": 136.6
       },
       "long_term": {
-        "last": 136.88,
-        "ytd_return": -18.46,
-        "cagr_1y": 11.94,
-        "cagr_3y": 121.36,
-        "cagr_5y": 45.25,
-        "ma200": 162.63,
-        "ma50": 142.64,
-        "ma200_dist": -15.84,
+        "last": 136.6,
+        "ytd_return": -18.62,
+        "cagr_1y": 10.74,
+        "cagr_3y": 110.73,
+        "cagr_5y": 43.22,
+        "ma200": 162.41,
+        "ma50": 142.36,
+        "ma200_dist": -15.89,
         "in_uptrend": false,
         "high_52w": 207.18,
         "low_52w": 119.91,
-        "drawdown": -33.93,
-        "range_pos": 19.4,
-        "rsi": 47.5,
+        "drawdown": -34.07,
+        "range_pos": 19.1,
+        "rsi": 47.1,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-05-22"
+        "as_of": "2026-05-26"
       }
     },
     "TSLA": {
@@ -2948,7 +2624,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 58"
+            "source": "Wilder RSI 61"
           },
           {
             "label": "MACD bullish",
@@ -2958,7 +2634,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-6.0% off high"
+            "source": "-4.4% off high"
           },
           {
             "label": "Volume confirms",
@@ -2966,28 +2642,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-22",
-        "last_close": 426.01
+        "as_of": "2026-05-26",
+        "last_close": 433.59
       },
       "long_term": {
-        "last": 426.01,
-        "ytd_return": -2.75,
-        "cagr_1y": 24.93,
-        "cagr_3y": 31.9,
-        "cagr_5y": 16.1,
-        "ma200": 410.03,
-        "ma50": 388.33,
-        "ma200_dist": 3.9,
+        "last": 433.59,
+        "ytd_return": -1.02,
+        "cagr_1y": 19.56,
+        "cagr_3y": 29.29,
+        "cagr_5y": 15.58,
+        "ma200": 410.58,
+        "ma50": 389.18,
+        "ma200_dist": 5.6,
         "in_uptrend": false,
         "high_52w": 489.88,
         "low_52w": 284.7,
-        "drawdown": -13.04,
-        "range_pos": 68.9,
-        "rsi": 58.3,
-        "dca_score": 2,
-        "dca_rating": "FAIR VALUE",
+        "drawdown": -11.49,
+        "range_pos": 72.6,
+        "rsi": 60.9,
+        "dca_score": 1,
+        "dca_rating": "ELEVATED",
         "dca_rating_class": "warning",
-        "as_of": "2026-05-22"
+        "as_of": "2026-05-26"
       }
     },
     "NVDA": {
@@ -3411,7 +3087,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 54"
+            "source": "Wilder RSI 53"
           },
           {
             "label": "MACD bullish",
@@ -3421,7 +3097,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-9.0% off high"
+            "source": "-9.2% off high"
           },
           {
             "label": "Volume confirms",
@@ -3429,28 +3105,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-05-22",
-        "last_close": 215.33
+        "as_of": "2026-05-26",
+        "last_close": 214.86
       },
       "long_term": {
-        "last": 215.33,
-        "ytd_return": 14.02,
-        "cagr_1y": 62.16,
-        "cagr_3y": 91.53,
-        "cagr_5y": 69.13,
-        "ma200": 187.03,
-        "ma50": 196.81,
-        "ma200_dist": 15.13,
+        "last": 214.86,
+        "ytd_return": 13.77,
+        "cagr_1y": 58.82,
+        "cagr_3y": 75.31,
+        "cagr_5y": 69.27,
+        "ma200": 187.2,
+        "ma50": 197.5,
+        "ma200_dist": 14.77,
         "in_uptrend": true,
         "high_52w": 235.74,
         "low_52w": 131.29,
-        "drawdown": -8.66,
-        "range_pos": 80.5,
-        "rsi": 53.7,
+        "drawdown": -8.86,
+        "range_pos": 80.0,
+        "rsi": 53.3,
         "dca_score": 0,
         "dca_rating": "PREMIUM",
         "dca_rating_class": "negative",
-        "as_of": "2026-05-22"
+        "as_of": "2026-05-26"
       }
     }
   }
