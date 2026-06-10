@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-06-09T22:56:10.832177+00:00",
-  "updated_human": "2026-06-09 22:56 UTC",
+  "updated_utc": "2026-06-10T23:05:49.806197+00:00",
+  "updated_human": "2026-06-10 23:05 UTC",
   "macro": {
     "vix": {
-      "value": 19.87,
+      "value": 22.22,
       "previous": 18.92,
-      "change_pct": 5.02
+      "change_pct": 17.44
     },
     "ten_year_yield": {
-      "value": 4.528,
-      "previous": 4.552,
-      "change_pct": -0.53
+      "value": 4.542,
+      "previous": 4.528,
+      "change_pct": 0.31
     },
     "sp500": {
-      "value": 7386.65,
-      "previous": 7405.73,
-      "change_pct": -0.26
+      "value": 7266.99,
+      "previous": 7386.65,
+      "change_pct": -1.62
     }
   },
   "stocks": {
@@ -939,12 +939,12 @@
         }
       ],
       "veteran_signal": {
-        "score": 3,
-        "signal": "buy",
-        "status_text": "\ud83d\udfe2 BUY",
-        "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
-        "light_class": "green",
-        "status_class": "green",
+        "score": 2,
+        "signal": "watch",
+        "status_text": "\ud83d\udfe1 WATCH",
+        "summary": "Some positives but not enough confirmation. Wait for more conditions to align before committing capital.",
+        "light_class": "yellow",
+        "status_class": "yellow",
         "checks": [
           {
             "label": "Above 200-day MA",
@@ -959,7 +959,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 60"
+            "source": "Wilder RSI 55"
           },
           {
             "label": "MACD bullish",
@@ -968,8 +968,8 @@
           },
           {
             "label": "Buyable pullback",
-            "met": true,
-            "source": "-14.1% off high"
+            "met": false,
+            "source": "-18.1% off high"
           },
           {
             "label": "Volume confirms",
@@ -977,28 +977,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-09",
-        "last_close": 935.89
+        "as_of": "2026-06-10",
+        "last_close": 891.88
       },
       "long_term": {
-        "last": 935.89,
-        "ytd_return": 196.71,
-        "cagr_1y": 744.76,
-        "cagr_3y": 140.83,
-        "cagr_5y": 63.89,
-        "ma200": 369.12,
-        "ma50": 640.81,
-        "ma200_dist": 153.55,
+        "last": 891.88,
+        "ytd_return": 182.76,
+        "cagr_1y": 682.49,
+        "cagr_3y": 136.8,
+        "cagr_5y": 62.3,
+        "ma200": 372.99,
+        "ma50": 652.21,
+        "ma200_dist": 139.12,
         "in_uptrend": true,
         "high_52w": 1079.57,
         "low_52w": 104.88,
-        "drawdown": -13.31,
-        "range_pos": 85.3,
-        "rsi": 59.6,
+        "drawdown": -17.39,
+        "range_pos": 80.7,
+        "rsi": 55.5,
         "dca_score": 1,
         "dca_rating": "ELEVATED",
         "dca_rating_class": "warning",
-        "as_of": "2026-06-09"
+        "as_of": "2026-06-10"
       }
     },
     "AVGO": {
@@ -1900,12 +1900,6 @@
           "type": "8-K",
           "description": "Material event",
           "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526140574/d109450d8k.htm"
-        },
-        {
-          "date": "2026-03-11",
-          "type": "10-Q",
-          "description": "Quarterly report",
-          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm"
         }
       ],
       "veteran_signal": {
@@ -1929,7 +1923,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 42"
+            "source": "Wilder RSI 38"
           },
           {
             "label": "MACD bullish",
@@ -1939,7 +1933,7 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-20.8% off high"
+            "source": "-24.8% off high"
           },
           {
             "label": "Volume confirms",
@@ -1947,28 +1941,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-09",
-        "last_close": 392.16
+        "as_of": "2026-06-10",
+        "last_close": 372.1
       },
       "long_term": {
-        "last": 392.16,
-        "ytd_return": 12.81,
-        "cagr_1y": 60.59,
-        "cagr_3y": 66.34,
-        "cagr_5y": 52.98,
-        "ma200": 356.83,
-        "ma50": 401.98,
-        "ma200_dist": 9.9,
+        "last": 372.1,
+        "ytd_return": 7.04,
+        "cagr_1y": 52.15,
+        "cagr_3y": 63.37,
+        "cagr_5y": 51.25,
+        "ma200": 357.22,
+        "ma50": 403.55,
+        "ma200_dist": 4.16,
         "in_uptrend": true,
         "high_52w": 481.57,
-        "low_52w": 244.28,
-        "drawdown": -18.57,
-        "range_pos": 62.3,
-        "rsi": 42.3,
-        "dca_score": 2,
-        "dca_rating": "FAIR VALUE",
-        "dca_rating_class": "warning",
-        "as_of": "2026-06-09"
+        "low_52w": 244.63,
+        "drawdown": -22.73,
+        "range_pos": 53.8,
+        "rsi": 37.8,
+        "dca_score": 4,
+        "dca_rating": "BARGAIN",
+        "dca_rating_class": "positive",
+        "as_of": "2026-06-10"
       }
     },
     "PLTR": {
@@ -2458,7 +2452,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 42"
+            "source": "Wilder RSI 41"
           },
           {
             "label": "MACD bullish",
@@ -2468,7 +2462,7 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-19.3% off high"
+            "source": "-20.5% off high"
           },
           {
             "label": "Volume confirms",
@@ -2476,28 +2470,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-09",
-        "last_close": 132.07
+        "as_of": "2026-06-10",
+        "last_close": 130.21
       },
       "long_term": {
-        "last": 132.07,
-        "ytd_return": -21.32,
-        "cagr_1y": 0.01,
-        "cagr_3y": 103.96,
-        "cagr_5y": 40.51,
-        "ma200": 160.86,
-        "ma50": 140.46,
-        "ma200_dist": -17.9,
+        "last": 130.21,
+        "ytd_return": -22.43,
+        "cagr_1y": -1.96,
+        "cagr_3y": 102.86,
+        "cagr_5y": 39.51,
+        "ma200": 160.71,
+        "ma50": 140.31,
+        "ma200_dist": -18.98,
         "in_uptrend": false,
         "high_52w": 207.18,
         "low_52w": 128.06,
-        "drawdown": -36.25,
-        "range_pos": 5.1,
-        "rsi": 42.2,
+        "drawdown": -37.15,
+        "range_pos": 2.7,
+        "rsi": 40.8,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-06-09"
+        "as_of": "2026-06-10"
       }
     },
     "TSLA": {
@@ -2506,6 +2500,15 @@
         "lookback_days": 90,
         "purchases": [],
         "sales": [
+          {
+            "date": "2026-06-08",
+            "name": "Taneja Vaibhav",
+            "role": "Chief Financial Officer",
+            "shares": 2605,
+            "price": 402.2,
+            "value": 1047924,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926071970/xslF345X06/tm2617365-1_4seq1.xml"
+          },
           {
             "date": "2026-05-13",
             "name": "Taneja Vaibhav",
@@ -2797,8 +2800,8 @@
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 32,
-        "sale_value": 20609279,
+        "sale_count": 33,
+        "sale_value": 21657203,
         "unique_purchasers": 0,
         "unique_sellers": 2
       },
@@ -2823,7 +2826,7 @@
         }
       ],
       "veteran_signal": {
-        "score": 1,
+        "score": 0,
         "signal": "wait",
         "status_text": "\u26aa WAIT",
         "summary": "Conditions don't favor a new entry today. Better setups typically appear within days or weeks \u2014 patience pays.",
@@ -2843,7 +2846,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 44"
+            "source": "Wilder RSI 39"
           },
           {
             "label": "MACD bullish",
@@ -2852,8 +2855,8 @@
           },
           {
             "label": "Buyable pullback",
-            "met": true,
-            "source": "-12.5% off high"
+            "met": false,
+            "source": "-15.8% off high"
           },
           {
             "label": "Volume confirms",
@@ -2861,28 +2864,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-09",
-        "last_close": 396.68
+        "as_of": "2026-06-10",
+        "last_close": 381.59
       },
       "long_term": {
-        "last": 396.68,
-        "ytd_return": -9.45,
-        "cagr_1y": 28.57,
-        "cagr_3y": 16.71,
-        "cagr_5y": 14.31,
-        "ma200": 414.95,
-        "ma50": 396.72,
-        "ma200_dist": -4.4,
+        "last": 381.59,
+        "ytd_return": -12.89,
+        "cagr_1y": 17.03,
+        "cagr_3y": 15.19,
+        "cagr_5y": 13.43,
+        "ma200": 415.16,
+        "ma50": 397.25,
+        "ma200_dist": -8.09,
         "in_uptrend": false,
         "high_52w": 489.88,
         "low_52w": 293.94,
-        "drawdown": -19.03,
-        "range_pos": 52.4,
-        "rsi": 43.9,
+        "drawdown": -22.11,
+        "range_pos": 44.7,
+        "rsi": 39.4,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-06-09"
+        "as_of": "2026-06-10"
       }
     },
     "NVDA": {
@@ -3259,30 +3262,12 @@
             "price": 184.9,
             "value": 555440,
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000181822426000002/xslF345X05/wk-form4_1773781935.xml"
-          },
-          {
-            "date": "2026-03-10",
-            "name": "Puri Ajay K",
-            "role": "EVP, Worldwide Field Ops",
-            "shares": 275060,
-            "price": 182.47,
-            "value": 50189180,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000134784226000009/xslF345X05/wk-form4_1773267054.xml"
-          },
-          {
-            "date": "2026-03-10",
-            "name": "Puri Ajay K",
-            "role": "EVP, Worldwide Field Ops",
-            "shares": 24940,
-            "price": 183.11,
-            "value": 4566863,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000134784226000009/xslF345X05/wk-form4_1773267054.xml"
           }
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 43,
-        "sale_value": 388327558,
+        "sale_count": 41,
+        "sale_value": 333571515,
         "unique_purchasers": 0,
         "unique_sellers": 7
       },
@@ -3313,12 +3298,12 @@
         }
       ],
       "veteran_signal": {
-        "score": 3,
-        "signal": "buy",
-        "status_text": "\ud83d\udfe2 BUY",
-        "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
-        "light_class": "green",
-        "status_class": "green",
+        "score": 2,
+        "signal": "watch",
+        "status_text": "\ud83d\udfe1 WATCH",
+        "summary": "Some positives but not enough confirmation. Wait for more conditions to align before committing capital.",
+        "light_class": "yellow",
+        "status_class": "yellow",
         "checks": [
           {
             "label": "Above 200-day MA",
@@ -3333,7 +3318,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 46"
+            "source": "Wilder RSI 41"
           },
           {
             "label": "MACD bullish",
@@ -3342,8 +3327,8 @@
           },
           {
             "label": "Buyable pullback",
-            "met": true,
-            "source": "-12.0% off high"
+            "met": false,
+            "source": "-15.3% off high"
           },
           {
             "label": "Volume confirms",
@@ -3351,28 +3336,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-09",
-        "last_close": 208.19
+        "as_of": "2026-06-10",
+        "last_close": 200.42
       },
       "long_term": {
-        "last": 208.19,
-        "ytd_return": 10.24,
-        "cagr_1y": 46.0,
-        "cagr_3y": 74.3,
-        "cagr_5y": 64.29,
-        "ma200": 188.91,
-        "ma50": 205.01,
-        "ma200_dist": 10.21,
+        "last": 200.42,
+        "ytd_return": 6.13,
+        "cagr_1y": 39.25,
+        "cagr_3y": 72.01,
+        "cagr_5y": 62.3,
+        "ma200": 189.02,
+        "ma50": 205.71,
+        "ma200_dist": 6.03,
         "in_uptrend": true,
         "high_52w": 235.74,
         "low_52w": 141.97,
-        "drawdown": -11.69,
-        "range_pos": 70.6,
-        "rsi": 46.4,
+        "drawdown": -14.98,
+        "range_pos": 62.3,
+        "rsi": 41.1,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-06-09"
+        "as_of": "2026-06-10"
       }
     }
   }
