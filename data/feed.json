@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-06-16T23:00:20.106123+00:00",
-  "updated_human": "2026-06-16 23:00 UTC",
+  "updated_utc": "2026-06-17T22:55:44.936036+00:00",
+  "updated_human": "2026-06-17 22:55 UTC",
   "macro": {
     "vix": {
-      "value": 16.41,
-      "previous": 16.2,
-      "change_pct": 1.3
+      "value": 18.44,
+      "previous": 16.41,
+      "change_pct": 12.37
     },
     "ten_year_yield": {
-      "value": 4.428,
-      "previous": 4.469,
-      "change_pct": -0.92
+      "value": 4.463,
+      "previous": 4.428,
+      "change_pct": 0.79
     },
     "sp500": {
-      "value": 7511.35,
-      "previous": 7554.29,
-      "change_pct": -0.57
+      "value": 7420.1,
+      "previous": 7511.35,
+      "change_pct": -1.21
     }
   },
   "stocks": {
@@ -930,12 +930,6 @@
           "type": "10-Q",
           "description": "Quarterly report",
           "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000006/mu-20260226.htm"
-        },
-        {
-          "date": "2026-03-18",
-          "type": "8-K",
-          "description": "Material event",
-          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000004/mu-20260318.htm"
         }
       ],
       "veteran_signal": {
@@ -959,7 +953,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 60"
+            "source": "Wilder RSI 62"
           },
           {
             "label": "MACD bullish",
@@ -969,7 +963,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-8.1% off high"
+            "source": "-6.1% off high"
           },
           {
             "label": "Volume confirms",
@@ -977,28 +971,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-16",
-        "last_close": 1020.76
+        "as_of": "2026-06-17",
+        "last_close": 1043.19
       },
       "long_term": {
-        "last": 1020.76,
-        "ytd_return": 223.62,
-        "cagr_1y": 753.02,
-        "cagr_3y": 148.8,
-        "cagr_5y": 66.2,
-        "ma200": 391.05,
-        "ma50": 704.94,
-        "ma200_dist": 161.03,
+        "last": 1043.19,
+        "ytd_return": 230.73,
+        "cagr_1y": 768.15,
+        "cagr_3y": 150.41,
+        "cagr_5y": 68.49,
+        "ma200": 395.67,
+        "ma50": 718.25,
+        "ma200_dist": 163.65,
         "in_uptrend": true,
         "high_52w": 1087.99,
         "low_52w": 104.88,
-        "drawdown": -6.18,
-        "range_pos": 93.2,
-        "rsi": 60.5,
+        "drawdown": -4.12,
+        "range_pos": 95.4,
+        "rsi": 61.7,
         "dca_score": 0,
         "dca_rating": "PREMIUM",
         "dca_rating_class": "negative",
-        "as_of": "2026-06-16"
+        "as_of": "2026-06-17"
       }
     },
     "AVGO": {
@@ -1214,671 +1208,14 @@
             "price": 323.9,
             "value": 1863397,
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 3132,
-            "price": 317.95,
-            "value": 995807,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 3839,
-            "price": 318.74,
-            "value": 1223643,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 6405,
-            "price": 319.97,
-            "value": 2049421,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 5796,
-            "price": 320.82,
-            "value": 1859461,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 5423,
-            "price": 321.89,
-            "value": 1745637,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 5632,
-            "price": 322.86,
-            "value": 1818319,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 2543,
-            "price": 323.82,
-            "value": 823484,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 3317,
-            "price": 324.84,
-            "value": 1077504,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 2266,
-            "price": 325.93,
-            "value": 738557,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 488,
-            "price": 326.72,
-            "value": 159438,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 3715,
-            "price": 318.05,
-            "value": 1181556,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 3290,
-            "price": 318.9,
-            "value": 1049191,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 6604,
-            "price": 320.09,
-            "value": 2113901,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 4890,
-            "price": 320.99,
-            "value": 1569617,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 5289,
-            "price": 322.03,
-            "value": 1703238,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 5255,
-            "price": 323.01,
-            "value": 1697433,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 2058,
-            "price": 324.12,
-            "value": 667045,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 3032,
-            "price": 324.98,
-            "value": 985339,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 1679,
-            "price": 326.04,
-            "value": 547416,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 480,
-            "price": 326.74,
-            "value": 156836,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 3310,
-            "price": 317.97,
-            "value": 1052487,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 3716,
-            "price": 318.76,
-            "value": 1184501,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 6319,
-            "price": 319.97,
-            "value": 2021890,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 6100,
-            "price": 320.83,
-            "value": 1957039,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 5467,
-            "price": 321.93,
-            "value": 1759986,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 5581,
-            "price": 322.87,
-            "value": 1801943,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 2417,
-            "price": 323.84,
-            "value": 782716,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 3472,
-            "price": 324.84,
-            "value": 1127848,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 2003,
-            "price": 325.91,
-            "value": 652790,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 731,
-            "price": 326.61,
-            "value": 238753,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 4283,
-            "price": 317.97,
-            "value": 1361866,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 4757,
-            "price": 318.76,
-            "value": 1516351,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 8185,
-            "price": 319.96,
-            "value": 2618840,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 7671,
-            "price": 320.8,
-            "value": 2460857,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 6894,
-            "price": 321.89,
-            "value": 2219130,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 7289,
-            "price": 322.82,
-            "value": 2353013,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 3350,
-            "price": 323.78,
-            "value": 1084653,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 4424,
-            "price": 324.82,
-            "value": 1436990,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 2781,
-            "price": 325.89,
-            "value": 906311,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 854,
-            "price": 326.67,
-            "value": 278979,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 360,
-            "price": 322.1,
-            "value": 115957,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 1758,
-            "price": 323.13,
-            "value": 568061,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 3574,
-            "price": 324.2,
-            "value": 1158677,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 4795,
-            "price": 325.01,
-            "value": 1558413,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 4134,
-            "price": 326.1,
-            "value": 1348081,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 4069,
-            "price": 327.13,
-            "value": 1331088,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 6040,
-            "price": 328.13,
-            "value": 1981911,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Velaga S. Ram",
-            "role": "President, ISG",
-            "shares": 808,
-            "price": 328.77,
-            "value": 265643,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000210355326000004/xslF345X06/wk-form4_1773881363.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 120,
-            "price": 321.46,
-            "value": 38576,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 1170,
-            "price": 322.83,
-            "value": 377711,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 2394,
-            "price": 323.79,
-            "value": 775158,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 5163,
-            "price": 324.74,
-            "value": 1676612,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 3776,
-            "price": 325.84,
-            "value": 1230379,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 3305,
-            "price": 326.79,
-            "value": 1080028,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 5147,
-            "price": 327.78,
-            "value": 1687084,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Spears Kirsten M.",
-            "role": "CFO & Chief Accounting Officer",
-            "shares": 2787,
-            "price": 328.52,
-            "value": 915596,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000022/xslF345X06/wk-form4_1773880935.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 120,
-            "price": 321.29,
-            "value": 38555,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 1691,
-            "price": 323.02,
-            "value": 546223,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 3402,
-            "price": 324.09,
-            "value": 1102547,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 4912,
-            "price": 324.9,
-            "value": 1595899,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 4191,
-            "price": 326.0,
-            "value": 1366262,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 4214,
-            "price": 327.05,
-            "value": 1378189,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 5508,
-            "price": 328.04,
-            "value": 1806839,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Kawwas Charlie B",
-            "role": "President, SSG",
-            "shares": 1680,
-            "price": 328.69,
-            "value": 552208,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000020/xslF345X06/wk-form4_1773880504.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 80,
-            "price": 320.83,
-            "value": 25666,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 240,
-            "price": 322.12,
-            "value": 77309,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 2707,
-            "price": 323.16,
-            "value": 874786,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 4383,
-            "price": 324.24,
-            "value": 1421148,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 6007,
-            "price": 324.98,
-            "value": 1952161,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 5633,
-            "price": 326.1,
-            "value": 1836904,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 5398,
-            "price": 327.16,
-            "value": 1766020,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 7986,
-            "price": 328.17,
-            "value": 2620790,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 760,
-            "price": 328.84,
-            "value": 249919,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000018/xslF345X06/wk-form4_1773880145.xml"
           }
         ],
         "purchase_count": 1,
         "purchase_value": 373570,
-        "sale_count": 95,
-        "sale_value": 356425614,
+        "sale_count": 22,
+        "sale_value": 268125428,
         "unique_purchasers": 1,
-        "unique_sellers": 7
+        "unique_sellers": 5
       },
       "recent_filings": [
         {
@@ -1939,7 +1276,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 41"
+            "source": "Wilder RSI 46"
           },
           {
             "label": "MACD bullish",
@@ -1949,7 +1286,7 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-23.9% off high"
+            "source": "-20.6% off high"
           },
           {
             "label": "Volume confirms",
@@ -1957,28 +1294,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-16",
-        "last_close": 376.71
+        "as_of": "2026-06-17",
+        "last_close": 392.9
       },
       "long_term": {
-        "last": 376.71,
-        "ytd_return": 8.37,
-        "cagr_1y": 49.47,
-        "cagr_3y": 63.39,
-        "cagr_5y": 51.6,
-        "ma200": 358.91,
-        "ma50": 409.28,
-        "ma200_dist": 4.96,
+        "last": 392.9,
+        "ytd_return": 13.03,
+        "cagr_1y": 57.61,
+        "cagr_3y": 65.63,
+        "cagr_5y": 53.38,
+        "ma200": 359.39,
+        "ma50": 410.46,
+        "ma200_dist": 9.32,
         "in_uptrend": true,
         "high_52w": 481.57,
         "low_52w": 249.37,
-        "drawdown": -21.77,
-        "range_pos": 54.8,
-        "rsi": 41.0,
-        "dca_score": 4,
-        "dca_rating": "BARGAIN",
-        "dca_rating_class": "positive",
-        "as_of": "2026-06-16"
+        "drawdown": -18.41,
+        "range_pos": 61.8,
+        "rsi": 46.1,
+        "dca_score": 2,
+        "dca_rating": "FAIR VALUE",
+        "dca_rating_class": "warning",
+        "as_of": "2026-06-17"
       }
     },
     "PLTR": {
@@ -2400,39 +1737,12 @@
             "price": 142.41,
             "value": 30761,
             "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000010/xslF345X06/wk-form4_1776470782.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Moore Alexander D.",
-            "role": "Director",
-            "shares": 7045,
-            "price": 151.99,
-            "value": 1070794,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000009/xslF345X06/wk-form4_1773878819.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Moore Alexander D.",
-            "role": "Director",
-            "shares": 8655,
-            "price": 152.72,
-            "value": 1321775,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000009/xslF345X06/wk-form4_1773878819.xml"
-          },
-          {
-            "date": "2026-03-16",
-            "name": "Moore Alexander D.",
-            "role": "Director",
-            "shares": 300,
-            "price": 153.51,
-            "value": 46054,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000009/xslF345X06/wk-form4_1773878819.xml"
           }
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 49,
-        "sale_value": 133013605,
+        "sale_count": 46,
+        "sale_value": 130574982,
         "unique_purchasers": 0,
         "unique_sellers": 8
       },
@@ -2477,7 +1787,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 45"
+            "source": "Wilder RSI 43"
           },
           {
             "label": "MACD bullish",
@@ -2487,7 +1797,7 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-18.6% off high"
+            "source": "-20.2% off high"
           },
           {
             "label": "Volume confirms",
@@ -2495,28 +1805,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-16",
-        "last_close": 133.25
+        "as_of": "2026-06-17",
+        "last_close": 130.63
       },
       "long_term": {
-        "last": 133.25,
-        "ytd_return": -20.62,
-        "cagr_1y": -5.77,
-        "cagr_3y": 104.09,
-        "cagr_5y": 39.28,
-        "ma200": 160.18,
-        "ma50": 139.07,
-        "ma200_dist": -16.81,
+        "last": 130.63,
+        "ytd_return": -22.18,
+        "cagr_1y": -5.48,
+        "cagr_3y": 102.61,
+        "cagr_5y": 38.82,
+        "ma200": 160.05,
+        "ma50": 138.68,
+        "ma200_dist": -18.38,
         "in_uptrend": false,
         "high_52w": 207.18,
         "low_52w": 127.99,
-        "drawdown": -35.68,
-        "range_pos": 6.6,
-        "rsi": 45.4,
+        "drawdown": -36.95,
+        "range_pos": 3.3,
+        "rsi": 43.1,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-06-16"
+        "as_of": "2026-06-17"
       }
     },
     "TSLA": {
@@ -2871,7 +2181,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 48"
+            "source": "Wilder RSI 45"
           },
           {
             "label": "MACD bullish",
@@ -2881,7 +2191,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-9.2% off high"
+            "source": "-11.0% off high"
           },
           {
             "label": "Volume confirms",
@@ -2889,28 +2199,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-16",
-        "last_close": 404.66
+        "as_of": "2026-06-17",
+        "last_close": 396.38
       },
       "long_term": {
-        "last": 404.66,
-        "ytd_return": -7.63,
-        "cagr_1y": 22.97,
-        "cagr_3y": 13.87,
-        "cagr_5y": 14.52,
-        "ma200": 416.3,
-        "ma50": 400.35,
-        "ma200_dist": -2.8,
+        "last": 396.38,
+        "ytd_return": -9.52,
+        "cagr_1y": 25.32,
+        "cagr_3y": 13.07,
+        "cagr_5y": 13.8,
+        "ma200": 416.61,
+        "ma50": 401.34,
+        "ma200_dist": -4.86,
         "in_uptrend": false,
         "high_52w": 489.88,
         "low_52w": 293.94,
-        "drawdown": -17.4,
-        "range_pos": 56.5,
-        "rsi": 48.2,
+        "drawdown": -19.09,
+        "range_pos": 52.3,
+        "rsi": 45.3,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-06-16"
+        "as_of": "2026-06-17"
       }
     },
     "NVDA": {
@@ -3334,7 +2644,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 47"
+            "source": "Wilder RSI 45"
           },
           {
             "label": "MACD bullish",
@@ -3344,7 +2654,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-10.7% off high"
+            "source": "-11.9% off high"
           },
           {
             "label": "Volume confirms",
@@ -3352,28 +2662,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-16",
-        "last_close": 207.41
+        "as_of": "2026-06-17",
+        "last_close": 204.65
       },
       "long_term": {
-        "last": 207.41,
-        "ytd_return": 9.83,
-        "cagr_1y": 43.38,
-        "cagr_3y": 68.22,
-        "cagr_5y": 61.93,
-        "ma200": 189.55,
-        "ma50": 208.21,
-        "ma200_dist": 9.42,
+        "last": 204.65,
+        "ytd_return": 8.37,
+        "cagr_1y": 42.03,
+        "cagr_3y": 67.38,
+        "cagr_5y": 61.53,
+        "ma200": 189.7,
+        "ma50": 208.74,
+        "ma200_dist": 7.88,
         "in_uptrend": true,
         "high_52w": 235.74,
         "low_52w": 143.85,
-        "drawdown": -12.02,
-        "range_pos": 69.2,
-        "rsi": 47.4,
+        "drawdown": -13.19,
+        "range_pos": 66.2,
+        "rsi": 45.3,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-06-16"
+        "as_of": "2026-06-17"
       }
     }
   }
