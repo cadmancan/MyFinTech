@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-06-25T22:54:11.220080+00:00",
-  "updated_human": "2026-06-25 22:54 UTC",
+  "updated_utc": "2026-06-26T22:42:22.560223+00:00",
+  "updated_human": "2026-06-26 22:42 UTC",
   "macro": {
     "vix": {
-      "value": 18.89,
-      "previous": 19.49,
-      "change_pct": -3.08
+      "value": 18.41,
+      "previous": 18.63,
+      "change_pct": -1.18
     },
     "ten_year_yield": {
-      "value": 4.392,
-      "previous": 4.402,
-      "change_pct": -0.23
+      "value": 4.372,
+      "previous": 4.392,
+      "change_pct": -0.46
     },
     "sp500": {
-      "value": 7357.49,
-      "previous": 7358.22,
-      "change_pct": -0.01
+      "value": 7354.02,
+      "previous": 7357.49,
+      "change_pct": -0.05
     }
   },
   "stocks": {
@@ -933,12 +933,12 @@
         }
       ],
       "veteran_signal": {
-        "score": 5,
-        "signal": "strong-buy",
-        "status_text": "\ud83d\udfe2 STRONG BUY",
-        "summary": "Multiple veteran indicators align \u2014 the kind of setup professionals look for. Still verify earnings calendar and your own thesis.",
-        "light_class": "bright-green",
-        "status_class": "bright-green",
+        "score": 3,
+        "signal": "buy",
+        "status_text": "\ud83d\udfe2 BUY",
+        "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
+        "light_class": "green",
+        "status_class": "green",
         "checks": [
           {
             "label": "Above 200-day MA",
@@ -953,46 +953,46 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 65"
+            "source": "Wilder RSI 59"
           },
           {
             "label": "MACD bullish",
-            "met": true,
+            "met": false,
             "source": "Appel"
           },
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-3.3% off high"
+            "source": "-9.8% off high"
           },
           {
             "label": "Volume confirms",
-            "met": true,
+            "met": false,
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-25",
-        "last_close": 1213.56
+        "as_of": "2026-06-26",
+        "last_close": 1132.33
       },
       "long_term": {
-        "last": 1213.56,
-        "ytd_return": 284.74,
-        "cagr_1y": 855.16,
-        "cagr_3y": 164.85,
-        "cagr_5y": 71.01,
-        "ma200": 420.85,
-        "ma50": 788.62,
-        "ma200_dist": 188.36,
+        "last": 1132.33,
+        "ytd_return": 258.99,
+        "cagr_1y": 800.03,
+        "cagr_3y": 157.06,
+        "cagr_5y": 68.6,
+        "ma200": 425.84,
+        "ma50": 802.14,
+        "ma200_dist": 165.91,
         "in_uptrend": true,
         "high_52w": 1213.56,
         "low_52w": 104.88,
-        "drawdown": 0.0,
-        "range_pos": 100.0,
-        "rsi": 64.5,
+        "drawdown": -6.69,
+        "range_pos": 92.7,
+        "rsi": 59.0,
         "dca_score": 0,
         "dca_rating": "PREMIUM",
         "dca_rating_class": "negative",
-        "as_of": "2026-06-25"
+        "as_of": "2026-06-26"
       }
     },
     "AVGO": {
@@ -1011,6 +1011,204 @@
           }
         ],
         "sales": [
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 23253,
+            "price": 377.61,
+            "value": 8780565,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 33346,
+            "price": 378.51,
+            "value": 12621794,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 30911,
+            "price": 379.76,
+            "value": 11738761,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 48996,
+            "price": 380.57,
+            "value": 18646408,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 36661,
+            "price": 381.68,
+            "value": 13992770,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 26889,
+            "price": 382.63,
+            "value": 10288538,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 36188,
+            "price": 383.69,
+            "value": 13884974,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 43302,
+            "price": 384.58,
+            "value": 16653083,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 53722,
+            "price": 385.57,
+            "value": 20713592,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 6280,
+            "price": 386.39,
+            "value": 2426529,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 660,
+            "price": 388.01,
+            "value": 256087,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 21603,
+            "price": 377.64,
+            "value": 8158157,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 30456,
+            "price": 378.5,
+            "value": 11527596,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 24073,
+            "price": 379.69,
+            "value": 9140277,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 49805,
+            "price": 380.57,
+            "value": 18954289,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 34517,
+            "price": 381.67,
+            "value": 13174103,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 25134,
+            "price": 382.62,
+            "value": 9616771,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 32950,
+            "price": 383.69,
+            "value": 12642586,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 41290,
+            "price": 384.63,
+            "value": 15881373,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 47510,
+            "price": 385.61,
+            "value": 18320331,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 6478,
+            "price": 386.39,
+            "value": 2503034,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
+          {
+            "date": "2026-06-24",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 217,
+            "price": 388.17,
+            "value": 84233,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
+          },
           {
             "date": "2026-06-17",
             "name": "Brazeal Mark David",
@@ -1298,156 +1496,12 @@
             "price": 345.23,
             "value": 3452270,
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000024/xslF345X06/wk-form4_1775860497.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 34308,
-            "price": 317.3,
-            "value": 10885928,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 44227,
-            "price": 318.39,
-            "value": 14081435,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 60049,
-            "price": 319.36,
-            "value": 19177249,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 48635,
-            "price": 320.31,
-            "value": 15578277,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 36183,
-            "price": 321.22,
-            "value": 11622703,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 17083,
-            "price": 322.23,
-            "value": 5504655,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 7328,
-            "price": 323.17,
-            "value": 2368190,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 2413,
-            "price": 323.92,
-            "value": 781619,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 69058,
-            "price": 317.27,
-            "value": 21910032,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 92385,
-            "price": 318.33,
-            "value": 29408917,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 125292,
-            "price": 319.31,
-            "value": 40006989,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 107742,
-            "price": 320.26,
-            "value": 34505453,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 75809,
-            "price": 321.16,
-            "value": 24346818,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 43188,
-            "price": 322.19,
-            "value": 13914742,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 12514,
-            "price": 323.15,
-            "value": 4043899,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-25",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 5753,
-            "price": 323.9,
-            "value": 1863397,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926036164/xslF345X06/tm269946-1_4seq1.xml"
           }
         ],
         "purchase_count": 1,
         "purchase_value": 373570,
-        "sale_count": 48,
-        "sale_value": 271301347,
+        "sale_count": 54,
+        "sale_value": 271306895,
         "unique_purchasers": 1,
         "unique_sellers": 6
       },
@@ -1516,7 +1570,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 43"
+            "source": "Wilder RSI 40"
           },
           {
             "label": "MACD bullish",
@@ -1526,7 +1580,7 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-23.5% off high"
+            "source": "-26.3% off high"
           },
           {
             "label": "Volume confirms",
@@ -1534,28 +1588,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-25",
-        "last_close": 378.91
+        "as_of": "2026-06-26",
+        "last_close": 365.02
       },
       "long_term": {
-        "last": 378.91,
-        "ytd_return": 9.0,
-        "cagr_1y": 43.21,
-        "cagr_3y": 66.51,
-        "cagr_5y": 51.74,
-        "ma200": 361.17,
-        "ma50": 412.6,
-        "ma200_dist": 4.91,
+        "last": 365.02,
+        "ytd_return": 5.01,
+        "cagr_1y": 35.14,
+        "cagr_3y": 62.7,
+        "cagr_5y": 50.57,
+        "ma200": 361.32,
+        "ma50": 411.97,
+        "ma200_dist": 1.03,
         "in_uptrend": true,
         "high_52w": 481.57,
-        "low_52w": 264.65,
-        "drawdown": -21.32,
-        "range_pos": 52.7,
-        "rsi": 43.3,
+        "low_52w": 264.74,
+        "drawdown": -24.2,
+        "range_pos": 46.2,
+        "rsi": 39.8,
         "dca_score": 4,
         "dca_rating": "BARGAIN",
         "dca_rating_class": "positive",
-        "as_of": "2026-06-25"
+        "as_of": "2026-06-26"
       }
     },
     "PLTR": {
@@ -2052,12 +2106,12 @@
         }
       ],
       "veteran_signal": {
-        "score": 0,
-        "signal": "wait",
-        "status_text": "\u26aa WAIT",
-        "summary": "Conditions don't favor a new entry today. Better setups typically appear within days or weeks \u2014 patience pays.",
-        "light_class": "gray",
-        "status_class": "gray",
+        "score": 2,
+        "signal": "watch",
+        "status_text": "\ud83d\udfe1 WATCH",
+        "summary": "Some positives but not enough confirmation. Wait for more conditions to align before committing capital.",
+        "light_class": "yellow",
+        "status_class": "yellow",
         "checks": [
           {
             "label": "Above 200-day MA",
@@ -2071,8 +2125,8 @@
           },
           {
             "label": "RSI bounce setup",
-            "met": false,
-            "source": "Wilder RSI 27"
+            "met": true,
+            "source": "Wilder RSI 35"
           },
           {
             "label": "MACD bullish",
@@ -2082,36 +2136,36 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-34.5% off high"
+            "source": "-31.0% off high"
           },
           {
             "label": "Volume confirms",
-            "met": false,
+            "met": true,
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-25",
-        "last_close": 107.27
+        "as_of": "2026-06-26",
+        "last_close": 112.93
       },
       "long_term": {
-        "last": 107.27,
-        "ytd_return": -36.1,
-        "cagr_1y": -24.95,
-        "cagr_3y": 97.52,
-        "cagr_5y": 31.47,
-        "ma200": 159.09,
-        "ma50": 137.04,
-        "ma200_dist": -32.57,
+        "last": 112.93,
+        "ytd_return": -32.72,
+        "cagr_1y": -21.73,
+        "cagr_3y": 97.81,
+        "cagr_5y": 32.81,
+        "ma200": 158.85,
+        "ma50": 136.46,
+        "ma200_dist": -28.91,
         "in_uptrend": false,
         "high_52w": 207.18,
         "low_52w": 107.27,
-        "drawdown": -48.22,
-        "range_pos": 0.0,
-        "rsi": 27.4,
+        "drawdown": -45.49,
+        "range_pos": 5.7,
+        "rsi": 34.5,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-06-25"
+        "as_of": "2026-06-26"
       }
     },
     "TSLA": {
@@ -2446,12 +2500,12 @@
         }
       ],
       "veteran_signal": {
-        "score": 0,
-        "signal": "wait",
-        "status_text": "\u26aa WAIT",
-        "summary": "Conditions don't favor a new entry today. Better setups typically appear within days or weeks \u2014 patience pays.",
-        "light_class": "gray",
-        "status_class": "gray",
+        "score": 2,
+        "signal": "watch",
+        "status_text": "\ud83d\udfe1 WATCH",
+        "summary": "Some positives but not enough confirmation. Wait for more conditions to align before committing capital.",
+        "light_class": "yellow",
+        "status_class": "yellow",
         "checks": [
           {
             "label": "Above 200-day MA",
@@ -2466,7 +2520,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 39"
+            "source": "Wilder RSI 41"
           },
           {
             "label": "MACD bullish",
@@ -2475,37 +2529,37 @@
           },
           {
             "label": "Buyable pullback",
-            "met": false,
-            "source": "-15.5% off high"
+            "met": true,
+            "source": "-13.9% off high"
           },
           {
             "label": "Volume confirms",
-            "met": false,
+            "met": true,
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-25",
-        "last_close": 375.12
+        "as_of": "2026-06-26",
+        "last_close": 379.71
       },
       "long_term": {
-        "last": 375.12,
-        "ytd_return": -14.37,
-        "cagr_1y": 14.53,
-        "cagr_3y": 15.9,
-        "cagr_5y": 10.34,
-        "ma200": 417.8,
-        "ma50": 405.01,
-        "ma200_dist": -10.22,
+        "last": 379.71,
+        "ytd_return": -13.32,
+        "cagr_1y": 16.57,
+        "cagr_3y": 14.93,
+        "cagr_5y": 10.6,
+        "ma200": 417.96,
+        "ma50": 404.76,
+        "ma200_dist": -9.15,
         "in_uptrend": false,
         "high_52w": 489.88,
         "low_52w": 293.94,
-        "drawdown": -23.43,
-        "range_pos": 41.4,
-        "rsi": 38.9,
+        "drawdown": -22.49,
+        "range_pos": 43.8,
+        "rsi": 41.2,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-06-25"
+        "as_of": "2026-06-26"
       }
     },
     "NVDA": {
@@ -2638,7 +2692,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 40"
+            "source": "Wilder RSI 37"
           },
           {
             "label": "MACD bullish",
@@ -2648,7 +2702,7 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-15.7% off high"
+            "source": "-17.1% off high"
           },
           {
             "label": "Volume confirms",
@@ -2656,28 +2710,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-25",
-        "last_close": 195.74
+        "as_of": "2026-06-26",
+        "last_close": 192.53
       },
       "long_term": {
-        "last": 195.74,
-        "ytd_return": 3.65,
-        "cagr_1y": 26.87,
-        "cagr_3y": 68.95,
-        "cagr_5y": 57.96,
-        "ma200": 190.53,
-        "ma50": 210.21,
-        "ma200_dist": 2.73,
+        "last": 192.53,
+        "ytd_return": 1.95,
+        "cagr_1y": 24.22,
+        "cagr_3y": 66.34,
+        "cagr_5y": 57.4,
+        "ma200": 190.64,
+        "ma50": 210.09,
+        "ma200_dist": 0.99,
         "in_uptrend": true,
         "high_52w": 235.74,
         "low_52w": 153.3,
-        "drawdown": -16.97,
-        "range_pos": 51.5,
-        "rsi": 39.6,
+        "drawdown": -18.33,
+        "range_pos": 47.6,
+        "rsi": 37.5,
         "dca_score": 3,
         "dca_rating": "ATTRACTIVE",
         "dca_rating_class": "positive",
-        "as_of": "2026-06-25"
+        "as_of": "2026-06-26"
       }
     }
   }
