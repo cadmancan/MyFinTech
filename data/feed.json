@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-06-30T22:48:27.433715+00:00",
-  "updated_human": "2026-06-30 22:48 UTC",
+  "updated_utc": "2026-07-01T22:45:09.591717+00:00",
+  "updated_human": "2026-07-01 22:45 UTC",
   "macro": {
     "vix": {
-      "value": 16.45,
-      "previous": 18.41,
-      "change_pct": -10.65
+      "value": 16.59,
+      "previous": 16.45,
+      "change_pct": 0.85
     },
     "ten_year_yield": {
-      "value": 4.418,
-      "previous": 4.374,
-      "change_pct": 1.01
+      "value": 4.475,
+      "previous": 4.418,
+      "change_pct": 1.29
     },
     "sp500": {
-      "value": 7499.36,
-      "previous": 7440.43,
-      "change_pct": 0.79
+      "value": 7483.23,
+      "previous": 7499.36,
+      "change_pct": -0.22
     }
   },
   "stocks": {
@@ -25,6 +25,447 @@
         "lookback_days": 90,
         "purchases": [],
         "sales": [
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 496,
+            "price": 1170.6,
+            "value": 580618,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 857,
+            "price": 1172.57,
+            "value": 1004892,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 243,
+            "price": 1173.83,
+            "value": 285241,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 489,
+            "price": 1175.17,
+            "value": 574658,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1327,
+            "price": 1177.28,
+            "value": 1562251,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1087,
+            "price": 1178.06,
+            "value": 1280551,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 680,
+            "price": 1179.51,
+            "value": 802067,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1239,
+            "price": 1180.17,
+            "value": 1462231,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 209,
+            "price": 1181.2,
+            "value": 246871,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1496,
+            "price": 1182.29,
+            "value": 1768706,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 514,
+            "price": 1183.74,
+            "value": 608442,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 251,
+            "price": 1184.61,
+            "value": 297337,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 204,
+            "price": 1185.35,
+            "value": 241811,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 678,
+            "price": 1186.62,
+            "value": 804528,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 153,
+            "price": 1187.92,
+            "value": 181752,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 264,
+            "price": 1189.71,
+            "value": 314083,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 214,
+            "price": 1190.59,
+            "value": 254786,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 282,
+            "price": 1191.84,
+            "value": 336099,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 811,
+            "price": 1192.42,
+            "value": 967053,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 243,
+            "price": 1128.41,
+            "value": 274204,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 235,
+            "price": 1131.38,
+            "value": 265874,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 5123,
+            "price": 1132.37,
+            "value": 5801132,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 54,
+            "price": 1133.38,
+            "value": 61203,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 254,
+            "price": 1134.62,
+            "value": 288193,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 279,
+            "price": 1136.3,
+            "value": 317028,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 126,
+            "price": 1136.87,
+            "value": 143246,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 369,
+            "price": 1139.33,
+            "value": 420413,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 465,
+            "price": 1140.14,
+            "value": 530165,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 3645,
+            "price": 1141.46,
+            "value": 4160622,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 499,
+            "price": 1142.88,
+            "value": 570297,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1689,
+            "price": 1144.05,
+            "value": 1932300,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 487,
+            "price": 1145.13,
+            "value": 557678,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 232,
+            "price": 1146.05,
+            "value": 265884,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1379,
+            "price": 1147.81,
+            "value": 1582830,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 799,
+            "price": 1149.38,
+            "value": 918355,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 480,
+            "price": 1152.11,
+            "value": 553013,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 540,
+            "price": 1152.64,
+            "value": 622426,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 727,
+            "price": 1154.64,
+            "value": 839423,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1446,
+            "price": 1156.23,
+            "value": 1671909,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 413,
+            "price": 1157.3,
+            "value": 477965,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 766,
+            "price": 1159.43,
+            "value": 888123,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 505,
+            "price": 1160.34,
+            "value": 585972,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 2789,
+            "price": 1162.75,
+            "value": 3242910,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 106,
+            "price": 1163.49,
+            "value": 123330,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1374,
+            "price": 1165.06,
+            "value": 1600792,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 772,
+            "price": 1166.26,
+            "value": 900353,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 1745,
+            "price": 1167.16,
+            "value": 2036694,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 14,
+            "price": 1167.98,
+            "value": 16352,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "MEHROTRA SANJAY",
+            "role": "President and CEO, Director",
+            "shares": 951,
+            "price": 1169.96,
+            "value": 1112632,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml"
+          },
           {
             "date": "2026-05-29",
             "name": "MEHROTRA SANJAY",
@@ -901,8 +1342,8 @@
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 97,
-        "sale_value": 92463858,
+        "sale_count": 146,
+        "sale_value": 138799153,
         "unique_purchasers": 0,
         "unique_sellers": 6
       },
@@ -924,21 +1365,15 @@
           "type": "8-K",
           "description": "Material event",
           "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926071845/tm2617112d1_8k.htm"
-        },
-        {
-          "date": "2026-04-01",
-          "type": "8-K",
-          "description": "Material event",
-          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926038249/tm2610810d1_8k.htm"
         }
       ],
       "veteran_signal": {
-        "score": 3,
-        "signal": "buy",
-        "status_text": "\ud83d\udfe2 BUY",
-        "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
-        "light_class": "green",
-        "status_class": "green",
+        "score": 2,
+        "signal": "watch",
+        "status_text": "\ud83d\udfe1 WATCH",
+        "summary": "Some positives but not enough confirmation. Wait for more conditions to align before committing capital.",
+        "light_class": "yellow",
+        "status_class": "yellow",
         "checks": [
           {
             "label": "Above 200-day MA",
@@ -953,7 +1388,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 60"
+            "source": "Wilder RSI 52"
           },
           {
             "label": "MACD bullish",
@@ -962,8 +1397,8 @@
           },
           {
             "label": "Buyable pullback",
-            "met": true,
-            "source": "-8.0% off high"
+            "met": false,
+            "source": "-17.7% off high"
           },
           {
             "label": "Volume confirms",
@@ -971,28 +1406,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-30",
-        "last_close": 1154.29
+        "as_of": "2026-07-01",
+        "last_close": 1032.28
       },
       "long_term": {
-        "last": 1154.29,
-        "ytd_return": 265.95,
-        "cagr_1y": 837.98,
-        "cagr_3y": 163.02,
-        "cagr_5y": 70.56,
-        "ma200": 435.88,
-        "ma50": 829.88,
-        "ma200_dist": 164.82,
+        "last": 1032.28,
+        "ytd_return": 227.27,
+        "cagr_1y": 755.16,
+        "cagr_3y": 153.17,
+        "cagr_5y": 66.7,
+        "ma200": 440.26,
+        "ma50": 841.56,
+        "ma200_dist": 134.47,
         "in_uptrend": true,
         "high_52w": 1213.56,
         "low_52w": 104.88,
-        "drawdown": -4.88,
-        "range_pos": 94.7,
-        "rsi": 60.0,
-        "dca_score": 0,
-        "dca_rating": "PREMIUM",
-        "dca_rating_class": "negative",
-        "as_of": "2026-06-30"
+        "drawdown": -14.94,
+        "range_pos": 83.6,
+        "rsi": 51.8,
+        "dca_score": 1,
+        "dca_rating": "ELEVATED",
+        "dca_rating_class": "warning",
+        "as_of": "2026-07-01"
       }
     },
     "AVGO": {
@@ -1011,6 +1446,15 @@
           }
         ],
         "sales": [
+          {
+            "date": "2026-06-29",
+            "name": "PAGE JUSTINE",
+            "role": "Director",
+            "shares": 1602,
+            "price": 373.86,
+            "value": 598916,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000135956126000004/xslF345X06/wk-form4_1782940899.xml"
+          },
           {
             "date": "2026-06-25",
             "name": "Brazeal Mark David",
@@ -1509,8 +1953,8 @@
         ],
         "purchase_count": 1,
         "purchase_value": 373570,
-        "sale_count": 55,
-        "sale_value": 280981895,
+        "sale_count": 56,
+        "sale_value": 281580811,
         "unique_purchasers": 1,
         "unique_sellers": 6
       },
@@ -1579,7 +2023,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 44"
+            "source": "Wilder RSI 42"
           },
           {
             "label": "MACD bullish",
@@ -1589,7 +2033,7 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-23.7% off high"
+            "source": "-25.4% off high"
           },
           {
             "label": "Volume confirms",
@@ -1597,28 +2041,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-30",
-        "last_close": 377.75
+        "as_of": "2026-07-01",
+        "last_close": 369.34
       },
       "long_term": {
-        "last": 377.75,
-        "ytd_return": 8.67,
-        "cagr_1y": 37.07,
-        "cagr_3y": 62.94,
-        "cagr_5y": 51.78,
-        "ma200": 361.42,
-        "ma50": 410.87,
-        "ma200_dist": 4.52,
+        "last": 369.34,
+        "ytd_return": 6.25,
+        "cagr_1y": 39.54,
+        "cagr_3y": 61.65,
+        "cagr_5y": 51.19,
+        "ma200": 361.47,
+        "ma50": 410.26,
+        "ma200_dist": 2.18,
         "in_uptrend": true,
         "high_52w": 481.57,
         "low_52w": 264.74,
-        "drawdown": -21.56,
-        "range_pos": 52.1,
-        "rsi": 44.3,
+        "drawdown": -23.31,
+        "range_pos": 48.2,
+        "rsi": 42.0,
         "dca_score": 4,
         "dca_rating": "BARGAIN",
         "dca_rating_class": "positive",
-        "as_of": "2026-06-30"
+        "as_of": "2026-07-01"
       }
     },
     "PLTR": {
@@ -2115,12 +2559,12 @@
         }
       ],
       "veteran_signal": {
-        "score": 1,
-        "signal": "wait",
-        "status_text": "\u26aa WAIT",
-        "summary": "Conditions don't favor a new entry today. Better setups typically appear within days or weeks \u2014 patience pays.",
-        "light_class": "gray",
-        "status_class": "gray",
+        "score": 2,
+        "signal": "watch",
+        "status_text": "\ud83d\udfe1 WATCH",
+        "summary": "Some positives but not enough confirmation. Wait for more conditions to align before committing capital.",
+        "light_class": "yellow",
+        "status_class": "yellow",
         "checks": [
           {
             "label": "Above 200-day MA",
@@ -2135,7 +2579,7 @@
           {
             "label": "RSI bounce setup",
             "met": true,
-            "source": "Wilder RSI 39"
+            "source": "Wilder RSI 48"
           },
           {
             "label": "MACD bullish",
@@ -2145,36 +2589,36 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-26.9% off high"
+            "source": "-17.1% off high"
           },
           {
             "label": "Volume confirms",
-            "met": false,
+            "met": true,
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-30",
-        "last_close": 116.67
+        "as_of": "2026-07-01",
+        "last_close": 125.73
       },
       "long_term": {
-        "last": 116.67,
-        "ytd_return": -30.5,
-        "cagr_1y": -14.42,
-        "cagr_3y": 96.23,
-        "cagr_5y": 36.42,
-        "ma200": 158.35,
-        "ma50": 135.32,
-        "ma200_dist": -26.32,
+        "last": 125.73,
+        "ytd_return": -25.1,
+        "cagr_1y": -3.79,
+        "cagr_3y": 101.06,
+        "cagr_5y": 38.79,
+        "ma200": 158.12,
+        "ma50": 134.92,
+        "ma200_dist": -20.49,
         "in_uptrend": false,
         "high_52w": 207.18,
         "low_52w": 107.27,
-        "drawdown": -43.69,
-        "range_pos": 9.4,
-        "rsi": 38.9,
+        "drawdown": -39.31,
+        "range_pos": 18.5,
+        "rsi": 48.4,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-06-30"
+        "as_of": "2026-07-01"
       }
     },
     "TSLA": {
@@ -2344,147 +2788,12 @@
             "price": 384.28,
             "value": 169085,
             "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926055079/xslF345X06/tm2613330-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 2000,
-            "price": 352.83,
-            "value": 705666,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 1640,
-            "price": 353.66,
-            "value": 579999,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 1800,
-            "price": 354.8,
-            "value": 638644,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 2481,
-            "price": 355.64,
-            "value": 882353,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 2360,
-            "price": 356.79,
-            "value": 842034,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 1120,
-            "price": 357.84,
-            "value": 400780,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 520,
-            "price": 358.77,
-            "value": 186560,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 1880,
-            "price": 360.18,
-            "value": 677140,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 1000,
-            "price": 361.04,
-            "value": 361035,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 2320,
-            "price": 362.14,
-            "value": 840169,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 4001,
-            "price": 363.08,
-            "value": 1452695,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 3927,
-            "price": 363.95,
-            "value": 1429220,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 560,
-            "price": 364.89,
-            "value": 204337,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 120,
-            "price": 365.9,
-            "value": 43908,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
-          },
-          {
-            "date": "2026-03-30",
-            "name": "Wilson-Thompson Kathleen",
-            "role": "Director",
-            "shares": 80,
-            "price": 366.86,
-            "value": 29348,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926038682/xslF345X06/tm2610684-1_4seq1.xml"
           }
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 33,
-        "sale_value": 21657203,
+        "sale_count": 18,
+        "sale_value": 12383315,
         "unique_purchasers": 0,
         "unique_sellers": 2
       },
@@ -2529,7 +2838,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 57"
+            "source": "Wilder RSI 58"
           },
           {
             "label": "MACD bullish",
@@ -2539,7 +2848,7 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-3.0% off high"
+            "source": "-1.9% off high"
           },
           {
             "label": "Volume confirms",
@@ -2547,28 +2856,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-30",
-        "last_close": 420.6
+        "as_of": "2026-07-01",
+        "last_close": 425.3
       },
       "long_term": {
-        "last": 420.6,
-        "ytd_return": -3.99,
-        "cagr_1y": 32.43,
-        "cagr_3y": 14.59,
-        "cagr_5y": 13.24,
-        "ma200": 418.54,
-        "ma50": 405.62,
-        "ma200_dist": 0.49,
+        "last": 425.3,
+        "ytd_return": -2.92,
+        "cagr_1y": 41.47,
+        "cagr_3y": 15.0,
+        "cagr_5y": 13.46,
+        "ma200": 418.69,
+        "ma50": 406.28,
+        "ma200_dist": 1.58,
         "in_uptrend": false,
         "high_52w": 489.88,
         "low_52w": 293.94,
-        "drawdown": -14.14,
-        "range_pos": 64.6,
-        "rsi": 56.8,
+        "drawdown": -13.18,
+        "range_pos": 67.0,
+        "rsi": 58.2,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-06-30"
+        "as_of": "2026-07-01"
       }
     },
     "NVDA": {
@@ -2687,7 +2996,7 @@
         }
       ],
       "veteran_signal": {
-        "score": 4,
+        "score": 3,
         "signal": "buy",
         "status_text": "\ud83d\udfe2 BUY",
         "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
@@ -2707,7 +3016,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 45"
+            "source": "Wilder RSI 43"
           },
           {
             "label": "MACD bullish",
@@ -2717,36 +3026,36 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-13.9% off high"
+            "source": "-11.3% off high"
           },
           {
             "label": "Volume confirms",
-            "met": true,
+            "met": false,
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-06-30",
-        "last_close": 200.09
+        "as_of": "2026-07-01",
+        "last_close": 197.58
       },
       "long_term": {
-        "last": 200.09,
-        "ytd_return": 5.95,
-        "cagr_1y": 26.67,
-        "cagr_3y": 67.93,
-        "cagr_5y": 58.22,
-        "ma200": 190.84,
-        "ma50": 209.99,
-        "ma200_dist": 4.85,
+        "last": 197.58,
+        "ytd_return": 4.62,
+        "cagr_1y": 28.91,
+        "cagr_3y": 67.15,
+        "cagr_5y": 57.39,
+        "ma200": 190.94,
+        "ma50": 209.9,
+        "ma200_dist": 3.48,
         "in_uptrend": true,
         "high_52w": 235.74,
         "low_52w": 153.3,
-        "drawdown": -15.12,
-        "range_pos": 56.8,
-        "rsi": 45.2,
+        "drawdown": -16.19,
+        "range_pos": 53.7,
+        "rsi": 43.3,
         "dca_score": 3,
         "dca_rating": "ATTRACTIVE",
         "dca_rating_class": "positive",
-        "as_of": "2026-06-30"
+        "as_of": "2026-07-01"
       }
     }
   }
