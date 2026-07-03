@@ -1,16 +1,16 @@
 {
-  "updated_utc": "2026-07-02T22:34:50.127422+00:00",
-  "updated_human": "2026-07-02 22:34 UTC",
+  "updated_utc": "2026-07-03T22:31:40.441621+00:00",
+  "updated_human": "2026-07-03 22:31 UTC",
   "macro": {
     "vix": {
-      "value": 16.15,
-      "previous": 16.59,
-      "change_pct": -2.65
+      "value": 15.81,
+      "previous": 16.15,
+      "change_pct": -2.11
     },
     "ten_year_yield": {
       "value": 4.485,
-      "previous": 4.475,
-      "change_pct": 0.22
+      "previous": 4.485,
+      "change_pct": 0.0
     },
     "sp500": {
       "value": 7483.24,
@@ -25,6 +25,15 @@
         "lookback_days": 90,
         "purchases": [],
         "sales": [
+          {
+            "date": "2026-06-30",
+            "name": "Dugle Lynn A",
+            "role": "Director",
+            "shares": 1300,
+            "price": 1150.43,
+            "value": 1495559,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000145336826000001/xslF345X06/primarydocument.xml"
+          },
           {
             "date": "2026-06-26",
             "name": "MEHROTRA SANJAY",
@@ -1302,48 +1311,12 @@
             "price": 420.81,
             "value": 1433700,
             "url": "https://www.sec.gov/Archives/edgar/data/723125/000120149026000002/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-04-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 8630,
-            "price": 345.13,
-            "value": 2978472,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000002/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-04-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 5766,
-            "price": 346.22,
-            "value": 1996305,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000002/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-04-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 604,
-            "price": 346.83,
-            "value": 209485,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000002/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-04-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 25000,
-            "price": 348.46,
-            "value": 8711500,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000002/xslF345X06/primarydocument.xml"
           }
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 146,
-        "sale_value": 138799153,
+        "sale_count": 143,
+        "sale_value": 126398950,
         "unique_purchasers": 0,
         "unique_sellers": 6
       },
