@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-08-28T05:31:00.055652+00:00",
-  "updated_human": "2026-08-28 05:31 UTC",
+  "updated_utc": "2026-08-29T03:13:12.072388+00:00",
+  "updated_human": "2026-08-29 03:13 UTC",
   "macro": {
     "vix": {
-      "value": 14.51,
-      "previous": 15.21,
-      "change_pct": -4.6
+      "value": 14.43,
+      "previous": 14.51,
+      "change_pct": -0.55
     },
     "ten_year_yield": {
-      "value": 4.672,
-      "previous": 4.664,
-      "change_pct": 0.17
+      "value": 4.72,
+      "previous": 4.672,
+      "change_pct": 1.03
     },
     "sp500": {
-      "value": 7730.99,
-      "previous": 7675.7,
-      "change_pct": 0.72
+      "value": 7711.76,
+      "previous": 7730.99,
+      "change_pct": -0.25
     }
   },
   "stocks": {
@@ -665,168 +665,6 @@
             "url": "https://www.sec.gov/Archives/edgar/data/723125/000165214926000005/xslF345X06/primarydocument.xml"
           },
           {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 4279,
-            "price": 1077.05,
-            "value": 4608697,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 1247,
-            "price": 1078.47,
-            "value": 1344852,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 10497,
-            "price": 1079.99,
-            "value": 11336655,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 3572,
-            "price": 1080.96,
-            "value": 3861189,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 929,
-            "price": 1082.28,
-            "value": 1005438,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 3593,
-            "price": 1083.31,
-            "value": 3892333,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 794,
-            "price": 1084.12,
-            "value": 860791,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 2944,
-            "price": 1085.27,
-            "value": 3195035,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 2105,
-            "price": 1086.38,
-            "value": 2286830,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 1328,
-            "price": 1087.21,
-            "value": 1443815,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 220,
-            "price": 1088.12,
-            "value": 239386,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 267,
-            "price": 1089.04,
-            "value": 290774,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 288,
-            "price": 1090.6,
-            "value": 314093,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 2317,
-            "price": 1091.71,
-            "value": 2529492,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 2510,
-            "price": 1092.68,
-            "value": 2742627,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 705,
-            "price": 1093.92,
-            "value": 771214,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 2125,
-            "price": 1095.25,
-            "value": 2327406,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-01",
-            "name": "ARNZEN APRIL S",
-            "role": "EVP and Chief People Officer",
-            "shares": 280,
-            "price": 1095.88,
-            "value": 306846,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
             "date": "2026-06-30",
             "name": "Dugle Lynn A",
             "role": "Director",
@@ -834,6 +672,15 @@
             "price": 1150.43,
             "value": 1495559,
             "url": "https://www.sec.gov/Archives/edgar/data/723125/000145336826000001/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-06-26",
+            "name": "Bjorlin Alexis",
+            "role": "Director",
+            "shares": 25,
+            "price": 1132.33,
+            "value": 28308,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000179875726000007/xslF345X06/primarydocument.xml"
           },
           {
             "date": "2026-06-26",
@@ -1603,8 +1450,8 @@
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 175,
-        "sale_value": 220582047,
+        "sale_count": 158,
+        "sale_value": 177252882,
         "unique_purchasers": 0,
         "unique_sellers": 5
       },
@@ -1665,7 +1512,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-9.7% off high"
+            "source": "-10.0% off high"
           },
           {
             "label": "Volume confirms",
@@ -1673,28 +1520,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-08-27",
-        "last_close": 935.39
+        "as_of": "2026-08-28",
+        "last_close": 932.86
       },
       "long_term": {
-        "last": 935.39,
-        "ytd_return": 196.55,
-        "cagr_1y": 695.51,
-        "cagr_3y": 143.0,
-        "cagr_5y": 66.62,
-        "ma200": 585.03,
-        "ma50": 957.21,
-        "ma200_dist": 59.89,
+        "last": 932.86,
+        "ytd_return": 195.75,
+        "cagr_1y": 665.71,
+        "cagr_3y": 141.1,
+        "cagr_5y": 66.49,
+        "ma200": 588.42,
+        "ma50": 955.0,
+        "ma200_dist": 58.54,
         "in_uptrend": true,
         "high_52w": 1213.56,
-        "low_52w": 117.75,
-        "drawdown": -22.92,
-        "range_pos": 74.6,
-        "rsi": 51.0,
+        "low_52w": 118.48,
+        "drawdown": -23.13,
+        "range_pos": 74.4,
+        "rsi": 50.7,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-08-27"
+        "as_of": "2026-08-28"
       }
     },
     "AVGO": {
@@ -2231,16 +2078,16 @@
         }
       ],
       "veteran_signal": {
-        "score": 5,
-        "signal": "strong-buy",
-        "status_text": "\ud83d\udfe2 STRONG BUY",
-        "summary": "Multiple veteran indicators align \u2014 the kind of setup professionals look for. Still verify earnings calendar and your own thesis.",
-        "light_class": "bright-green",
-        "status_class": "bright-green",
+        "score": 3,
+        "signal": "buy",
+        "status_text": "\ud83d\udfe2 BUY",
+        "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
+        "light_class": "green",
+        "status_class": "green",
         "checks": [
           {
             "label": "Above 200-day MA",
-            "met": true,
+            "met": false,
             "source": "Weinstein"
           },
           {
@@ -2251,7 +2098,7 @@
           {
             "label": "RSI bounce setup",
             "met": true,
-            "source": "Wilder RSI 44"
+            "source": "Wilder RSI 43"
           },
           {
             "label": "MACD bullish",
@@ -2261,36 +2108,36 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-14.1% off high"
+            "source": "-14.8% off high"
           },
           {
             "label": "Volume confirms",
-            "met": true,
+            "met": false,
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-08-27",
-        "last_close": 371.54
+        "as_of": "2026-08-28",
+        "last_close": 368.79
       },
       "long_term": {
-        "last": 371.54,
-        "ytd_return": 6.88,
-        "cagr_1y": 23.76,
-        "cagr_3y": 62.85,
-        "cagr_5y": 49.52,
-        "ma200": 369.33,
-        "ma50": 386.59,
-        "ma200_dist": 0.6,
+        "last": 368.79,
+        "ytd_return": 6.09,
+        "cagr_1y": 19.5,
+        "cagr_3y": 60.68,
+        "cagr_5y": 49.27,
+        "ma200": 369.38,
+        "ma50": 386.11,
+        "ma200_dist": -0.16,
         "in_uptrend": true,
         "high_52w": 481.57,
         "low_52w": 293.41,
-        "drawdown": -22.85,
-        "range_pos": 41.5,
-        "rsi": 43.9,
+        "drawdown": -23.42,
+        "range_pos": 40.1,
+        "rsi": 42.7,
         "dca_score": 4,
         "dca_rating": "BARGAIN",
         "dca_rating_class": "positive",
-        "as_of": "2026-08-27"
+        "as_of": "2026-08-28"
       }
     },
     "PLTR": {
@@ -2718,7 +2565,7 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-0.5% off high"
+            "source": "-1.1% off high"
           },
           {
             "label": "Volume confirms",
@@ -2726,28 +2573,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-08-27",
-        "last_close": 185.93
+        "as_of": "2026-08-28",
+        "last_close": 186.29
       },
       "long_term": {
-        "last": 185.93,
-        "ytd_return": 10.76,
-        "cagr_1y": 18.65,
-        "cagr_3y": 133.45,
-        "cagr_5y": 48.59,
-        "ma200": 151.41,
-        "ma50": 142.63,
-        "ma200_dist": 22.8,
+        "last": 186.29,
+        "ytd_return": 10.98,
+        "cagr_1y": 17.83,
+        "cagr_3y": 129.69,
+        "cagr_5y": 48.61,
+        "ma200": 151.37,
+        "ma50": 143.75,
+        "ma200_dist": 23.07,
         "in_uptrend": false,
         "high_52w": 207.18,
         "low_52w": 107.27,
-        "drawdown": -10.26,
-        "range_pos": 78.7,
-        "rsi": 69.1,
+        "drawdown": -10.08,
+        "range_pos": 79.1,
+        "rsi": 69.3,
         "dca_score": 1,
         "dca_rating": "ELEVATED",
         "dca_rating_class": "warning",
-        "as_of": "2026-08-27"
+        "as_of": "2026-08-28"
       }
     },
     "TSLA": {
@@ -2814,7 +2661,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 54"
+            "source": "Wilder RSI 51"
           },
           {
             "label": "MACD bullish",
@@ -2824,7 +2671,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-3.2% off high"
+            "source": "-4.8% off high"
           },
           {
             "label": "Volume confirms",
@@ -2832,28 +2679,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-08-27",
-        "last_close": 354.81
+        "as_of": "2026-08-28",
+        "last_close": 348.75
       },
       "long_term": {
-        "last": 354.81,
-        "ytd_return": -19.01,
-        "cagr_1y": 1.49,
-        "cagr_3y": 14.12,
-        "cagr_5y": 7.82,
-        "ma200": 401.41,
-        "ma50": 361.43,
-        "ma200_dist": -11.61,
+        "last": 348.75,
+        "ytd_return": -20.39,
+        "cagr_1y": 0.8,
+        "cagr_3y": 10.69,
+        "cagr_5y": 7.45,
+        "ma200": 400.93,
+        "ma50": 360.47,
+        "ma200_dist": -13.01,
         "in_uptrend": false,
         "high_52w": 489.88,
         "low_52w": 298.32,
-        "drawdown": -27.57,
-        "range_pos": 29.5,
-        "rsi": 53.9,
+        "drawdown": -28.81,
+        "range_pos": 26.3,
+        "rsi": 50.9,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-08-27"
+        "as_of": "2026-08-28"
       }
     },
     "NVDA": {
@@ -2983,7 +2830,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 61"
+            "source": "Wilder RSI 52"
           },
           {
             "label": "MACD bullish",
@@ -2992,37 +2839,37 @@
           },
           {
             "label": "Buyable pullback",
-            "met": false,
-            "source": "-1.1% off high"
+            "met": true,
+            "source": "-5.6% off high"
           },
           {
             "label": "Volume confirms",
-            "met": true,
+            "met": false,
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-08-27",
-        "last_close": 227.98
+        "as_of": "2026-08-28",
+        "last_close": 217.55
       },
       "long_term": {
-        "last": 227.98,
-        "ytd_return": 20.72,
-        "cagr_1y": 25.56,
-        "cagr_3y": 69.54,
-        "cagr_5y": 58.77,
-        "ma200": 195.73,
-        "ma50": 208.16,
-        "ma200_dist": 16.48,
+        "last": 217.55,
+        "ytd_return": 15.2,
+        "cagr_1y": 20.76,
+        "cagr_3y": 64.66,
+        "cagr_5y": 57.25,
+        "ma200": 195.83,
+        "ma50": 208.42,
+        "ma200_dist": 11.09,
         "in_uptrend": true,
         "high_52w": 235.74,
         "low_52w": 165.17,
-        "drawdown": -3.29,
-        "range_pos": 89.0,
-        "rsi": 61.3,
+        "drawdown": -7.72,
+        "range_pos": 74.2,
+        "rsi": 52.3,
         "dca_score": 0,
         "dca_rating": "PREMIUM",
         "dca_rating_class": "negative",
-        "as_of": "2026-08-27"
+        "as_of": "2026-08-28"
       }
     }
   }
