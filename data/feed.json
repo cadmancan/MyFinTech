@@ -1,16 +1,16 @@
 {
-  "updated_utc": "2026-09-04T23:07:58.520428+00:00",
-  "updated_human": "2026-09-04 23:07 UTC",
+  "updated_utc": "2026-09-07T23:37:48.145201+00:00",
+  "updated_human": "2026-09-07 23:37 UTC",
   "macro": {
     "vix": {
-      "value": 14.53,
-      "previous": 14.32,
-      "change_pct": 1.47
+      "value": 15.3,
+      "previous": 14.53,
+      "change_pct": 5.3
     },
     "ten_year_yield": {
       "value": 4.784,
-      "previous": 4.762,
-      "change_pct": 0.46
+      "previous": 4.784,
+      "change_pct": 0.0
     },
     "sp500": {
       "value": 7718.6,
@@ -1955,14 +1955,14 @@
           }
         ],
         "as_of": "2026-09-04",
-        "last_close": 357.89
+        "last_close": 357.9
       },
       "long_term": {
-        "last": 357.89,
+        "last": 357.9,
         "ytd_return": 2.96,
-        "cagr_1y": 16.93,
+        "cagr_1y": 16.94,
         "cagr_3y": 60.15,
-        "cagr_5y": 48.54,
+        "cagr_5y": 48.55,
         "ma200": 369.83,
         "ma50": 383.66,
         "ma200_dist": -3.23,
