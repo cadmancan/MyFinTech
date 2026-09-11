@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-09-10T23:17:38.005492+00:00",
-  "updated_human": "2026-09-10 23:17 UTC",
+  "updated_utc": "2026-09-11T23:24:57.601930+00:00",
+  "updated_human": "2026-09-11 23:24 UTC",
   "macro": {
     "vix": {
-      "value": 17.84,
-      "previous": 15.72,
-      "change_pct": 13.49
+      "value": 15.84,
+      "previous": 16.46,
+      "change_pct": -3.77
     },
     "ten_year_yield": {
-      "value": 4.944,
-      "previous": 4.837,
-      "change_pct": 2.21
+      "value": 4.975,
+      "previous": 4.944,
+      "change_pct": 0.63
     },
     "sp500": {
-      "value": 7591.7,
-      "previous": 7636.36,
-      "change_pct": -0.58
+      "value": 7656.98,
+      "previous": 7591.7,
+      "change_pct": 0.86
     }
   },
   "stocks": {
@@ -1344,7 +1344,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-6.2% off high"
+            "source": "-6.4% off high"
           },
           {
             "label": "Volume confirms",
@@ -1352,28 +1352,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-09-10",
-        "last_close": 977.41
+        "as_of": "2026-09-11",
+        "last_close": 975.26
       },
       "long_term": {
-        "last": 977.41,
-        "ytd_return": 209.88,
-        "cagr_1y": 599.08,
-        "cagr_3y": 140.91,
-        "cagr_5y": 67.56,
-        "ma200": 618.23,
-        "ma50": 929.75,
-        "ma200_dist": 58.1,
+        "last": 975.26,
+        "ytd_return": 209.19,
+        "cagr_1y": 548.54,
+        "cagr_3y": 140.42,
+        "cagr_5y": 67.43,
+        "ma200": 622.07,
+        "ma50": 928.61,
+        "ma200_dist": 56.78,
         "in_uptrend": true,
         "high_52w": 1213.56,
-        "low_52w": 140.0,
-        "drawdown": -19.46,
-        "range_pos": 78.0,
-        "rsi": 53.3,
+        "low_52w": 150.57,
+        "drawdown": -19.64,
+        "range_pos": 77.6,
+        "rsi": 53.0,
         "dca_score": 1,
         "dca_rating": "ELEVATED",
         "dca_rating_class": "warning",
-        "as_of": "2026-09-10"
+        "as_of": "2026-09-11"
       }
     },
     "AVGO": {
@@ -1904,12 +1904,12 @@
         }
       ],
       "veteran_signal": {
-        "score": 1,
-        "signal": "wait",
-        "status_text": "\u26aa WAIT",
-        "summary": "Conditions don't favor a new entry today. Better setups typically appear within days or weeks \u2014 patience pays.",
-        "light_class": "gray",
-        "status_class": "gray",
+        "score": 3,
+        "signal": "buy",
+        "status_text": "\ud83d\udfe2 BUY",
+        "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
+        "light_class": "green",
+        "status_class": "green",
         "checks": [
           {
             "label": "Above 200-day MA",
@@ -1924,17 +1924,17 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 41"
+            "source": "Wilder RSI 42"
           },
           {
             "label": "MACD bullish",
-            "met": false,
+            "met": true,
             "source": "Appel"
           },
           {
             "label": "Buyable pullback",
-            "met": false,
-            "source": "-15.1% off high"
+            "met": true,
+            "source": "-12.2% off high"
           },
           {
             "label": "Volume confirms",
@@ -1942,28 +1942,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-09-10",
-        "last_close": 360.83
+        "as_of": "2026-09-11",
+        "last_close": 361.99
       },
       "long_term": {
-        "last": 360.83,
-        "ytd_return": 3.8,
-        "cagr_1y": -2.37,
-        "cagr_3y": 61.39,
-        "cagr_5y": 48.65,
-        "ma200": 370.09,
-        "ma50": 383.23,
-        "ma200_dist": -2.5,
+        "last": 361.99,
+        "ytd_return": 4.13,
+        "cagr_1y": 0.66,
+        "cagr_3y": 62.49,
+        "cagr_5y": 48.71,
+        "ma200": 370.2,
+        "ma50": 383.09,
+        "ma200_dist": -2.22,
         "in_uptrend": true,
         "high_52w": 481.57,
         "low_52w": 293.41,
-        "drawdown": -25.07,
-        "range_pos": 35.8,
-        "rsi": 41.4,
+        "drawdown": -24.83,
+        "range_pos": 36.4,
+        "rsi": 42.2,
         "dca_score": 4,
         "dca_rating": "BARGAIN",
         "dca_rating_class": "positive",
-        "as_of": "2026-09-10"
+        "as_of": "2026-09-11"
       }
     },
     "PLTR": {
@@ -2366,7 +2366,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 48"
+            "source": "Wilder RSI 49"
           },
           {
             "label": "MACD bullish",
@@ -2376,7 +2376,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-11.9% off high"
+            "source": "-11.2% off high"
           },
           {
             "label": "Volume confirms",
@@ -2384,28 +2384,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-09-10",
-        "last_close": 165.86
+        "as_of": "2026-09-11",
+        "last_close": 167.23
       },
       "long_term": {
-        "last": 165.86,
-        "ytd_return": -1.19,
-        "cagr_1y": -0.53,
-        "cagr_3y": 119.12,
-        "cagr_5y": 45.15,
-        "ma200": 151.46,
-        "ma50": 153.1,
-        "ma200_dist": 9.51,
+        "last": 167.23,
+        "ytd_return": -0.38,
+        "cagr_1y": 1.75,
+        "cagr_3y": 120.66,
+        "cagr_5y": 45.36,
+        "ma200": 151.52,
+        "ma50": 153.93,
+        "ma200_dist": 10.37,
         "in_uptrend": true,
         "high_52w": 207.18,
         "low_52w": 107.27,
-        "drawdown": -19.94,
-        "range_pos": 58.6,
-        "rsi": 48.1,
+        "drawdown": -19.28,
+        "range_pos": 60.0,
+        "rsi": 49.2,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-09-10"
+        "as_of": "2026-09-11"
       }
     },
     "TSLA": {
@@ -2482,7 +2482,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-5.3% off high"
+            "source": "-4.8% off high"
           },
           {
             "label": "Volume confirms",
@@ -2490,28 +2490,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-09-10",
-        "last_close": 363.56
+        "as_of": "2026-09-11",
+        "last_close": 365.44
       },
       "long_term": {
-        "last": 363.56,
-        "ytd_return": -17.01,
-        "cagr_1y": 4.54,
-        "cagr_3y": 9.95,
-        "cagr_5y": 7.99,
-        "ma200": 399.05,
-        "ma50": 355.7,
-        "ma200_dist": -8.89,
+        "last": 365.44,
+        "ytd_return": -16.58,
+        "cagr_1y": -0.91,
+        "cagr_3y": 10.97,
+        "cagr_5y": 8.1,
+        "ma200": 398.93,
+        "ma50": 354.5,
+        "ma200_dist": -8.39,
         "in_uptrend": false,
         "high_52w": 489.88,
         "low_52w": 298.32,
-        "drawdown": -25.79,
-        "range_pos": 34.1,
-        "rsi": 53.7,
+        "drawdown": -25.4,
+        "range_pos": 35.0,
+        "rsi": 54.5,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-09-10"
+        "as_of": "2026-09-11"
       }
     },
     "NVDA": {
@@ -2782,28 +2782,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-09-10",
-        "last_close": 218.36
+        "as_of": "2026-09-11",
+        "last_close": 218.29
       },
       "long_term": {
-        "last": 218.36,
-        "ytd_return": 15.63,
-        "cagr_1y": 23.16,
-        "cagr_3y": 69.14,
-        "cagr_5y": 58.16,
-        "ma200": 197.28,
-        "ma50": 212.17,
-        "ma200_dist": 10.69,
+        "last": 218.29,
+        "ytd_return": 15.59,
+        "cagr_1y": 23.23,
+        "cagr_3y": 69.51,
+        "cagr_5y": 58.11,
+        "ma200": 197.47,
+        "ma50": 212.58,
+        "ma200_dist": 10.54,
         "in_uptrend": true,
         "high_52w": 235.74,
         "low_52w": 165.17,
-        "drawdown": -7.37,
-        "range_pos": 75.4,
+        "drawdown": -7.4,
+        "range_pos": 75.3,
         "rsi": 49.8,
         "dca_score": 1,
         "dca_rating": "ELEVATED",
         "dca_rating_class": "warning",
-        "as_of": "2026-09-10"
+        "as_of": "2026-09-11"
       }
     }
   }
