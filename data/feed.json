@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-09-16T23:42:18.047518+00:00",
-  "updated_human": "2026-09-16 23:42 UTC",
+  "updated_utc": "2026-09-17T23:35:29.858244+00:00",
+  "updated_human": "2026-09-17 23:35 UTC",
   "macro": {
     "vix": {
-      "value": 17.71,
+      "value": 15.44,
       "previous": 17.2,
-      "change_pct": 2.97
+      "change_pct": -10.23
     },
     "ten_year_yield": {
-      "value": 5.006,
-      "previous": 4.996,
-      "change_pct": 0.2
+      "value": 4.947,
+      "previous": 5.006,
+      "change_pct": -1.18
     },
     "sp500": {
-      "value": 7551.81,
-      "previous": 7585.73,
-      "change_pct": -0.45
+      "value": 7637.76,
+      "previous": 7551.81,
+      "change_pct": 1.14
     }
   },
   "stocks": {
@@ -1334,7 +1334,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 47"
+            "source": "Wilder RSI 54"
           },
           {
             "label": "MACD bullish",
@@ -1344,7 +1344,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-11.1% off high"
+            "source": "-6.2% off high"
           },
           {
             "label": "Volume confirms",
@@ -1352,28 +1352,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-09-16",
-        "last_close": 926.55
+        "as_of": "2026-09-17",
+        "last_close": 977.5
       },
       "long_term": {
-        "last": 926.55,
-        "ytd_return": 193.75,
-        "cagr_1y": 484.1,
-        "cagr_3y": 136.31,
-        "cagr_5y": 65.7,
-        "ma200": 632.56,
-        "ma50": 926.2,
-        "ma200_dist": 46.48,
+        "last": 977.5,
+        "ytd_return": 209.9,
+        "cagr_1y": 511.73,
+        "cagr_3y": 140.38,
+        "cagr_5y": 68.47,
+        "ma200": 636.27,
+        "ma50": 926.77,
+        "ma200_dist": 53.63,
         "in_uptrend": true,
         "high_52w": 1213.56,
         "low_52w": 156.83,
-        "drawdown": -23.65,
-        "range_pos": 72.8,
-        "rsi": 46.8,
-        "dca_score": 3,
-        "dca_rating": "ATTRACTIVE",
-        "dca_rating_class": "positive",
-        "as_of": "2026-09-16"
+        "drawdown": -19.45,
+        "range_pos": 77.7,
+        "rsi": 53.8,
+        "dca_score": 1,
+        "dca_rating": "ELEVATED",
+        "dca_rating_class": "warning",
+        "as_of": "2026-09-17"
       }
     },
     "AVGO": {
@@ -1624,246 +1624,12 @@
             "price": 388.17,
             "value": 84233,
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 76,
-            "price": 384.0,
-            "value": 29184,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 29,
-            "price": 385.16,
-            "value": 11170,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 220,
-            "price": 386.15,
-            "value": 84953,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 110,
-            "price": 388.96,
-            "value": 42785,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 242,
-            "price": 390.59,
-            "value": 94522,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 274,
-            "price": 391.73,
-            "value": 107335,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 408,
-            "price": 393.04,
-            "value": 160362,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 368,
-            "price": 394.09,
-            "value": 145026,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 643,
-            "price": 395.37,
-            "value": 254223,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 695,
-            "price": 396.24,
-            "value": 275384,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 797,
-            "price": 397.23,
-            "value": 316591,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 570,
-            "price": 398.25,
-            "value": 227002,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 357,
-            "price": 399.18,
-            "value": 142507,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-17",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 36,
-            "price": 400.29,
-            "value": 14410,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 192,
-            "price": 377.1,
-            "value": 72403,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 372,
-            "price": 378.58,
-            "value": 140834,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 776,
-            "price": 379.43,
-            "value": 294435,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 457,
-            "price": 380.4,
-            "value": 173843,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 368,
-            "price": 381.32,
-            "value": 140325,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 273,
-            "price": 382.8,
-            "value": 104505,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 202,
-            "price": 383.75,
-            "value": 77518,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 171,
-            "price": 386.15,
-            "value": 66032,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 300,
-            "price": 388.03,
-            "value": 116408,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 104,
-            "price": 388.75,
-            "value": 40430,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 40,
-            "price": 389.67,
-            "value": 15587,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
-          },
-          {
-            "date": "2026-06-16",
-            "name": "Brazeal Mark David",
-            "role": "Chief Legal & Corp Affairs Ofc",
-            "shares": 72,
-            "price": 390.91,
-            "value": 28145,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000062/xslF345X06/wk-form4_1781817132.xml"
           }
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 53,
-        "sale_value": 283696979,
+        "sale_count": 27,
+        "sale_value": 280521060,
         "unique_purchasers": 0,
         "unique_sellers": 4
       },
@@ -1885,12 +1651,6 @@
           "type": "8-K",
           "description": "Material event",
           "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "8-K",
-          "description": "Material event",
-          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526275077/d149683d8k.htm"
         }
       ],
       "veteran_signal": {
@@ -1914,7 +1674,7 @@
           {
             "label": "RSI bounce setup",
             "met": true,
-            "source": "Wilder RSI 32"
+            "source": "Wilder RSI 39"
           },
           {
             "label": "MACD bullish",
@@ -1924,7 +1684,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-9.8% off high"
+            "source": "-7.8% off high"
           },
           {
             "label": "Volume confirms",
@@ -1932,28 +1692,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-09-16",
-        "last_close": 339.51
+        "as_of": "2026-09-17",
+        "last_close": 347.3
       },
       "long_term": {
-        "last": 339.51,
-        "ytd_return": -2.33,
-        "cagr_1y": -5.7,
-        "cagr_3y": 58.78,
-        "cagr_5y": 46.37,
-        "ma200": 369.52,
-        "ma50": 381.45,
-        "ma200_dist": -8.12,
+        "last": 347.3,
+        "ytd_return": -0.09,
+        "cagr_1y": 0.33,
+        "cagr_3y": 59.92,
+        "cagr_5y": 47.76,
+        "ma200": 369.24,
+        "ma50": 380.63,
+        "ma200_dist": -5.94,
         "in_uptrend": true,
         "high_52w": 481.57,
         "low_52w": 293.41,
-        "drawdown": -29.5,
-        "range_pos": 24.5,
-        "rsi": 32.5,
-        "dca_score": 5,
-        "dca_rating": "EXCEPTIONAL VALUE",
+        "drawdown": -27.88,
+        "range_pos": 28.6,
+        "rsi": 38.5,
+        "dca_score": 4,
+        "dca_rating": "BARGAIN",
         "dca_rating_class": "positive",
-        "as_of": "2026-09-16"
+        "as_of": "2026-09-17"
       }
     },
     "PLTR": {
@@ -2302,7 +2062,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 54"
+            "source": "Wilder RSI 56"
           },
           {
             "label": "MACD bullish",
@@ -2312,7 +2072,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-7.4% off high"
+            "source": "-6.4% off high"
           },
           {
             "label": "Volume confirms",
@@ -2320,28 +2080,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-09-16",
-        "last_close": 174.34
+        "as_of": "2026-09-17",
+        "last_close": 176.24
       },
       "long_term": {
-        "last": 174.34,
-        "ytd_return": 3.86,
-        "cagr_1y": 2.4,
-        "cagr_3y": 124.54,
-        "cagr_5y": 43.48,
-        "ma200": 151.66,
-        "ma50": 156.41,
-        "ma200_dist": 14.95,
+        "last": 176.24,
+        "ytd_return": 4.99,
+        "cagr_1y": 4.7,
+        "cagr_3y": 125.19,
+        "cagr_5y": 46.12,
+        "ma200": 151.7,
+        "ma50": 157.29,
+        "ma200_dist": 16.18,
         "in_uptrend": true,
         "high_52w": 207.18,
         "low_52w": 107.27,
-        "drawdown": -15.85,
-        "range_pos": 67.1,
-        "rsi": 54.5,
+        "drawdown": -14.93,
+        "range_pos": 69.0,
+        "rsi": 55.9,
         "dca_score": 1,
         "dca_rating": "ELEVATED",
         "dca_rating_class": "warning",
-        "as_of": "2026-09-16"
+        "as_of": "2026-09-17"
       }
     },
     "TSLA": {
@@ -2388,12 +2148,12 @@
         }
       ],
       "veteran_signal": {
-        "score": 1,
-        "signal": "wait",
-        "status_text": "\u26aa WAIT",
-        "summary": "Conditions don't favor a new entry today. Better setups typically appear within days or weeks \u2014 patience pays.",
-        "light_class": "gray",
-        "status_class": "gray",
+        "score": 2,
+        "signal": "watch",
+        "status_text": "\ud83d\udfe1 WATCH",
+        "summary": "Some positives but not enough confirmation. Wait for more conditions to align before committing capital.",
+        "light_class": "yellow",
+        "status_class": "yellow",
         "checks": [
           {
             "label": "Above 200-day MA",
@@ -2408,17 +2168,17 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 51"
+            "source": "Wilder RSI 55"
           },
           {
             "label": "MACD bullish",
-            "met": false,
+            "met": true,
             "source": "Appel"
           },
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-6.8% off high"
+            "source": "-4.6% off high"
           },
           {
             "label": "Volume confirms",
@@ -2426,28 +2186,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-09-16",
-        "last_close": 358.08
+        "as_of": "2026-09-17",
+        "last_close": 366.2
       },
       "long_term": {
-        "last": 358.08,
-        "ytd_return": -18.26,
-        "cagr_1y": -15.08,
-        "cagr_3y": 10.53,
-        "cagr_5y": 7.19,
-        "ma200": 397.97,
-        "ma50": 351.65,
-        "ma200_dist": -10.02,
+        "last": 366.2,
+        "ytd_return": -16.41,
+        "cagr_1y": -14.02,
+        "cagr_3y": 11.35,
+        "cagr_5y": 8.53,
+        "ma200": 397.65,
+        "ma50": 351.09,
+        "ma200_dist": -7.91,
         "in_uptrend": false,
         "high_52w": 489.88,
         "low_52w": 298.32,
-        "drawdown": -26.9,
-        "range_pos": 31.2,
-        "rsi": 51.1,
+        "drawdown": -25.25,
+        "range_pos": 35.4,
+        "rsi": 54.8,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-09-16"
+        "as_of": "2026-09-17"
       }
     },
     "NVDA": {
@@ -2671,12 +2431,6 @@
           "type": "8-K",
           "description": "Material event",
           "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056/nvda-20260624.htm"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "8-K",
-          "description": "Material event",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119312526275783/d48176d8k.htm"
         }
       ],
       "veteran_signal": {
@@ -2700,7 +2454,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 47"
+            "source": "Wilder RSI 52"
           },
           {
             "label": "MACD bullish",
@@ -2710,7 +2464,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-8.9% off high"
+            "source": "-6.6% off high"
           },
           {
             "label": "Volume confirms",
@@ -2718,28 +2472,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-09-16",
-        "last_close": 213.9
+        "as_of": "2026-09-17",
+        "last_close": 219.34
       },
       "long_term": {
-        "last": 213.9,
-        "ytd_return": 13.26,
-        "cagr_1y": 22.33,
-        "cagr_3y": 69.59,
-        "cagr_5y": 57.79,
-        "ma200": 197.95,
-        "ma50": 213.58,
-        "ma200_dist": 8.06,
+        "last": 219.34,
+        "ytd_return": 16.15,
+        "cagr_1y": 28.83,
+        "cagr_3y": 70.93,
+        "cagr_5y": 59.84,
+        "ma200": 198.17,
+        "ma50": 213.88,
+        "ma200_dist": 10.68,
         "in_uptrend": true,
         "high_52w": 235.74,
         "low_52w": 165.17,
-        "drawdown": -9.26,
-        "range_pos": 69.1,
-        "rsi": 46.7,
-        "dca_score": 1,
-        "dca_rating": "ELEVATED",
-        "dca_rating_class": "warning",
-        "as_of": "2026-09-16"
+        "drawdown": -6.96,
+        "range_pos": 76.8,
+        "rsi": 51.7,
+        "dca_score": 0,
+        "dca_rating": "PREMIUM",
+        "dca_rating_class": "negative",
+        "as_of": "2026-09-17"
       }
     }
   }
