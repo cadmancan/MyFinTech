@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-09-18T23:25:24.991787+00:00",
-  "updated_human": "2026-09-18 23:25 UTC",
+  "updated_utc": "2026-09-22T00:12:17.756634+00:00",
+  "updated_human": "2026-09-22 00:12 UTC",
   "macro": {
     "vix": {
-      "value": 14.81,
-      "previous": 17.71,
-      "change_pct": -16.37
+      "value": 14.87,
+      "previous": 14.81,
+      "change_pct": 0.41
     },
     "ten_year_yield": {
-      "value": 4.998,
-      "previous": 4.947,
-      "change_pct": 1.03
+      "value": 4.963,
+      "previous": 4.998,
+      "change_pct": -0.7
     },
     "sp500": {
-      "value": 7650.5,
-      "previous": 7637.76,
-      "change_pct": 0.17
+      "value": 7764.7,
+      "previous": 7650.5,
+      "change_pct": 1.49
     }
   },
   "stocks": {
@@ -1360,7 +1360,7 @@
         "ytd_return": 222.05,
         "cagr_1y": 502.2,
         "cagr_3y": 143.24,
-        "cagr_5y": 69.72,
+        "cagr_5y": 69.08,
         "ma200": 640.15,
         "ma50": 927.26,
         "ma200_dist": 58.68,
@@ -1700,7 +1700,7 @@
         "ytd_return": 2.87,
         "cagr_1y": 3.55,
         "cagr_3y": 61.54,
-        "cagr_5y": 48.6,
+        "cagr_5y": 48.31,
         "ma200": 369.1,
         "ma50": 379.76,
         "ma200_dist": -3.11,
@@ -2151,7 +2151,7 @@
         "ytd_return": 5.83,
         "cagr_1y": 0.38,
         "cagr_3y": 127.31,
-        "cagr_5y": 46.32,
+        "cagr_5y": 45.43,
         "ma200": 151.75,
         "ma50": 158.26,
         "ma200_dist": 17.06,
@@ -2257,7 +2257,7 @@
         "ytd_return": -16.85,
         "cagr_1y": -12.62,
         "cagr_3y": 10.99,
-        "cagr_5y": 8.41,
+        "cagr_5y": 7.78,
         "ma200": 397.33,
         "ma50": 350.25,
         "ma200_dist": -8.32,
@@ -2458,30 +2458,12 @@
             "price": 218.53,
             "value": 2053056,
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000010/xslF345X06/wk-form4_1788386836.xml"
-          },
-          {
-            "date": "2026-06-18",
-            "name": "STEVENS MARK A",
-            "role": "Director",
-            "shares": 319385,
-            "price": 209.7,
-            "value": 66973501,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000007/xslF345X06/wk-form4_1782247316.xml"
-          },
-          {
-            "date": "2026-06-18",
-            "name": "STEVENS MARK A",
-            "role": "Director",
-            "shares": 565615,
-            "price": 210.44,
-            "value": 119026437,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000007/xslF345X06/wk-form4_1782247316.xml"
           }
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 22,
-        "sale_value": 846665623,
+        "sale_count": 20,
+        "sale_value": 660665685,
         "unique_purchasers": 0,
         "unique_sellers": 3
       },
@@ -2570,7 +2552,7 @@
         "ytd_return": 17.7,
         "cagr_1y": 26.14,
         "cagr_3y": 72.28,
-        "cagr_5y": 60.22,
+        "cagr_5y": 59.07,
         "ma200": 198.38,
         "ma50": 214.27,
         "ma200_dist": 12.04,
