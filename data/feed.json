@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-09-24T23:55:49.911986+00:00",
-  "updated_human": "2026-09-24 23:55 UTC",
+  "updated_utc": "2026-09-25T23:59:36.881729+00:00",
+  "updated_human": "2026-09-25 23:59 UTC",
   "macro": {
     "vix": {
-      "value": 15.67,
-      "previous": 15.18,
-      "change_pct": 3.23
+      "value": 14.87,
+      "previous": 15.67,
+      "change_pct": -5.11
     },
     "ten_year_yield": {
-      "value": 5.162,
-      "previous": 5.114,
-      "change_pct": 0.94
+      "value": 5.184,
+      "previous": 5.162,
+      "change_pct": 0.43
     },
     "sp500": {
-      "value": 7704.13,
-      "previous": 7706.03,
-      "change_pct": -0.02
+      "value": 7743.41,
+      "previous": 7704.13,
+      "change_pct": 0.51
     }
   },
   "stocks": {
@@ -276,114 +276,6 @@
             "price": 934.29,
             "value": 14014350,
             "url": "https://www.sec.gov/Archives/edgar/data/723125/000131107926000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 1050,
-            "price": 942.87,
-            "value": 990014,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 626,
-            "price": 944.99,
-            "value": 591564,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 955,
-            "price": 945.87,
-            "value": 903306,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 797,
-            "price": 946.78,
-            "value": 754584,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 1207,
-            "price": 948.24,
-            "value": 1144526,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 108,
-            "price": 950.77,
-            "value": 102683,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 1,
-            "price": 952.04,
-            "value": 952,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 725,
-            "price": 954.19,
-            "value": 691788,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 1523,
-            "price": 956.18,
-            "value": 1456262,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 405,
-            "price": 956.68,
-            "value": 387455,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 316,
-            "price": 960.0,
-            "value": 303360,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 1002,
-            "price": 965.85,
-            "value": 967782,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
           },
           {
             "date": "2026-07-24",
@@ -825,15 +717,6 @@
             "price": 1095.88,
             "value": 306846,
             "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-06-30",
-            "name": "Dugle Lynn A",
-            "role": "Director",
-            "shares": 1300,
-            "price": 1150.43,
-            "value": 1495559,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000145336826000001/xslF345X06/primarydocument.xml"
           },
           {
             "date": "2026-06-26",
@@ -1288,10 +1171,10 @@
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 140,
-        "sale_value": 182156238,
+        "sale_count": 127,
+        "sale_value": 172366403,
         "unique_purchasers": 0,
-        "unique_sellers": 6
+        "unique_sellers": 5
       },
       "recent_filings": [
         {
@@ -1371,6 +1254,150 @@
         "purchases": [],
         "sales": [
           {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 22624,
+            "price": 354.75,
+            "value": 8025864,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 22946,
+            "price": 355.55,
+            "value": 8158450,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 10058,
+            "price": 356.59,
+            "value": 3586582,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 6959,
+            "price": 357.66,
+            "value": 2488956,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 4560,
+            "price": 358.47,
+            "value": 1634623,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 2162,
+            "price": 359.48,
+            "value": 777196,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 397,
+            "price": 360.76,
+            "value": 143222,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 512,
+            "price": 361.48,
+            "value": 185078,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 186809,
+            "price": 354.71,
+            "value": 66263020,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 230031,
+            "price": 355.5,
+            "value": 81776020,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 85221,
+            "price": 356.58,
+            "value": 30388104,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 50998,
+            "price": 357.52,
+            "value": 18232805,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 44618,
+            "price": 358.42,
+            "value": 15991984,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 22579,
+            "price": 359.44,
+            "value": 8115796,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 407,
+            "price": 361.18,
+            "value": 147000,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
+            "date": "2026-09-23",
+            "name": "SAMUELI HENRY",
+            "role": "Director",
+            "shares": 11309,
+            "price": 361.79,
+            "value": 4091483,
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+          },
+          {
             "date": "2026-07-10",
             "name": "Brazeal Mark David",
             "role": "Chief Legal & Corp Affairs Ofc",
@@ -1414,210 +1441,12 @@
             "price": 387.0,
             "value": 9675000,
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000064/xslF345X06/wk-form4_1782775021.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 23253,
-            "price": 377.61,
-            "value": 8780565,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 33346,
-            "price": 378.51,
-            "value": 12621794,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 30911,
-            "price": 379.76,
-            "value": 11738761,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 48996,
-            "price": 380.57,
-            "value": 18646408,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 36661,
-            "price": 381.68,
-            "value": 13992770,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 26889,
-            "price": 382.63,
-            "value": 10288538,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 36188,
-            "price": 383.69,
-            "value": 13884974,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 43302,
-            "price": 384.58,
-            "value": 16653083,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 53722,
-            "price": 385.57,
-            "value": 20713592,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 6280,
-            "price": 386.39,
-            "value": 2426529,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 660,
-            "price": 388.01,
-            "value": 256087,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 21603,
-            "price": 377.64,
-            "value": 8158157,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 30456,
-            "price": 378.5,
-            "value": 11527596,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 24073,
-            "price": 379.69,
-            "value": 9140277,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 49805,
-            "price": 380.57,
-            "value": 18954289,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 34517,
-            "price": 381.67,
-            "value": 13174103,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 25134,
-            "price": 382.62,
-            "value": 9616771,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 32950,
-            "price": 383.69,
-            "value": 12642586,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 41290,
-            "price": 384.63,
-            "value": 15881373,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 47510,
-            "price": 385.61,
-            "value": 18320331,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 6478,
-            "price": 386.39,
-            "value": 2503034,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
-          },
-          {
-            "date": "2026-06-24",
-            "name": "SAMUELI HENRY",
-            "role": "Director",
-            "shares": 217,
-            "price": 388.17,
-            "value": 84233,
-            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926078348/xslF345X06/tm2619044-1_4seq1.xml"
           }
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 27,
-        "sale_value": 280521060,
+        "sale_count": 21,
+        "sale_value": 280521392,
         "unique_purchasers": 0,
         "unique_sellers": 4
       },
@@ -2401,102 +2230,12 @@
             "price": 229.87,
             "value": 45974100,
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000014/xslF345X06/wk-form4_1788901755.xml"
-          },
-          {
-            "date": "2026-09-02",
-            "name": "STEVENS MARK A",
-            "role": "Director",
-            "shares": 300000,
-            "price": 220.08,
-            "value": 66022830,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/xslF345X06/wk-form4_1788387031.xml"
-          },
-          {
-            "date": "2026-09-02",
-            "name": "STEVENS MARK A",
-            "role": "Director",
-            "shares": 300000,
-            "price": 222.92,
-            "value": 66876120,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/xslF345X06/wk-form4_1788387031.xml"
-          },
-          {
-            "date": "2026-09-02",
-            "name": "STEVENS MARK A",
-            "role": "Director",
-            "shares": 300000,
-            "price": 224.07,
-            "value": 67221450,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/xslF345X06/wk-form4_1788387031.xml"
-          },
-          {
-            "date": "2026-09-02",
-            "name": "STEVENS MARK A",
-            "role": "Director",
-            "shares": 300000,
-            "price": 226.27,
-            "value": 67881120,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/xslF345X06/wk-form4_1788387031.xml"
-          },
-          {
-            "date": "2026-09-01",
-            "name": "STEVENS MARK A",
-            "role": "Director",
-            "shares": 63501,
-            "price": 220.06,
-            "value": 13973960,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/xslF345X06/wk-form4_1788387031.xml"
-          },
-          {
-            "date": "2026-08-31",
-            "name": "STEVENS MARK A",
-            "role": "Director",
-            "shares": 447400,
-            "price": 220.1,
-            "value": 98470906,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/xslF345X06/wk-form4_1788387031.xml"
-          },
-          {
-            "date": "2026-08-31",
-            "name": "STEVENS MARK A",
-            "role": "Director",
-            "shares": 137600,
-            "price": 220.91,
-            "value": 30397285,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/xslF345X06/wk-form4_1788387031.xml"
-          },
-          {
-            "date": "2026-08-31",
-            "name": "Teter Timothy S.",
-            "role": "EVP, General Counsel and Sec",
-            "shares": 6692,
-            "price": 216.84,
-            "value": 1451101,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000010/xslF345X06/wk-form4_1788386836.xml"
-          },
-          {
-            "date": "2026-08-31",
-            "name": "Teter Timothy S.",
-            "role": "EVP, General Counsel and Sec",
-            "shares": 13913,
-            "price": 217.95,
-            "value": 3032358,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000010/xslF345X06/wk-form4_1788386836.xml"
-          },
-          {
-            "date": "2026-08-31",
-            "name": "Teter Timothy S.",
-            "role": "EVP, General Counsel and Sec",
-            "shares": 9395,
-            "price": 218.53,
-            "value": 2053056,
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000010/xslF345X06/wk-form4_1788386836.xml"
           }
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 25,
-        "sale_value": 967599313,
+        "sale_count": 15,
+        "sale_value": 550219127,
         "unique_purchasers": 0,
         "unique_sellers": 3
       },
