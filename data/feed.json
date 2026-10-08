@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-10-07T00:52:25.193506+00:00",
-  "updated_human": "2026-10-07 00:52 UTC",
+  "updated_utc": "2026-10-08T01:08:34.827630+00:00",
+  "updated_human": "2026-10-08 01:08 UTC",
   "macro": {
     "vix": {
-      "value": 15.01,
-      "previous": 15.52,
-      "change_pct": -3.29
+      "value": 15.08,
+      "previous": 15.01,
+      "change_pct": 0.47
     },
     "ten_year_yield": {
-      "value": 5.269,
-      "previous": 5.311,
-      "change_pct": -0.79
+      "value": 5.277,
+      "previous": 5.269,
+      "change_pct": 0.15
     },
     "sp500": {
-      "value": 7818.93,
-      "previous": 7773.95,
-      "change_pct": 0.58
+      "value": 7801.77,
+      "previous": 7818.93,
+      "change_pct": -0.22
     }
   },
   "stocks": {
@@ -742,7 +742,7 @@
         "ytd_return": 231.48,
         "cagr_1y": 448.17,
         "cagr_3y": 147.45,
-        "cagr_5y": 71.53,
+        "cagr_5y": 71.79,
         "ma200": 689.87,
         "ma50": 961.81,
         "ma200_dist": 51.56,
@@ -1004,7 +1004,7 @@
         "ytd_return": 8.11,
         "cagr_1y": 12.03,
         "cagr_3y": 63.95,
-        "cagr_5y": 50.1,
+        "cagr_5y": 50.2,
         "ma200": 367.85,
         "ma50": 372.69,
         "ma200_dist": 2.16,
@@ -1400,12 +1400,12 @@
         }
       ],
       "veteran_signal": {
-        "score": 2,
-        "signal": "watch",
-        "status_text": "\ud83d\udfe1 WATCH",
-        "summary": "Some positives but not enough confirmation. Wait for more conditions to align before committing capital.",
-        "light_class": "yellow",
-        "status_class": "yellow",
+        "score": 3,
+        "signal": "buy",
+        "status_text": "\ud83d\udfe2 BUY",
+        "summary": "Several bullish conditions present. Reasonable for a partial position; consider scaling in rather than going all-in.",
+        "light_class": "green",
+        "status_class": "green",
         "checks": [
           {
             "label": "Above 200-day MA",
@@ -1420,17 +1420,17 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 62"
+            "source": "Wilder RSI 64"
           },
           {
             "label": "MACD bullish",
-            "met": false,
+            "met": true,
             "source": "Appel"
           },
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-2.8% off high"
+            "source": "-1.4% off high"
           },
           {
             "label": "Volume confirms",
@@ -1438,28 +1438,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-10-05",
-        "last_close": 189.4
+        "as_of": "2026-10-06",
+        "last_close": 192.07
       },
       "long_term": {
-        "last": 189.4,
-        "ytd_return": 12.83,
-        "cagr_1y": 5.52,
-        "cagr_3y": 125.21,
-        "cagr_5y": 51.58,
-        "ma200": 152.11,
-        "ma50": 171.11,
-        "ma200_dist": 24.51,
+        "last": 192.07,
+        "ytd_return": 14.42,
+        "cagr_1y": 6.99,
+        "cagr_3y": 122.21,
+        "cagr_5y": 52.3,
+        "ma200": 152.19,
+        "ma50": 172.32,
+        "ma200_dist": 26.21,
         "in_uptrend": true,
         "high_52w": 207.18,
         "low_52w": 107.27,
-        "drawdown": -8.58,
-        "range_pos": 82.2,
-        "rsi": 61.8,
+        "drawdown": -7.29,
+        "range_pos": 84.9,
+        "rsi": 64.3,
         "dca_score": 0,
         "dca_rating": "PREMIUM",
         "dca_rating_class": "negative",
-        "as_of": "2026-10-05"
+        "as_of": "2026-10-06"
       }
     },
     "TSLA": {
@@ -1558,7 +1558,7 @@
         "ytd_return": -13.1,
         "cagr_1y": -16.02,
         "cagr_3y": 13.64,
-        "cagr_5y": 7.56,
+        "cagr_5y": 7.78,
         "ma200": 392.19,
         "ma50": 350.33,
         "ma200_dist": -2.94,
@@ -1886,7 +1886,7 @@
         "ytd_return": 26.68,
         "cagr_1y": 28.97,
         "cagr_3y": 74.42,
-        "cagr_5y": 62.61,
+        "cagr_5y": 63.04,
         "ma200": 201.36,
         "ma50": 219.77,
         "ma200_dist": 18.81,
