@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-10-13T02:38:59.217255+00:00",
-  "updated_human": "2026-10-13 02:38 UTC",
+  "updated_utc": "2026-10-14T00:25:45.483560+00:00",
+  "updated_human": "2026-10-14 00:25 UTC",
   "macro": {
     "vix": {
-      "value": 15.21,
+      "value": 15.27,
       "previous": 14.84,
-      "change_pct": 2.49
+      "change_pct": 2.9
     },
     "ten_year_yield": {
-      "value": 5.24,
-      "previous": 5.244,
-      "change_pct": -0.08
+      "value": 5.217,
+      "previous": 5.24,
+      "change_pct": -0.44
     },
     "sp500": {
-      "value": 7807.24,
+      "value": 7805.45,
       "previous": 7811.54,
-      "change_pct": -0.06
+      "change_pct": -0.08
     }
   },
   "stocks": {
@@ -748,7 +748,7 @@
         "ytd_return": 213.56,
         "cagr_1y": 415.96,
         "cagr_3y": 142.82,
-        "cagr_5y": 71.71,
+        "cagr_5y": 71.03,
         "ma200": 705.24,
         "ma50": 979.51,
         "ma200_dist": 40.24,
@@ -983,7 +983,7 @@
         "ytd_return": 2.05,
         "cagr_1y": -0.55,
         "cagr_3y": 59.01,
-        "cagr_5y": 48.92,
+        "cagr_5y": 48.19,
         "ma200": 368.31,
         "ma50": 371.18,
         "ma200_dist": -3.69,
@@ -1005,6 +1005,24 @@
         "lookback_days": 90,
         "purchases": [],
         "sales": [
+          {
+            "date": "2026-10-08",
+            "name": "Stat Lauren Elaina Friedman",
+            "role": "Director",
+            "shares": 5026,
+            "price": 199.0,
+            "value": 1000174,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000184024426000020/xslF345X06/wk-form4_1791936127.xml"
+          },
+          {
+            "date": "2026-10-08",
+            "name": "Taylor Ryan D.",
+            "role": "See Remarks",
+            "shares": 18000,
+            "price": 201.15,
+            "value": 3620700,
+            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000013/xslF345X06/wk-form4_1791936056.xml"
+          },
           {
             "date": "2026-10-01",
             "name": "Stat Lauren Elaina Friedman",
@@ -1359,10 +1377,10 @@
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 39,
-        "sale_value": 100778835,
+        "sale_count": 41,
+        "sale_value": 105399709,
         "unique_purchasers": 0,
-        "unique_sellers": 5
+        "unique_sellers": 6
       },
       "recent_filings": [
         {
@@ -1425,7 +1443,7 @@
         "ytd_return": 24.51,
         "cagr_1y": 18.01,
         "cagr_3y": 129.32,
-        "cagr_5y": 54.04,
+        "cagr_5y": 53.8,
         "ma200": 152.41,
         "ma50": 178.7,
         "ma200_dist": 37.13,
@@ -1537,7 +1555,7 @@
         "ytd_return": -13.71,
         "cagr_1y": -13.32,
         "cagr_3y": 14.62,
-        "cagr_5y": 6.94,
+        "cagr_5y": 6.75,
         "ma200": 390.07,
         "ma50": 356.08,
         "ma200_dist": -3.09,
@@ -1865,7 +1883,7 @@
         "ytd_return": 19.84,
         "cagr_1y": 20.25,
         "cagr_3y": 70.81,
-        "cagr_5y": 61.03,
+        "cagr_5y": 59.85,
         "ma200": 202.34,
         "ma50": 222.59,
         "ma200_dist": 11.85,
