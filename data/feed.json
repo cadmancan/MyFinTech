@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-10-15T23:43:53.234801+00:00",
-  "updated_human": "2026-10-15 23:43 UTC",
+  "updated_utc": "2026-10-16T23:44:04.899590+00:00",
+  "updated_human": "2026-10-16 23:44 UTC",
   "macro": {
     "vix": {
-      "value": 16.46,
-      "previous": 15.27,
-      "change_pct": 7.79
+      "value": 19.99,
+      "previous": 16.46,
+      "change_pct": 21.45
     },
     "ten_year_yield": {
-      "value": 5.089,
-      "previous": 5.19,
-      "change_pct": -1.95
+      "value": 5.098,
+      "previous": 5.089,
+      "change_pct": 0.18
     },
     "sp500": {
-      "value": 7744.06,
-      "previous": 7718.94,
-      "change_pct": 0.33
+      "value": 7659.44,
+      "previous": 7744.06,
+      "change_pct": -1.09
     }
   },
   "stocks": {
@@ -25,6 +25,258 @@
         "lookback_days": 90,
         "purchases": [],
         "sales": [
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 40,
+            "price": 947.29,
+            "value": 37892,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000005/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 488,
+            "price": 914.13,
+            "value": 446095,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 120,
+            "price": 915.5,
+            "value": 109860,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 80,
+            "price": 916.38,
+            "value": 73310,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 200,
+            "price": 917.92,
+            "value": 183584,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 200,
+            "price": 919.36,
+            "value": 183872,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 200,
+            "price": 920.62,
+            "value": 184124,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 480,
+            "price": 921.65,
+            "value": 442392,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 400,
+            "price": 922.63,
+            "value": 369052,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 320,
+            "price": 923.69,
+            "value": 295581,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 160,
+            "price": 924.53,
+            "value": 147925,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 200,
+            "price": 926.15,
+            "value": 185230,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 200,
+            "price": 927.17,
+            "value": 185434,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 240,
+            "price": 928.31,
+            "value": 222794,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 240,
+            "price": 929.96,
+            "value": 223190,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 120,
+            "price": 930.97,
+            "value": 111716,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 40,
+            "price": 932.04,
+            "value": 37282,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 160,
+            "price": 934.05,
+            "value": 149448,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 160,
+            "price": 934.95,
+            "value": 149592,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 200,
+            "price": 936.14,
+            "value": 187228,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 280,
+            "price": 937.64,
+            "value": 262539,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 160,
+            "price": 938.73,
+            "value": 150197,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 560,
+            "price": 939.78,
+            "value": 526277,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 200,
+            "price": 941.0,
+            "value": 188200,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 320,
+            "price": 942.58,
+            "value": 301626,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 240,
+            "price": 943.81,
+            "value": 226514,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 200,
+            "price": 944.98,
+            "value": 188996,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
+          {
+            "date": "2026-10-14",
+            "name": "RAY MICHAEL CHARLES",
+            "role": "SVP, Chief Legal Officer",
+            "shares": 120,
+            "price": 945.91,
+            "value": 113509,
+            "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
+          },
           {
             "date": "2026-08-21",
             "name": "MEHROTRA SANJAY",
@@ -656,15 +908,6 @@
             "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000013/xslF345X06/primarydocument.xml"
           },
           {
-            "date": "2026-07-23",
-            "name": "ALLEN SCOTT R.",
-            "role": "CVP, Chief Accounting Officer",
-            "shares": 879,
-            "price": 1000.0,
-            "value": 879000,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000165214926000005/xslF345X06/primarydocument.xml"
-          },
-          {
             "date": "2026-06-26",
             "name": "Bjorlin Alexis",
             "role": "Director",
@@ -676,8 +919,8 @@
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 72,
-        "sale_value": 90967911,
+        "sale_count": 99,
+        "sale_value": 95972370,
         "unique_purchasers": 0,
         "unique_sellers": 4
       },
@@ -721,8 +964,8 @@
           },
           {
             "label": "RSI bounce setup",
-            "met": false,
-            "source": "Wilder RSI 39"
+            "met": true,
+            "source": "Wilder RSI 34"
           },
           {
             "label": "MACD bullish",
@@ -732,36 +975,36 @@
           {
             "label": "Buyable pullback",
             "met": false,
-            "source": "-16.0% off high"
+            "source": "-20.7% off high"
           },
           {
             "label": "Volume confirms",
-            "met": true,
+            "met": false,
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-10-15",
-        "last_close": 931.24
+        "as_of": "2026-10-16",
+        "last_close": 878.84
       },
       "long_term": {
-        "last": 931.24,
-        "ytd_return": 195.24,
-        "cagr_1y": 385.7,
-        "cagr_3y": 138.14,
-        "cagr_5y": 69.3,
-        "ma200": 714.91,
-        "ma50": 983.17,
-        "ma200_dist": 30.26,
+        "last": 878.84,
+        "ytd_return": 178.63,
+        "cagr_1y": 334.37,
+        "cagr_3y": 133.67,
+        "cagr_5y": 67.3,
+        "ma200": 717.84,
+        "ma50": 983.12,
+        "ma200_dist": 22.43,
         "in_uptrend": true,
         "high_52w": 1213.56,
-        "low_52w": 191.94,
-        "drawdown": -23.26,
-        "range_pos": 72.4,
-        "rsi": 39.2,
-        "dca_score": 3,
-        "dca_rating": "ATTRACTIVE",
+        "low_52w": 198.47,
+        "drawdown": -27.58,
+        "range_pos": 67.0,
+        "rsi": 34.0,
+        "dca_score": 4,
+        "dca_rating": "BARGAIN",
         "dca_rating_class": "positive",
-        "as_of": "2026-10-15"
+        "as_of": "2026-10-16"
       }
     },
     "AVGO": {
@@ -937,12 +1180,12 @@
         }
       ],
       "veteran_signal": {
-        "score": 1,
-        "signal": "wait",
-        "status_text": "\u26aa WAIT",
-        "summary": "Conditions don't favor a new entry today. Better setups typically appear within days or weeks \u2014 patience pays.",
-        "light_class": "gray",
-        "status_class": "gray",
+        "score": 2,
+        "signal": "watch",
+        "status_text": "\ud83d\udfe1 WATCH",
+        "summary": "Some positives but not enough confirmation. Wait for more conditions to align before committing capital.",
+        "light_class": "yellow",
+        "status_class": "yellow",
         "checks": [
           {
             "label": "Above 200-day MA",
@@ -956,8 +1199,8 @@
           },
           {
             "label": "RSI bounce setup",
-            "met": false,
-            "source": "Wilder RSI 41"
+            "met": true,
+            "source": "Wilder RSI 35"
           },
           {
             "label": "MACD bullish",
@@ -967,7 +1210,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-9.6% off high"
+            "source": "-13.7% off high"
           },
           {
             "label": "Volume confirms",
@@ -975,28 +1218,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-10-15",
-        "last_close": 344.33
+        "as_of": "2026-10-16",
+        "last_close": 328.75
       },
       "long_term": {
-        "last": 344.33,
-        "ytd_return": -0.95,
-        "cagr_1y": -1.99,
-        "cagr_3y": 56.3,
-        "cagr_5y": 47.0,
-        "ma200": 368.29,
-        "ma50": 367.56,
-        "ma200_dist": -6.51,
+        "last": 328.75,
+        "ytd_return": -5.43,
+        "cagr_1y": -7.18,
+        "cagr_3y": 54.95,
+        "cagr_5y": 45.61,
+        "ma200": 368.19,
+        "ma50": 365.73,
+        "ma200_dist": -10.71,
         "in_uptrend": false,
         "high_52w": 481.57,
         "low_52w": 293.41,
-        "drawdown": -28.5,
-        "range_pos": 27.1,
-        "rsi": 41.4,
+        "drawdown": -31.73,
+        "range_pos": 18.8,
+        "rsi": 34.8,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-10-15"
+        "as_of": "2026-10-16"
       }
     },
     "PLTR": {
@@ -1346,48 +1589,12 @@
             "price": 165.0,
             "value": 500280,
             "url": "https://www.sec.gov/Archives/edgar/data/1321655/000184024426000015/xslF345X06/wk-form4_1786147898.xml"
-          },
-          {
-            "date": "2026-07-15",
-            "name": "Moore Alexander D.",
-            "role": "Director",
-            "shares": 11800,
-            "price": 133.75,
-            "value": 1578256,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000018/xslF345X06/wk-form4_1784333024.xml"
-          },
-          {
-            "date": "2026-07-15",
-            "name": "Moore Alexander D.",
-            "role": "Director",
-            "shares": 3100,
-            "price": 134.55,
-            "value": 417120,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000018/xslF345X06/wk-form4_1784333024.xml"
-          },
-          {
-            "date": "2026-07-15",
-            "name": "Moore Alexander D.",
-            "role": "Director",
-            "shares": 1000,
-            "price": 135.72,
-            "value": 135715,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000018/xslF345X06/wk-form4_1784333024.xml"
-          },
-          {
-            "date": "2026-07-15",
-            "name": "Moore Alexander D.",
-            "role": "Director",
-            "shares": 100,
-            "price": 136.79,
-            "value": 13679,
-            "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000018/xslF345X06/wk-form4_1784333024.xml"
           }
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 42,
-        "sale_value": 105604709,
+        "sale_count": 38,
+        "sale_value": 103459939,
         "unique_purchasers": 0,
         "unique_sellers": 7
       },
@@ -1426,7 +1633,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 63"
+            "source": "Wilder RSI 46"
           },
           {
             "label": "MACD bullish",
@@ -1436,7 +1643,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-5.8% off high"
+            "source": "-12.6% off high"
           },
           {
             "label": "Volume confirms",
@@ -1444,28 +1651,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-10-15",
-        "last_close": 200.5
+        "as_of": "2026-10-16",
+        "last_close": 186.03
       },
       "long_term": {
-        "last": 200.5,
-        "ytd_return": 19.44,
-        "cagr_1y": 11.63,
-        "cagr_3y": 126.17,
-        "cagr_5y": 52.68,
-        "ma200": 152.62,
-        "ma50": 181.97,
-        "ma200_dist": 31.37,
+        "last": 186.03,
+        "ytd_return": 10.82,
+        "cagr_1y": 4.44,
+        "cagr_3y": 118.59,
+        "cagr_5y": 50.37,
+        "ma200": 152.65,
+        "ma50": 182.57,
+        "ma200_dist": 21.87,
         "in_uptrend": true,
         "high_52w": 209.05,
         "low_52w": 107.27,
-        "drawdown": -4.09,
-        "range_pos": 91.6,
-        "rsi": 62.6,
-        "dca_score": 0,
-        "dca_rating": "PREMIUM",
-        "dca_rating_class": "negative",
-        "as_of": "2026-10-15"
+        "drawdown": -11.01,
+        "range_pos": 77.4,
+        "rsi": 46.3,
+        "dca_score": 2,
+        "dca_rating": "FAIR VALUE",
+        "dca_rating_class": "warning",
+        "as_of": "2026-10-16"
       }
     },
     "TSLA": {
@@ -1538,7 +1745,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 46"
+            "source": "Wilder RSI 42"
           },
           {
             "label": "MACD bullish",
@@ -1548,7 +1755,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-6.7% off high"
+            "source": "-8.7% off high"
           },
           {
             "label": "Volume confirms",
@@ -1556,28 +1763,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-10-15",
-        "last_close": 362.44
+        "as_of": "2026-10-16",
+        "last_close": 354.72
       },
       "long_term": {
-        "last": 362.44,
-        "ytd_return": -17.26,
-        "cagr_1y": -16.72,
-        "cagr_3y": 12.6,
-        "cagr_5y": 4.57,
-        "ma200": 388.49,
-        "ma50": 358.76,
-        "ma200_dist": -6.71,
+        "last": 354.72,
+        "ytd_return": -19.03,
+        "cagr_1y": -17.28,
+        "cagr_3y": 11.66,
+        "cagr_5y": 4.11,
+        "ma200": 387.99,
+        "ma50": 359.46,
+        "ma200_dist": -8.58,
         "in_uptrend": false,
         "high_52w": 489.88,
         "low_52w": 298.32,
-        "drawdown": -26.01,
-        "range_pos": 33.5,
-        "rsi": 46.5,
+        "drawdown": -27.59,
+        "range_pos": 29.4,
+        "rsi": 42.2,
         "dca_score": 2,
         "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-10-15"
+        "as_of": "2026-10-16"
       }
     },
     "NVDA": {
@@ -1866,7 +2073,7 @@
           {
             "label": "RSI bounce setup",
             "met": false,
-            "source": "Wilder RSI 40"
+            "source": "Wilder RSI 38"
           },
           {
             "label": "MACD bullish",
@@ -1876,7 +2083,7 @@
           {
             "label": "Buyable pullback",
             "met": true,
-            "source": "-10.7% off high"
+            "source": "-12.0% off high"
           },
           {
             "label": "Volume confirms",
@@ -1884,28 +2091,28 @@
             "source": "Wyckoff"
           }
         ],
-        "as_of": "2026-10-15",
-        "last_close": 217.23
+        "as_of": "2026-10-16",
+        "last_close": 214.13
       },
       "long_term": {
-        "last": 217.23,
-        "ytd_return": 15.03,
-        "cagr_1y": 20.81,
-        "cagr_3y": 67.72,
-        "cagr_5y": 57.9,
-        "ma200": 202.84,
-        "ma50": 223.17,
-        "ma200_dist": 7.1,
+        "last": 214.13,
+        "ytd_return": 13.39,
+        "cagr_1y": 17.79,
+        "cagr_3y": 69.6,
+        "cagr_5y": 57.41,
+        "ma200": 202.97,
+        "ma50": 223.08,
+        "ma200_dist": 5.5,
         "in_uptrend": true,
         "high_52w": 239.24,
         "low_52w": 165.17,
-        "drawdown": -9.2,
-        "range_pos": 70.3,
-        "rsi": 40.2,
-        "dca_score": 1,
-        "dca_rating": "ELEVATED",
+        "drawdown": -10.5,
+        "range_pos": 66.1,
+        "rsi": 37.5,
+        "dca_score": 2,
+        "dca_rating": "FAIR VALUE",
         "dca_rating_class": "warning",
-        "as_of": "2026-10-15"
+        "as_of": "2026-10-16"
       }
     }
   }
