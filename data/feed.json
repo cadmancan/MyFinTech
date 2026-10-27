@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-10-23T23:54:00.373226+00:00",
-  "updated_human": "2026-10-23 23:54 UTC",
+  "updated_utc": "2026-10-27T00:38:47.998291+00:00",
+  "updated_human": "2026-10-27 00:38 UTC",
   "macro": {
     "vix": {
-      "value": 19.45,
-      "previous": 19.03,
-      "change_pct": 2.21
+      "value": 18.39,
+      "previous": 19.45,
+      "change_pct": -5.45
     },
     "ten_year_yield": {
-      "value": 4.988,
-      "previous": 4.953,
-      "change_pct": 0.71
+      "value": 4.986,
+      "previous": 4.988,
+      "change_pct": -0.04
     },
     "sp500": {
-      "value": 7623.68,
-      "previous": 7663.43,
-      "change_pct": -0.52
+      "value": 7676.77,
+      "previous": 7623.68,
+      "change_pct": 0.7
     }
   },
   "stocks": {
@@ -557,114 +557,6 @@
             "url": "https://www.sec.gov/Archives/edgar/data/723125/000131107926000003/xslF345X06/primarydocument.xml"
           },
           {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 1050,
-            "price": 942.87,
-            "value": 990014,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 626,
-            "price": 944.99,
-            "value": 591564,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 955,
-            "price": 945.87,
-            "value": 903306,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 797,
-            "price": 946.78,
-            "value": 754584,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 1207,
-            "price": 948.24,
-            "value": 1144526,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 108,
-            "price": 950.77,
-            "value": 102683,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 1,
-            "price": 952.04,
-            "value": 952,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 725,
-            "price": 954.19,
-            "value": 691788,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 1523,
-            "price": 956.18,
-            "value": 1456262,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 405,
-            "price": 956.68,
-            "value": 387455,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 316,
-            "price": 960.0,
-            "value": 303360,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-07-24",
-            "name": "MEHROTRA SANJAY",
-            "role": "President and CEO, Director",
-            "shares": 1002,
-            "price": 965.85,
-            "value": 967782,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml"
-          },
-          {
             "date": "2026-06-26",
             "name": "Bjorlin Alexis",
             "role": "Director",
@@ -676,8 +568,8 @@
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 72,
-        "sale_value": 92666770,
+        "sale_count": 60,
+        "sale_value": 84372494,
         "unique_purchasers": 0,
         "unique_sellers": 5
       },
@@ -748,7 +640,7 @@
         "ytd_return": 178.22,
         "cagr_1y": 324.95,
         "cagr_3y": 134.62,
-        "cagr_5y": 66.52,
+        "cagr_5y": 66.86,
         "ma200": 732.1,
         "ma50": 982.73,
         "ma200_dist": 19.87,
@@ -1488,7 +1380,7 @@
         "ytd_return": 17.21,
         "cagr_1y": 9.02,
         "cagr_3y": 127.95,
-        "cagr_5y": 50.66,
+        "cagr_5y": 51.15,
         "ma200": 153.15,
         "ma50": 184.75,
         "ma200_dist": 28.47,
@@ -1600,7 +1492,7 @@
         "ytd_return": -15.03,
         "cagr_1y": -17.11,
         "cagr_3y": 19.81,
-        "cagr_5y": 1.73,
+        "cagr_5y": 1.48,
         "ma200": 386.35,
         "ma50": 363.77,
         "ma200_dist": -3.66,
@@ -1928,7 +1820,7 @@
         "ytd_return": 11.71,
         "cagr_1y": 15.82,
         "cagr_3y": 69.12,
-        "cagr_5y": 55.63,
+        "cagr_5y": 54.03,
         "ma200": 203.67,
         "ma50": 222.48,
         "ma200_dist": 3.58,
