@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-11-03T02:58:29.048000+00:00",
-  "updated_human": "2026-11-03 02:58 UTC",
+  "updated_utc": "2026-11-04T01:31:32.916389+00:00",
+  "updated_human": "2026-11-04 01:31 UTC",
   "macro": {
     "vix": {
-      "value": 21.15,
-      "previous": 19.42,
-      "change_pct": 8.91
+      "value": 20.83,
+      "previous": 21.15,
+      "change_pct": -1.51
     },
     "ten_year_yield": {
-      "value": 4.894,
-      "previous": 4.929,
-      "change_pct": -0.71
+      "value": 4.952,
+      "previous": 4.894,
+      "change_pct": 1.19
     },
     "sp500": {
-      "value": 7541.4,
-      "previous": 7580.07,
-      "change_pct": -0.51
+      "value": 7568.92,
+      "previous": 7541.4,
+      "change_pct": 0.36
     }
   },
   "stocks": {
@@ -640,7 +640,7 @@
         "ytd_return": 164.28,
         "cagr_1y": 256.72,
         "cagr_3y": 125.75,
-        "cagr_5y": 63.6,
+        "cagr_5y": 63.19,
         "ma200": 749.31,
         "ma50": 976.05,
         "ma200_dist": 11.25,
@@ -881,7 +881,7 @@
         "ytd_return": -7.3,
         "cagr_1y": -11.16,
         "cagr_3y": 54.02,
-        "cagr_5y": 42.85,
+        "cagr_5y": 42.55,
         "ma200": 367.57,
         "ma50": 351.88,
         "ma200_dist": -12.34,
@@ -1327,6 +1327,12 @@
       },
       "recent_filings": [
         {
+          "date": "2026-11-03",
+          "type": "10-Q",
+          "description": "Quarterly report",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm"
+        },
+        {
           "date": "2026-11-02",
           "type": "8-K",
           "description": "Material event",
@@ -1380,7 +1386,7 @@
         "ytd_return": 6.24,
         "cagr_1y": -13.96,
         "cagr_3y": 111.46,
-        "cagr_5y": 46.88,
+        "cagr_5y": 46.52,
         "ma200": 153.57,
         "ma50": 186.87,
         "ma200_dist": 16.13,
@@ -1492,7 +1498,7 @@
         "ytd_return": -7.82,
         "cagr_1y": -13.83,
         "cagr_3y": 22.46,
-        "cagr_5y": -0.04,
+        "cagr_5y": -0.3,
         "ma200": 385.12,
         "ma50": 370.42,
         "ma200_dist": 4.85,
@@ -1820,7 +1826,7 @@
         "ytd_return": 6.99,
         "cagr_1y": -2.34,
         "cagr_3y": 65.03,
-        "cagr_5y": 50.05,
+        "cagr_5y": 46.71,
         "ma200": 204.46,
         "ma50": 221.5,
         "ma200_dist": -1.17,
