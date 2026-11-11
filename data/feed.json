@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-11-10T03:40:40.855004+00:00",
-  "updated_human": "2026-11-10 03:40 UTC",
+  "updated_utc": "2026-11-11T01:20:25.957198+00:00",
+  "updated_human": "2026-11-11 01:20 UTC",
   "macro": {
     "vix": {
-      "value": 19.92,
-      "previous": 25.64,
-      "change_pct": -22.31
+      "value": 19.46,
+      "previous": 19.92,
+      "change_pct": -2.31
     },
     "ten_year_yield": {
-      "value": 4.864,
-      "previous": 4.859,
-      "change_pct": 0.1
+      "value": 4.983,
+      "previous": 4.864,
+      "change_pct": 2.45
     },
     "sp500": {
-      "value": 7549.94,
-      "previous": 7376.86,
-      "change_pct": 2.35
+      "value": 7520.93,
+      "previous": 7549.94,
+      "change_pct": -0.38
     }
   },
   "stocks": {
@@ -646,7 +646,7 @@
         "ytd_return": 132.44,
         "cagr_1y": 190.5,
         "cagr_3y": 113.59,
-        "cagr_5y": 58.5,
+        "cagr_5y": 58.05,
         "ma200": 758.39,
         "ma50": 957.64,
         "ma200_dist": -3.33,
@@ -887,7 +887,7 @@
         "ytd_return": -8.1,
         "cagr_1y": -10.89,
         "cagr_3y": 49.47,
-        "cagr_5y": 42.27,
+        "cagr_5y": 41.96,
         "ma200": 367.09,
         "ma50": 346.9,
         "ma200_dist": -12.97,
@@ -1347,7 +1347,7 @@
         "ytd_return": 0.8,
         "cagr_1y": -12.65,
         "cagr_3y": 105.0,
-        "cagr_5y": 49.72,
+        "cagr_5y": 49.14,
         "ma200": 153.53,
         "ma50": 185.54,
         "ma200_dist": 10.21,
@@ -1459,7 +1459,7 @@
         "ytd_return": -13.7,
         "cagr_1y": -15.14,
         "cagr_3y": 20.78,
-        "cagr_5y": 1.21,
+        "cagr_5y": 1.3,
         "ma200": 383.51,
         "ma50": 372.72,
         "ma200_dist": -1.42,
@@ -1787,7 +1787,7 @@
         "ytd_return": -5.39,
         "cagr_1y": -10.27,
         "cagr_3y": 54.67,
-        "cagr_5y": 43.44,
+        "cagr_5y": 42.58,
         "ma200": 204.63,
         "ma50": 219.04,
         "ma200_dist": -12.69,
