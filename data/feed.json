@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-11-26T03:40:52.422745+00:00",
-  "updated_human": "2026-11-26 03:40 UTC",
+  "updated_utc": "2026-11-27T03:41:40.338237+00:00",
+  "updated_human": "2026-11-27 03:41 UTC",
   "macro": {
     "vix": {
-      "value": 28.29,
-      "previous": 26.36,
-      "change_pct": 7.32
+      "value": 26.8,
+      "previous": 28.29,
+      "change_pct": -5.27
     },
     "ten_year_yield": {
       "value": 4.848,
@@ -303,23 +303,14 @@
             "price": 945.91,
             "value": 113509,
             "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000004/xslF345X06/primarydocument.xml"
-          },
-          {
-            "date": "2026-06-26",
-            "name": "Bjorlin Alexis",
-            "role": "Director",
-            "shares": 25,
-            "price": 1132.33,
-            "value": 28308,
-            "url": "https://www.sec.gov/Archives/edgar/data/723125/000179875726000007/xslF345X06/primarydocument.xml"
           }
         ],
         "purchase_count": 0,
         "purchase_value": 0,
-        "sale_count": 32,
-        "sale_value": 31601983,
+        "sale_count": 31,
+        "sale_value": 31573675,
         "unique_purchasers": 0,
-        "unique_sellers": 3
+        "unique_sellers": 2
       },
       "recent_filings": [
         {
